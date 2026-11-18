@@ -62,7 +62,7 @@
     if ((m = s.match(/^(\d+) products$/))) return plural(+m[1], "منتج واحد", "منتجان", "منتجات", "منتجًا");
     if ((m = s.match(/^(\d+) items$/))) return plural(+m[1], "صنف واحد", "صنفان", "أصناف", "صنفًا");
     if ((m = s.match(/^Buy (.+) on (.+)$/))) return `اشترِ ${ar[m[1]] || m[1]} من ${ar[m[2]] || m[2]}`;
-    if ((m = s.match(/^When you press Buy now you'll go to (.+)'s store to complete your order\.$/))) return `عند الضغط على «اشترِ الآن» ستنتقل إلى متجر ${ar[m[1]] || m[1]} لإتمام طلبك.`;
+    if ((m = s.match(/^When you press Buy now you'll go to the (.+) store to complete your order\.$/))) return `عند الضغط على «اشترِ الآن» ستنتقل إلى متجر ${ar[m[1]] || m[1]} لإتمام طلبك.`;
     if ((m = s.match(/^© (\d+) Edafat\. All rights reserved\.$/))) return `© ${m[1]} إضافات. جميع الحقوق محفوظة.`;
     if ((m = s.match(/^\/ (.+)$/))) return "/ " + (ar[m[1]] || m[1]);
     if ((m = s.match(/^(.+) \| Edafat$/))) return `${ar[m[1]] || m[1]} | إضافات`;

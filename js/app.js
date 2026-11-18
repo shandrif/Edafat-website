@@ -7,7 +7,7 @@ const PREFER = { cones: "Chocolate Plated Cone Std", ravello: "Ravello Olive Oil
 const FLAT = ["cremosette"]; // brands whose photo has a solid backdrop (shown as a rounded tile)
 const coverOf = b => (b.products.find(p => p.n === PREFER[b.slug]) || b.products[0]).img;
 const brandOf = slug => S.brands.find(b => b.slug === slug);
-const card = (b, p, d = 0) => `<article class="card rv" style="--d:${d}s"><div class="panel"><img loading="lazy" src="${p.img}" alt="${p.n}"></div>
+const card = (b, p, d = 0) => `<article class="card rv" style="--d:${d}s"><div class="panel"><img loading="lazy" decoding="async" width="700" height="700" src="${p.img}" srcset="${p.img.replace("img/p/", "img/p/s/")} 540w, ${p.img} 700w" sizes="(max-width:700px) 46vw, (max-width:1100px) 30vw, 300px" alt="${p.n}"></div>
  <div class="cap"><div><h3>${p.n}</h3><div class="by">${b.name}${p.price ? ` · <span class="price">${p.price} ${S.currency}</span>` : ""}</div></div>
  <a class="buy" target="_blank" rel="noopener" href="${buyUrl(b, p)}" aria-label="Buy ${p.n} on ${b.name}">Buy now ${up}</a></div></article>`;
 
@@ -25,8 +25,11 @@ $("#ftr").innerHTML = `<div class="fgrid"><div><a class="logo" href="index.html"
  ${LANG === "ar" ? '<div class="big" aria-hidden="true">edafat</div>' : '<div class="big big-logo" aria-hidden="true"><img src="img/logo-white.png" alt=""></div>'}<div class="copy"><span>© ${new Date().getFullYear()} Edafat. All rights reserved.</span><span>Checkout happens on each brand's website.</span></div>`;
 const hdr = $("#hdr"), nav = $("#hdr nav"), burger = $(".burger");
 $(".lang").onclick = () => setLang(LANG === "ar" ? "en" : "ar");
-burger.onclick = () => { const o = nav.classList.toggle("open"); burger.setAttribute("aria-expanded", o); hdr.classList.toggle("menu", o); };
-$$("#hdr nav a").forEach(a => a.addEventListener("click", () => { nav.classList.remove("open"); hdr.classList.remove("menu"); burger.setAttribute("aria-expanded", false); }));
+const setMenu = o => { nav.classList.toggle("open", o); burger.setAttribute("aria-expanded", o); hdr.classList.toggle("menu", o); document.documentElement.style.overflow = o ? "hidden" : ""; };
+burger.onclick = () => setMenu(!nav.classList.contains("open"));
+$$("#hdr nav a").forEach(a => a.addEventListener("click", () => setMenu(false)));
+addEventListener("keydown", e => { if (e.key === "Escape") setMenu(false); });
+addEventListener("resize", () => { if (innerWidth > 900) setMenu(false); });
 
 /* reveal */
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: .12 });
@@ -34,20 +37,24 @@ const observe = () => { translateDOM(); $$(".rv:not(.in)").forEach(el => io.obse
 
 /* pages */
 if (page === "home") {
-  $("#rows").innerHTML = S.brands.map(b => `<a class="row" href="brand.html?b=${b.slug}" data-img="${coverOf(b)}" data-flat="${FLAT.includes(b.slug) ? 1 : ""}"><div class="thumb"><img src="${coverOf(b)}" alt=""></div>
+  $("#rows").innerHTML = S.brands.map(b => `<a class="row" href="brand.html?b=${b.slug}" data-img="${coverOf(b)}" data-flat="${FLAT.includes(b.slug) ? 1 : ""}"><div class="thumb"><img loading="lazy" decoding="async" width="76" height="76" src="${coverOf(b)}" alt=""></div>
     <h3>${b.name}</h3><div class="meta"><span>${b.tag}</span><span>${b.count} items</span><i class="arrow">${right}</i></div></a>`).join("");
   $("#track").innerHTML = S.brands.flatMap(b => b.products.slice(0, 2).map(p => card(b, p))).join("");
-  // cursor-following product preview on brand rows
-  const peek = $(".peek"), pimg = $("img", peek), tilt = $(".t", peek), pop = $(".s", peek); let tx = 0, ty = 0, x = 0, y = 0;
-  const clamp = (v, m) => Math.max(-m, Math.min(m, v));
-  $$(".row").forEach(r => { r.addEventListener("mouseenter", () => { pimg.src = r.dataset.img; peek.classList.toggle("flat", !!r.dataset.flat); pop.classList.remove("pop"); void pop.offsetWidth; pop.classList.add("pop"); peek.classList.add("on"); });
-    r.addEventListener("mouseleave", () => peek.classList.remove("on")); });
-  addEventListener("mousemove", e => { const w = peek.offsetWidth, g = 44;
-    tx = LANG === "ar" ? (e.clientX - g - w < 8 ? e.clientX + g : e.clientX - g - w) : (e.clientX + g + w > innerWidth * .8 ? e.clientX - g - w : e.clientX + g);
-    ty = e.clientY - peek.offsetHeight / 2; }, { passive: true });
-  (function loop() { const vx = tx - x, vy = ty - y; x += vx * .12; y += vy * .12;
-    peek.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px)`;
-    tilt.style.transform = `rotateY(${clamp(vx * .45, 38)}deg) rotateX(${clamp(-vy * .45, 28)}deg) rotateZ(${clamp(vx * .06, 10)}deg)`; requestAnimationFrame(loop); })();
+  // cursor-following product preview on brand rows (mouse devices only; the loop sleeps when idle)
+  if (matchMedia("(hover: hover) and (pointer: fine)").matches) {
+    const peek = $(".peek"), pimg = $("img", peek), tilt = $(".t", peek), pop = $(".s", peek); let tx = 0, ty = 0, x = 0, y = 0, raf = 0;
+    const clamp = (v, m) => Math.max(-m, Math.min(m, v));
+    const step = () => { const vx = tx - x, vy = ty - y; x += vx * .12; y += vy * .12;
+      peek.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px)`;
+      tilt.style.transform = `rotateY(${clamp(vx * .45, 38)}deg) rotateX(${clamp(-vy * .45, 28)}deg) rotateZ(${clamp(vx * .06, 10)}deg)`;
+      raf = peek.classList.contains("on") || Math.abs(vx) > .4 || Math.abs(vy) > .4 ? requestAnimationFrame(step) : 0; };
+    const kick = () => { if (!raf) raf = requestAnimationFrame(step); };
+    $$(".row").forEach(r => { r.addEventListener("mouseenter", () => { pimg.src = r.dataset.img; peek.classList.toggle("flat", !!r.dataset.flat); pop.classList.remove("pop"); void pop.offsetWidth; pop.classList.add("pop"); peek.classList.add("on"); kick(); });
+      r.addEventListener("mouseleave", () => peek.classList.remove("on")); });
+    addEventListener("mousemove", e => { const w = peek.offsetWidth, g = 44;
+      tx = LANG === "ar" ? (e.clientX - g - w < 8 ? e.clientX + g : e.clientX - g - w) : (e.clientX + g + w > innerWidth * .8 ? e.clientX - g - w : e.clientX + g);
+      ty = e.clientY - peek.offsetHeight / 2; if (peek.classList.contains("on")) kick(); }, { passive: true });
+  }
   // drag to scroll
   const t = $("#track"); let down = false, sx, sl;
   t.addEventListener("pointerdown", e => { if (e.pointerType !== "mouse") return; down = true; sx = e.clientX; sl = t.scrollLeft; t.classList.add("drag"); });
@@ -60,7 +67,7 @@ if (page === "brand") {
   document.title = `${b.name} | Edafat`;
   $("#bhead").innerHTML = `<div><div class="crumb"><a href="index.html#brands">Brands</a> / ${b.name}</div><h1>${b.name}</h1><p>${b.desc}</p><div class="count">${b.count} products</div></div>
    <div class="panel"><img src="${coverOf(b)}" alt="${b.name}"></div>`;
-  $("#shopnote").textContent = `When you press Buy now you'll go to ${b.name}'s store to complete your order.`;
+  $("#shopnote").textContent = `When you press Buy now you'll go to the ${b.name} store to complete your order.`;
   const g = $("#grid"), q = $("#q");
   const draw = () => { const t = q.value.trim().toLowerCase(); const l = b.products.filter(p => p.n.toLowerCase().includes(t));
     g.innerHTML = l.map((p, i) => card(b, p, (i % 4) * .06)).join(""); $(".empty").style.display = l.length ? "none" : "block"; observe(); };
@@ -69,7 +76,7 @@ if (page === "brand") {
 if (page === "products") {
   const g = $("#grid"), q = $("#q"), chips = $("#chips"); let cur = "all";
   chips.innerHTML = `<button class="chip on" data-b="all">All</button>` + S.brands.map(b => `<button class="chip" data-b="${b.slug}">${b.name}</button>`).join("");
-  chips.onclick = e => { const c = e.target.closest(".chip"); if (!c) return; cur = c.dataset.b; $$(".chip").forEach(x => x.classList.toggle("on", x === c)); draw(); };
+  chips.onclick = e => { const c = e.target.closest(".chip"); if (!c) return; cur = c.dataset.b; $$(".chip").forEach(x => x.classList.toggle("on", x === c)); c.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" }); draw(); };
   const draw = () => { const t = q.value.trim().toLowerCase();
     const l = S.brands.filter(b => cur === "all" || b.slug === cur).flatMap(b => b.products.map(p => [b, p])).filter(([b, p]) => (p.n + b.name).toLowerCase().includes(t));
     g.innerHTML = l.map(([b, p], i) => card(b, p, (i % 4) * .05)).join(""); $(".empty").style.display = l.length ? "none" : "block"; observe(); };
@@ -86,10 +93,12 @@ translateDOM();
 const stmt = $("#stmt");
 if (stmt) stmt.innerHTML = stmt.textContent.trim().split(/\s+/).map(w => `<span class="w">${w}</span>`).join(" ");
 const words = $$("#stmt .w"), pars = $$("[data-par]");
-const tick = () => { const vh = innerHeight;
+const parOK = matchMedia("(min-width: 901px) and (hover: hover)"); let lastN = 0, ticking = false;
+const tick = () => { ticking = false; const vh = innerHeight;
   hdr.classList.toggle("solid", scrollY > 60);
-  pars.forEach(el => { const r = el.parentElement.getBoundingClientRect(); if (r.bottom < -200 || r.top > vh + 200) return;
+  if (parOK.matches) pars.forEach(el => { const r = el.parentElement.getBoundingClientRect(); if (r.bottom < -200 || r.top > vh + 200) return;
     el.style.transform = `translate3d(0,${((r.top + r.height / 2 - vh / 2) * -el.dataset.par).toFixed(1)}px,0)`; });
   if (words.length) { const r = stmt.getBoundingClientRect(); const p = Math.min(1, Math.max(0, (vh * .78 - r.top) / (r.height + vh * .18)));
-    const n = Math.round(p * words.length); words.forEach((w, i) => w.classList.toggle("on", i < n)); } };
-addEventListener("scroll", () => requestAnimationFrame(tick), { passive: true }); addEventListener("resize", tick); tick(); observe();
+    const n = Math.round(p * words.length); if (n !== lastN) { for (let i = Math.min(n, lastN); i < Math.max(n, lastN); i++) words[i].classList.toggle("on", i < n); lastN = n; } } };
+const onScroll = () => { if (!ticking) { ticking = true; requestAnimationFrame(tick); } };
+addEventListener("scroll", onScroll, { passive: true }); addEventListener("resize", onScroll); tick(); observe();
