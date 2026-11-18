@@ -3,6 +3,9 @@ const page = document.body.dataset.page;
 const CONTACT = { email: "hello@example.com", phone: "+966 00 000 0000", city: "Riyadh, Saudi Arabia" }; // placeholders
 const up = '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M2 10 10 2M4 2h6v6"/></svg>';
 const right = '<svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 9h14M10 3l6 6-6 6"/></svg>';
+const PREFER = { cones: "Chocolate Plated Cone Std", ravello: "Ravello Olive Oil", madeleine: "Chocolate Chip Madeleines", stickaway: "Strawberry Stickaway - Covering", soft: "Easy Coconut", dairy: "Mozzarella Panetto" };
+const FLAT = ["cremosette"]; // brands whose photo has a solid backdrop (shown as a rounded tile)
+const coverOf = b => (b.products.find(p => p.n === PREFER[b.slug]) || b.products[0]).img;
 const brandOf = slug => S.brands.find(b => b.slug === slug);
 const card = (b, p, d = 0) => `<article class="card rv" style="--d:${d}s"><div class="panel"><img loading="lazy" src="${p.img}" alt="${p.n}"></div>
  <div class="cap"><div><h3>${p.n}</h3><div class="by">${b.name}${p.price ? ` · <span class="price">${p.price} ${S.currency}</span>` : ""}</div></div>
@@ -31,15 +34,20 @@ const observe = () => { translateDOM(); $$(".rv:not(.in)").forEach(el => io.obse
 
 /* pages */
 if (page === "home") {
-  $("#rows").innerHTML = S.brands.map(b => `<a class="row" href="brand.html?b=${b.slug}" data-img="${b.cover}"><div class="thumb"><img src="${b.cover}" alt=""></div>
+  $("#rows").innerHTML = S.brands.map(b => `<a class="row" href="brand.html?b=${b.slug}" data-img="${coverOf(b)}" data-flat="${FLAT.includes(b.slug) ? 1 : ""}"><div class="thumb"><img src="${coverOf(b)}" alt=""></div>
     <h3>${b.name}</h3><div class="meta"><span>${b.tag}</span><span>${b.count} items</span><i class="arrow">${right}</i></div></a>`).join("");
   $("#track").innerHTML = S.brands.flatMap(b => b.products.slice(0, 2).map(p => card(b, p))).join("");
   // cursor-following product preview on brand rows
-  const peek = $(".peek"), pimg = $("img", peek); let tx = 0, ty = 0, x = 0, y = 0;
-  $$(".row").forEach(r => { r.addEventListener("mouseenter", () => { pimg.src = r.dataset.img; peek.classList.add("on"); });
+  const peek = $(".peek"), pimg = $("img", peek), tilt = $(".t", peek), pop = $(".s", peek); let tx = 0, ty = 0, x = 0, y = 0;
+  const clamp = (v, m) => Math.max(-m, Math.min(m, v));
+  $$(".row").forEach(r => { r.addEventListener("mouseenter", () => { pimg.src = r.dataset.img; peek.classList.toggle("flat", !!r.dataset.flat); pop.classList.remove("pop"); void pop.offsetWidth; pop.classList.add("pop"); peek.classList.add("on"); });
     r.addEventListener("mouseleave", () => peek.classList.remove("on")); });
-  addEventListener("mousemove", e => { const w = peek.offsetWidth; tx = LANG === "ar" ? (e.clientX - 28 - w < 8 ? e.clientX + 28 : e.clientX - 28 - w) : (e.clientX + 28 + w > innerWidth * .74 ? e.clientX - 28 - w : e.clientX + 28); ty = e.clientY - peek.offsetHeight / 2; }, { passive: true });
-  (function loop() { x += (tx - x) * .14; y += (ty - y) * .14; peek.style.transform = `translate(${x}px,${y}px) rotate(${(tx - x) * .04}deg)`; requestAnimationFrame(loop); })();
+  addEventListener("mousemove", e => { const w = peek.offsetWidth, g = 44;
+    tx = LANG === "ar" ? (e.clientX - g - w < 8 ? e.clientX + g : e.clientX - g - w) : (e.clientX + g + w > innerWidth * .8 ? e.clientX - g - w : e.clientX + g);
+    ty = e.clientY - peek.offsetHeight / 2; }, { passive: true });
+  (function loop() { const vx = tx - x, vy = ty - y; x += vx * .12; y += vy * .12;
+    peek.style.transform = `translate(${x.toFixed(1)}px,${y.toFixed(1)}px)`;
+    tilt.style.transform = `rotateY(${clamp(vx * .45, 38)}deg) rotateX(${clamp(-vy * .45, 28)}deg) rotateZ(${clamp(vx * .06, 10)}deg)`; requestAnimationFrame(loop); })();
   // drag to scroll
   const t = $("#track"); let down = false, sx, sl;
   t.addEventListener("pointerdown", e => { if (e.pointerType !== "mouse") return; down = true; sx = e.clientX; sl = t.scrollLeft; t.classList.add("drag"); });
@@ -51,7 +59,7 @@ if (page === "brand") {
   const b = brandOf(new URLSearchParams(location.search).get("b")) || S.brands[0];
   document.title = `${b.name} | Edafat`;
   $("#bhead").innerHTML = `<div><div class="crumb"><a href="index.html#brands">Brands</a> / ${b.name}</div><h1>${b.name}</h1><p>${b.desc}</p><div class="count">${b.count} products</div></div>
-   <div class="panel"><img src="${b.cover}" alt="${b.name}"></div>`;
+   <div class="panel"><img src="${coverOf(b)}" alt="${b.name}"></div>`;
   $("#shopnote").textContent = `When you press Buy now you'll go to ${b.name}'s store to complete your order.`;
   const g = $("#grid"), q = $("#q");
   const draw = () => { const t = q.value.trim().toLowerCase(); const l = b.products.filter(p => p.n.toLowerCase().includes(t));
