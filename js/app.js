@@ -40,6 +40,26 @@ if (page === "home") {
   $("#rows").innerHTML = S.brands.map(b => `<a class="row" href="brand.html?b=${b.slug}" data-img="${coverOf(b)}" data-flat="${FLAT.includes(b.slug) ? 1 : ""}"><div class="thumb"><img loading="lazy" decoding="async" width="76" height="76" src="${coverOf(b)}" alt=""></div>
     <h3>${b.name}</h3><div class="meta"><span>${b.tag}</span><span>${b.count} items</span><i class="arrow">${right}</i></div></a>`).join("");
   $("#track").innerHTML = S.brands.flatMap(b => b.products.slice(0, 2).map(p => card(b, p))).join("");
+  // phone/tablet: swipeable brand cards (product slides + tilts as you swipe, neighbours dim, progress bar fills)
+  const TINT = { cones: ["#e8761e", "#f7a54a"], cremosette: ["#7a4b2f", "#b98355"], ravello: ["#55702f", "#93b152"], madeleine: ["#c58a14", "#e9b94a"], stickaway: ["#c42a4d", "#f0708a"], soft: ["#2a7fb0", "#6fc0e6"], dairy: ["#34567f", "#7aa3d1"] };
+  const bt = $("#btrack");
+  bt.innerHTML = S.brands.map(b => { const [c1, c2] = TINT[b.slug] || ["#3a2f2a", "#6b5a4f"];
+    return `<a class="bcard" href="brand.html?b=${b.slug}" style="--c1:${c1};--c2:${c2}"><span class="bc-count">${b.count} items</span>
+     <div class="bc-art${FLAT.includes(b.slug) ? " flat" : ""}"><img loading="lazy" decoding="async" src="${coverOf(b)}" alt=""></div>
+     <div class="bc-foot"><small>${b.tag}</small><h3>${b.name}</h3></div><i class="bc-go">${right}</i></a>`; }).join("");
+  const cards = $$(".bcard", bt), arts = cards.map(c => $(".bc-art", c)), foots = cards.map(c => $(".bc-foot", c)), bbar = $("#bbar"), bcount = $("#bcount");
+  const calm = matchMedia("(prefers-reduced-motion: reduce)").matches; let bTick = false;
+  const bUpdate = () => { bTick = false; const r = bt.getBoundingClientRect(), mid = r.left + r.width / 2; let best = 0, bd = 9;
+    cards.forEach((c, i) => { const cr = c.getBoundingClientRect(); const p = (cr.left + cr.width / 2 - mid) / cr.width, a = Math.min(1, Math.abs(p));
+      if (a < bd) { bd = a; best = i; }
+      if (calm || Math.abs(p) > 2) return;
+      c.style.transform = `scale(${(1 - a * .07).toFixed(3)})`; c.style.opacity = (1 - a * .45).toFixed(2);
+      arts[i].style.transform = `translate3d(${(-p * 38).toFixed(1)}px,0,0) rotate(${(p * -10).toFixed(1)}deg)`;
+      foots[i].style.transform = `translate3d(${(-p * 16).toFixed(1)}px,0,0)`; });
+    const max = bt.scrollWidth - bt.clientWidth; bbar.style.transform = `scaleX(${(.1 + .9 * (max > 0 ? Math.min(1, Math.abs(bt.scrollLeft) / max) : 0)).toFixed(3)})`;
+    bcount.textContent = `${best + 1} / ${cards.length}`; };
+  const bSched = () => { if (!bTick) { bTick = true; requestAnimationFrame(bUpdate); } };
+  bt.addEventListener("scroll", bSched, { passive: true }); addEventListener("resize", bSched); bUpdate();
   // cursor-following product preview on brand rows (mouse devices only; the loop sleeps when idle)
   if (matchMedia("(hover: hover) and (pointer: fine)").matches) {
     const peek = $(".peek"), pimg = $("img", peek), tilt = $(".t", peek), pop = $(".s", peek); let tx = 0, ty = 0, x = 0, y = 0, raf = 0;
