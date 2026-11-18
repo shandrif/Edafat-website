@@ -19,12 +19,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:.98;letter-spacing
 /* header */
 .hdr{position:fixed;inset:0 0 auto 0;z-index:60;display:flex;align-items:center;justify-content:space-between;padding:22px var(--g);color:#fff;transition:background .4s,color .4s,padding .4s,transform .5s var(--ease)}
 .hdr.solid{background:rgba(250,248,244,.92);backdrop-filter:blur(16px);color:var(--ink);padding-top:14px;padding-bottom:14px;box-shadow:0 1px 0 rgba(21,17,15,.08)}
-.logo{font-weight:800;font-size:1.55rem;letter-spacing:-.04em;display:inline-flex;align-items:baseline;gap:2px}
+.logo{font-family:'Manrope',sans-serif;direction:ltr;font-weight:800;font-size:1.55rem;letter-spacing:-.04em;display:inline-flex;align-items:baseline;gap:2px}
 .logo i{width:.34em;height:.34em;background:var(--gold);display:inline-block;transform:skewX(-24deg)}
 .hdr nav{display:flex;gap:clamp(18px,3vw,40px);align-items:center;font-size:.92rem;font-weight:500}
 .hdr nav a:not(.pill){position:relative;padding:4px 0}
 .hdr nav a:not(.pill)::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:1.5px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}
 .hdr nav a:not(.pill):hover::after,.hdr nav a.on::after{transform:scaleX(1)}
+.lang{background:none;border:0;color:inherit;font:inherit;font-weight:600;font-size:.9rem;cursor:pointer;padding:4px 0;opacity:.85;transition:opacity .3s,color .3s}.lang:hover{opacity:1;color:var(--gold)}
 .pill{background:var(--gold);color:var(--ink);padding:11px 22px;border-radius:99px;font-weight:700;font-size:.9rem;transition:transform .3s var(--ease),background .3s}
 .pill:hover{transform:translateY(-2px);background:#ffc22e}
 .burger{display:none;background:none;border:0;color:inherit;width:44px;height:44px;cursor:pointer;position:relative}
@@ -45,9 +46,9 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:.98;letter-spacing
 .hero-photo{position:absolute;inset:-6% 0 -6%;z-index:-3;background:url(../img/hero-gelato.webp) 62% 50%/cover;clip-path:inset(100% 0 0 0);animation:reveal 1.6s .1s var(--ease) forwards;will-change:transform}
 .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(34,28,25,.94) 0%,rgba(34,28,25,.72) 42%,rgba(34,28,25,.2) 100%),linear-gradient(0deg,rgba(34,28,25,.85),transparent 45%)}
 @keyframes reveal{to{clip-path:inset(0)}}
-.slash{position:absolute;z-index:-1;background:var(--gold);width:clamp(18px,2.4vw,34px);height:85%;bottom:-24%;transform:rotate(32deg) translateY(-120%);animation:slash 1.4s var(--ease) forwards}
+.slash{position:absolute;z-index:-1;background:var(--gold);width:clamp(18px,2.4vw,34px);height:85%;bottom:-24%;transform:rotate(var(--rot,32deg)) translateY(-120%);animation:slash 1.4s var(--ease) forwards}
 .slash.a{right:22%;animation-delay:.5s}.slash.b{right:17%;width:clamp(6px,.8vw,12px);animation-delay:.65s}
-@keyframes slash{to{transform:rotate(32deg)}}
+@keyframes slash{to{transform:rotate(var(--rot,32deg))}}
 .hero h1{font-size:clamp(3.4rem,10.4vw,11rem);line-height:.9;letter-spacing:-.03em}
 .hero h1 .l{display:block;overflow:hidden;padding-bottom:.08em}
 .hero h1 .l span{display:block;transform:translateY(105%);animation:rise 1.2s var(--ease) forwards}
@@ -80,7 +81,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:.98;letter-spacing
 .rows{border-top:1px solid rgba(255,255,255,.16)}
 .row{display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px;padding:clamp(22px,3vw,40px) 0;border-bottom:1px solid rgba(255,255,255,.16);position:relative;cursor:pointer}
 .row h3{font-size:clamp(2.4rem,6.6vw,6.6rem);letter-spacing:-.025em;transition:transform .6s var(--ease),color .3s}
-.row .meta{display:flex;gap:28px;align-items:center;color:rgba(255,255,255,.6);font-size:.92rem;text-align:right}
+.row .meta{display:flex;gap:28px;align-items:center;color:rgba(255,255,255,.6);font-size:.92rem;text-align:end}
 .row .arrow{width:52px;height:52px;border-radius:50%;border:1.5px solid rgba(255,255,255,.3);display:grid;place-items:center;transition:.4s var(--ease)}
 .row .arrow svg{width:18px;height:18px}
 .row .thumb{display:none}
@@ -120,8 +121,8 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:.98;letter-spacing
 
 /* page head (inner pages) */
 .phead{background:var(--esp);color:#fff;padding:clamp(130px,18vw,220px) var(--g) clamp(50px,8vw,100px);position:relative;overflow:hidden;isolation:isolate}
-.phead::before{content:"";position:absolute;z-index:-1;right:12%;top:-30%;width:clamp(16px,2.4vw,34px);height:170%;background:var(--gold);transform:rotate(32deg)}
-.phead::after{content:"";position:absolute;z-index:-1;right:calc(12% - 3vw);top:-30%;width:clamp(5px,.8vw,12px);height:170%;background:var(--gold);transform:rotate(32deg)}
+.phead::before{content:"";position:absolute;z-index:-1;right:12%;top:-30%;width:clamp(16px,2.4vw,34px);height:170%;background:var(--gold);transform:rotate(var(--rot,32deg))}
+.phead::after{content:"";position:absolute;z-index:-1;right:calc(12% - 3vw);top:-30%;width:clamp(5px,.8vw,12px);height:170%;background:var(--gold);transform:rotate(var(--rot,32deg))}
 .phead h1{font-size:clamp(3.4rem,10vw,10rem);letter-spacing:-.03em;max-width:12ch}
 .phead p{max-width:44ch;margin-top:22px;color:rgba(255,255,255,.75);font-size:1.1rem}
 .crumb{font-size:.88rem;color:rgba(255,255,255,.6);margin-bottom:26px}.crumb a:hover{color:var(--gold)}
@@ -143,11 +144,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:.98;letter-spacing
 /* about + contact */
 .two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,100px);align-items:center}
 .photo{aspect-ratio:4/5;background:url(../img/scoop.webp) 58% 50%/cover;position:relative}
-.photo::after{content:"";position:absolute;left:-14px;bottom:-14px;width:40%;height:8px;background:var(--gold)}
+.photo::after{content:"";position:absolute;inset-inline-start:-14px;bottom:-14px;width:40%;height:8px;background:var(--gold)}
 .prose p{margin-top:20px;max-width:48ch;color:#4a423c;font-size:1.06rem}
 .prose h2{font-size:clamp(2.4rem,5vw,4.6rem)}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(21,17,15,.15);margin-top:clamp(60px,9vw,120px)}
-.pillar{padding:34px 30px 0 0}.pillar+.pillar{padding-left:30px;border-left:1px solid rgba(21,17,15,.15)}
+.pillar{padding:34px 0 0;padding-inline-end:30px}.pillar+.pillar{padding-inline-start:30px;border-inline-start:1px solid rgba(21,17,15,.15)}
 .pillar h3{font-size:2rem;margin-bottom:10px}.pillar p{color:#4a423c;max-width:30ch}
 form{display:grid;gap:14px}
 form label{font-size:.85rem;font-weight:600;display:grid;gap:6px}
@@ -176,11 +177,37 @@ form input:focus,form textarea:focus{outline:0;border-color:var(--ink)}
   .stmt-grid,.two,.bhero{grid-template-columns:1fr}.bhero .panel{justify-self:start;max-width:300px}
   .row .meta span{display:none}.row{grid-template-columns:76px 1fr auto;gap:16px}.row .thumb{display:grid;width:76px;aspect-ratio:1;background:var(--stone);place-items:center}
   .row .thumb img{width:84%;mix-blend-mode:multiply}.row h3{font-size:clamp(1.9rem,8vw,3rem)}.row .arrow{width:40px;height:40px}.peek{display:none}
-  .pillars{grid-template-columns:1fr}.pillar+.pillar{padding-left:0;border-left:0;border-top:1px solid rgba(21,17,15,.15);margin-top:30px}
+  .pillars{grid-template-columns:1fr}.pillar+.pillar{padding-inline-start:0;border-inline-start:0;border-top:1px solid rgba(21,17,15,.15);margin-top:30px}
   .fgrid{grid-template-columns:1fr 1fr}.fgrid>div:first-child{grid-column:1/-1}
   .slash.a{right:12%}.slash.b{right:5%}.cone.c2{display:none}.cone.c1{top:12%;right:4%}
 }
 @media(prefers-reduced-motion:reduce){
   *{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
-  .hero-photo{clip-path:none}.hero h1 .l span,.slash{transform:none}.slash{transform:rotate(32deg)}.hero-row,.cone,.rv{opacity:1;transform:none}.stmt .w{color:var(--ink)}
+  .hero-photo{clip-path:none}.hero h1 .l span,.slash{transform:none}.slash{transform:rotate(var(--rot,32deg))}.hero-row,.cone,.rv{opacity:1;transform:none}.stmt .w{color:var(--ink)}
 }
+
+/* ===== Arabic / RTL ===== */
+html[lang=ar]{--serif:'Amiri','Noto Naskh Arabic',serif;--sans:'Readex Pro','Manrope',system-ui,sans-serif}
+html[lang=ar] body{line-height:1.8}
+html[lang=ar] h1,html[lang=ar] h2,html[lang=ar] h3,html[lang=ar] .stmt,html[lang=ar] .big{letter-spacing:0;line-height:1.25}
+html[lang=ar] .hero h1{line-height:1.12;font-size:clamp(2.8rem,7.4vw,7.8rem)}
+html[lang=ar] .hero h1 .l{padding-bottom:.14em}
+html[lang=ar] .phead h1{line-height:1.15;font-size:clamp(3rem,8.6vw,8.8rem)}
+html[lang=ar] .stmt{line-height:1.5;font-size:clamp(1.9rem,4.4vw,4.4rem)}
+html[lang=ar] .row h3{line-height:1.3;font-size:clamp(2rem,5vw,5rem)}html[lang=ar] .bhead h2{font-size:clamp(2.8rem,6.6vw,6.6rem)}html[lang=ar] .strip-head h2,html[lang=ar] .band h2{font-size:clamp(2.4rem,5.6vw,5.6rem)}html[lang=ar] .phead h1{font-size:clamp(2.8rem,7vw,7rem)}
+html[lang=ar] .big{line-height:1.2;font-size:clamp(6rem,30vw,28rem);margin-bottom:-.2em}
+html[lang=ar] .card h3{line-height:1.5}
+html[dir=rtl] .hero::before{background:linear-gradient(270deg,rgba(34,28,25,.94) 0%,rgba(34,28,25,.72) 42%,rgba(34,28,25,.2) 100%),linear-gradient(0deg,rgba(34,28,25,.85),transparent 45%)}
+html[dir=rtl]{--rot:-32deg}
+html[dir=rtl] .slash.a{right:auto;left:22%}html[dir=rtl] .slash.b{right:auto;left:17%}
+html[dir=rtl] .phead::before{right:auto;left:12%}html[dir=rtl] .phead::after{right:auto;left:calc(12% - 3vw)}
+html[dir=rtl] .row:hover h3{transform:translateX(calc(-1 * clamp(8px,2vw,32px)))}
+html[dir=rtl] .row:hover .arrow{transform:rotate(45deg)}
+html[dir=rtl] .arrow svg,html[dir=rtl] .btn svg,html[dir=rtl] .buy svg,html[dir=rtl] .link svg{transform:scaleX(-1)}
+html[dir=rtl] .btn:hover svg{transform:translate(-3px,-3px) scaleX(-1)}
+html[dir=rtl] .band-img,html[dir=rtl] .hero-photo{background-position:38% 50%}
+html[dir=rtl] .photo::after{inset-inline-start:-14px}
+html[dir=rtl] .track{scroll-padding-left:0;scroll-padding-right:var(--g)}
+html[dir=rtl] a[href^="tel:"],html[dir=rtl] a[href^="mailto:"],html[dir=rtl] #c-phone,html[dir=rtl] #c-mail{direction:ltr;unicode-bidi:isolate;display:inline-block;text-align:right}
+html[dir=rtl] .ftr a[href^="tel:"],html[dir=rtl] .ftr a[href^="mailto:"]{display:block;text-align:right}
+@media(max-width:900px){html[dir=rtl] .slash.a{left:12%}html[dir=rtl] .slash.b{left:5%}html[lang=ar] .hero h1{font-size:clamp(2.8rem,13vw,5rem)}}

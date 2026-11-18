@@ -13,7 +13,7 @@ const links = [["index.html#brands", "Brands"], ["products.html", "Products"], [
 $("#hdr").className = "hdr";
 $("#hdr").innerHTML = `<a class="logo" href="index.html" aria-label="Edafat home">edafat<i></i></a>
  <button class="burger" aria-label="Menu" aria-expanded="false"></button>
- <nav>${links.map(([h, t]) => `<a href="${h}" class="${h.startsWith(page) ? "on" : ""}">${t}</a>`).join("")}<a class="pill" href="contact.html">Contact</a></nav>`;
+ <nav>${links.map(([h, t]) => `<a href="${h}" class="${h.startsWith(page) ? "on" : ""}">${t}</a>`).join("")}<button class="lang" type="button" lang="${LANG === "ar" ? "en" : "ar"}">${LANG === "ar" ? "English" : "العربية"}</button><a class="pill" href="contact.html">Contact</a></nav>`;
 $("#ftr").className = "ftr";
 $("#ftr").innerHTML = `<div class="fgrid"><div><a class="logo" href="index.html">edafat<i></i></a><p style="max-width:32ch">Italian ingredients and trusted food brands, distributed from Riyadh. Every purchase is completed on the brand's own store.</p></div>
  <div><h4>Brands</h4>${S.brands.map(b => `<a href="brand.html?b=${b.slug}">${b.name}</a>`).join("")}</div>
@@ -21,12 +21,13 @@ $("#ftr").innerHTML = `<div class="fgrid"><div><a class="logo" href="index.html"
  <div><h4>Contact</h4><a href="mailto:${CONTACT.email}">${CONTACT.email}</a><a href="tel:${CONTACT.phone.replace(/\s/g, "")}">${CONTACT.phone}</a><span>${CONTACT.city}</span></div></div>
  <div class="big" aria-hidden="true">edafat</div><div class="copy"><span>© ${new Date().getFullYear()} Edafat. All rights reserved.</span><span>Checkout happens on each brand's website.</span></div>`;
 const hdr = $("#hdr"), nav = $("#hdr nav"), burger = $(".burger");
+$(".lang").onclick = () => setLang(LANG === "ar" ? "en" : "ar");
 burger.onclick = () => { const o = nav.classList.toggle("open"); burger.setAttribute("aria-expanded", o); hdr.classList.toggle("menu", o); };
 $$("#hdr nav a").forEach(a => a.addEventListener("click", () => { nav.classList.remove("open"); hdr.classList.remove("menu"); burger.setAttribute("aria-expanded", false); }));
 
 /* reveal */
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: .12 });
-const observe = () => $$(".rv:not(.in)").forEach(el => io.observe(el));
+const observe = () => { translateDOM(); $$(".rv:not(.in)").forEach(el => io.observe(el)); };
 
 /* pages */
 if (page === "home") {
@@ -37,7 +38,7 @@ if (page === "home") {
   const peek = $(".peek"), pimg = $("img", peek); let tx = 0, ty = 0, x = 0, y = 0;
   $$(".row").forEach(r => { r.addEventListener("mouseenter", () => { pimg.src = r.dataset.img; peek.classList.add("on"); });
     r.addEventListener("mouseleave", () => peek.classList.remove("on")); });
-  addEventListener("mousemove", e => { const w = peek.offsetWidth; tx = e.clientX + 28 + w > innerWidth * .74 ? e.clientX - 28 - w : e.clientX + 28; ty = e.clientY - peek.offsetHeight / 2; }, { passive: true });
+  addEventListener("mousemove", e => { const w = peek.offsetWidth; tx = LANG === "ar" ? (e.clientX - 28 - w < 8 ? e.clientX + 28 : e.clientX - 28 - w) : (e.clientX + 28 + w > innerWidth * .74 ? e.clientX - 28 - w : e.clientX + 28); ty = e.clientY - peek.offsetHeight / 2; }, { passive: true });
   (function loop() { x += (tx - x) * .14; y += (ty - y) * .14; peek.style.transform = `translate(${x}px,${y}px) rotate(${(tx - x) * .04}deg)`; requestAnimationFrame(loop); })();
   // drag to scroll
   const t = $("#track"); let down = false, sx, sl;
@@ -68,11 +69,12 @@ if (page === "products") {
 }
 if (page === "contact") {
   const f = $("#cform"); f.onsubmit = e => { e.preventDefault(); const d = new FormData(f);
-    location.href = `mailto:${CONTACT.email}?subject=${encodeURIComponent("Enquiry from " + d.get("name"))}&body=${encodeURIComponent(d.get("message") + "\n\n" + d.get("name") + "\n" + d.get("email"))}`; };
+    location.href = `mailto:${CONTACT.email}?subject=${encodeURIComponent((LANG === "ar" ? "استفسار من " : "Enquiry from ") + d.get("name"))}&body=${encodeURIComponent(d.get("message") + "\n\n" + d.get("name") + "\n" + d.get("email"))}`; };
   $("#c-mail").textContent = CONTACT.email; $("#c-phone").textContent = CONTACT.phone; $("#c-city").textContent = CONTACT.city;
 }
 
 /* scroll: header, parallax, statement */
+translateDOM();
 const stmt = $("#stmt");
 if (stmt) stmt.innerHTML = stmt.textContent.trim().split(/\s+/).map(w => `<span class="w">${w}</span>`).join(" ");
 const words = $$("#stmt .w"), pars = $$("[data-par]");
