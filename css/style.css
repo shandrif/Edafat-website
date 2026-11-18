@@ -19,8 +19,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:.98;letter-spacing
 /* header */
 .hdr{position:fixed;inset:0 0 auto 0;z-index:60;display:flex;align-items:center;justify-content:space-between;padding:22px var(--g);color:#fff;transition:background .4s,color .4s,padding .4s,transform .5s var(--ease)}
 .hdr.solid{background:rgba(250,248,244,.92);backdrop-filter:blur(16px);color:var(--ink);padding-top:14px;padding-bottom:14px;box-shadow:0 1px 0 rgba(21,17,15,.08)}
-.logo{font-family:'Manrope',sans-serif;direction:ltr;font-weight:800;font-size:1.55rem;letter-spacing:-.04em;display:inline-flex;align-items:baseline;gap:2px}
-.logo i{width:.34em;height:.34em;background:var(--gold);display:inline-block;transform:skewX(-24deg)}
+.logo{display:inline-flex;align-items:center;direction:ltr;line-height:0}
+.logo img{height:clamp(24px,2.3vw,32px);width:auto;display:block}
+.logo .ld{display:none}
+.hdr.solid:not(.menu) .logo .lw{display:none}.hdr.solid:not(.menu) .logo .ld{display:block}
+.ftr .logo img{height:36px}
 .hdr nav{display:flex;gap:clamp(18px,3vw,40px);align-items:center;font-size:.92rem;font-weight:500}
 .hdr nav a:not(.pill){position:relative;padding:4px 0}
 .hdr nav a:not(.pill)::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:1.5px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}
@@ -170,6 +173,7 @@ form input:focus,form textarea:focus{outline:0;border-color:var(--ink)}
 .ftr a{display:block;padding:4px 0;transition:color .3s}.ftr a:hover{color:var(--gold)}
 .ftr .logo{color:#fff;margin-bottom:16px}
 .big{font-family:var(--serif);font-size:clamp(6rem,44vw,40rem);line-height:.74;letter-spacing:-.05em;color:rgba(255,255,255,.06);margin:clamp(40px,6vw,80px) 0 -.06em;white-space:nowrap;user-select:none}
+.big-logo{line-height:0;margin:clamp(40px,6vw,80px) 0 clamp(30px,4vw,56px)}.big-logo img{width:100%;height:auto;opacity:.07}
 .copy{border-top:1px solid rgba(255,255,255,.14);padding-top:22px;font-size:.84rem;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 
 /* reveal (used sparingly) */

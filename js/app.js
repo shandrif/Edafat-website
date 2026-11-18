@@ -14,15 +14,15 @@ const card = (b, p, d = 0) => `<article class="card rv" style="--d:${d}s"><div c
 /* chrome */
 const links = [["index.html#brands", "Brands"], ["products.html", "Products"], ["about.html", "About"]];
 $("#hdr").className = "hdr";
-$("#hdr").innerHTML = `<a class="logo" href="index.html" aria-label="Edafat home">edafat<i></i></a>
+$("#hdr").innerHTML = `<a class="logo" href="index.html" aria-label="Edafat home"><img class="lw" src="img/logo-white.png" alt="Edafat"><img class="ld" src="img/logo-dark.png" alt="" aria-hidden="true"></a>
  <button class="burger" aria-label="Menu" aria-expanded="false"></button>
  <nav>${links.map(([h, t]) => `<a href="${h}" class="${h.startsWith(page) ? "on" : ""}">${t}</a>`).join("")}<button class="lang" type="button" lang="${LANG === "ar" ? "en" : "ar"}">${LANG === "ar" ? "English" : "العربية"}</button><a class="pill" href="contact.html">Contact</a></nav>`;
 $("#ftr").className = "ftr";
-$("#ftr").innerHTML = `<div class="fgrid"><div><a class="logo" href="index.html">edafat<i></i></a><p style="max-width:32ch">Italian ingredients and trusted food brands, distributed from Riyadh. Every purchase is completed on the brand's own store.</p></div>
+$("#ftr").innerHTML = `<div class="fgrid"><div><a class="logo" href="index.html" aria-label="Edafat home"><img class="lw" src="img/logo-white.png" alt="Edafat"></a><p style="max-width:32ch">Italian ingredients and trusted food brands, distributed from Riyadh. Every purchase is completed on the brand's own store.</p></div>
  <div><h4>Brands</h4>${S.brands.map(b => `<a href="brand.html?b=${b.slug}">${b.name}</a>`).join("")}</div>
  <div><h4>Company</h4><a href="about.html">About</a><a href="products.html">All products</a><a href="contact.html">Contact</a></div>
  <div><h4>Contact</h4><a href="mailto:${CONTACT.email}">${CONTACT.email}</a><a href="tel:${CONTACT.phone.replace(/\s/g, "")}">${CONTACT.phone}</a><span>${CONTACT.city}</span></div></div>
- <div class="big" aria-hidden="true">edafat</div><div class="copy"><span>© ${new Date().getFullYear()} Edafat. All rights reserved.</span><span>Checkout happens on each brand's website.</span></div>`;
+ ${LANG === "ar" ? '<div class="big" aria-hidden="true">edafat</div>' : '<div class="big big-logo" aria-hidden="true"><img src="img/logo-white.png" alt=""></div>'}<div class="copy"><span>© ${new Date().getFullYear()} Edafat. All rights reserved.</span><span>Checkout happens on each brand's website.</span></div>`;
 const hdr = $("#hdr"), nav = $("#hdr nav"), burger = $(".burger");
 $(".lang").onclick = () => setLang(LANG === "ar" ? "en" : "ar");
 burger.onclick = () => { const o = nav.classList.toggle("open"); burger.setAttribute("aria-expanded", o); hdr.classList.toggle("menu", o); };
