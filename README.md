@@ -43,12 +43,6 @@ Brand and product-line names (Gran Riserva Royal, Aurum, Leni's ...) stay in the
 Sources: `tools/i18n/*.py` -> `python3 -I tools/build_arabic.py` -> `js/ar.js` (loaded only in Arabic). Item descriptions show the descriptive text only (see `tools/clean_items.js`):
 ingredient lists were cut off by the crawl, so full ingredients are on the brand's site. Run `node tools/clean_items.js` after `tools/build_items.py` when refreshing the data.
 
-## Hero video
-
-`video/hero-1080.mp4` (desktop, 2.4 MB) and `video/hero-720.mp4` (phones/tablets, 0.6 MB) were made from the supplied clip with ffmpeg: denoise, gentle sharpen, upscale to 1080p,
-light grade, light grain, no audio, and a 1-second crossfade so it loops seamlessly. `video/hero-poster*.webp` is the still shown while it loads, with reduced motion or data saver.
-The video pauses when the hero is off screen. It is mirrored in English (text on the left, man on the right) and unmirrored in Arabic (text on the right).
-
 ## Theme and motion
 
 Cognivra palette (read from the live site): deep navy `#0c0638`, near-black `#000006`, purple `#3b0c8a`, link blue `#3522e8`, heading navy `#03225c`, light grey `#f2f2f2`.

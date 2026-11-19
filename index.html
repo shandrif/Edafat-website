@@ -4,22 +4,17 @@
 <link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png"><link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="video/hero-poster-960.webp" media="(max-width:900px)"><link rel="preload" as="image" href="video/hero-poster.webp" media="(min-width:901px)"><link rel="stylesheet" href="css/style.css"></head>
+<link rel="stylesheet" href="css/style.css"></head>
 <body data-page="home"><header id="hdr"></header><main>
 
-<section class="hero vid">
- <div class="hero-media" aria-hidden="true">
-  <video id="hv" autoplay muted loop playsinline preload="metadata" poster="video/hero-poster.webp" disablepictureinpicture>
-   <source src="video/hero-720.mp4" type="video/mp4" media="(max-width:900px)"><source src="video/hero-1080.mp4" type="video/mp4"></video>
-  <i class="scrim"></i>
- </div>
- <div class="hero-copy">
+<section class="hero"><div class="hero-grid">
+  <div class="hero-copy">
    <h1 id="h1"><span class="l"><span>Food &amp;</span></span><span class="l"><span>Beverages</span></span></h1>
    <p class="lede">Retail, distribution and HoReCa. Explore the partner brands and every item they sell.</p>
    <div class="acts"><a class="btn gold" href="#brands">Explore the brands</a><a class="btn line" href="products.html">Browse every item</a></div>
    <p class="hmeta" id="hmeta"></p>
- </div>
- <div class="hcards" id="hcards"></div>
+  </div>
+  <div class="mosaic" id="mosaic"></div></div>
 </section>
 <div class="logos" id="logos" role="img" aria-label="Logos of the partner brands"></div>
 <section class="sec pad"><p class="stmt" id="stmt">Loading</p><div class="sectors" id="sectors"></div></section>

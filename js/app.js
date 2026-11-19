@@ -105,13 +105,8 @@ const trStatic = () => { if (!A) return;
 /* ---------- pages ---------- */
 if (page === "home") {
   $("#h1").innerHTML = (A ? ["الأغذية", "والمشروبات"] : ["Food &", "Beverages"]).map(l => `<span class="l"><span>${l}</span></span>`).join("");
-  // four brand photos as cards along the bottom of the hero
-  $("#hcards").innerHTML = ["alpe-pragas", "alps-coffee", "alpeker", "pan"].map((sl, k) => { const b = bySlug(sl);
-    return `<a class="hc rv" href="brand.html?b=${b.slug}" style="--d:${.5 + k * .08}s"><img src="${b.photo}" alt="" width="${b.photoSize[0]}" height="${b.photoSize[1]}" ${k === 0 ? 'fetchpriority="low"' : ""} loading="lazy" decoding="async"><span><small>${bTag(b)}</small><b>${b.name}</b></span></a>`; }).join("");
-  // background video: honour reduced motion / data saver, and pause when the hero is off screen
-  const hv = $("#hv"), still = matchMedia("(prefers-reduced-motion: reduce)").matches || (navigator.connection && navigator.connection.saveData);
-  if (still) { hv.removeAttribute("autoplay"); hv.pause(); hv.removeAttribute("loop"); hv.querySelectorAll("source").forEach(x => x.remove()); hv.load(); }
-  else { hv.play().catch(() => {}); new IntersectionObserver(([e]) => { if (e.isIntersecting) hv.play().catch(() => {}); else hv.pause(); }, { threshold: 0 }).observe($(".hero")); }
+  const pick = (s, d) => { const b = bySlug(s); return `<a class="fr" href="brand.html?b=${b.slug}" style="--d:${d}s"><img src="${b.photo}" alt="" width="${b.photoSize[0]}" height="${b.photoSize[1]}" ${d === .15 ? 'fetchpriority="high"' : ""} decoding="async"><b>${b.name}</b></a>`; };
+  $("#mosaic").innerHTML = `<div data-par="-.05">${pick("alpe-pragas", .15)}${pick("alpeker", .36)}</div><div class="col2" data-par=".06">${pick("alps-coffee", .28)}${pick("pan", .44)}</div>`;
   const cats = S.categories.filter(c => S.brands.some(b => b.category === c));
   $("#hmeta").textContent = A ? `${brandsN(S.brands.length)} شريكة في ${nWord(cats.length, "فئة واحدة", "فئتين", "فئات", "فئة")}، و${items(nItems)} لاستكشافها.` : `${S.brands.length} partner brands across ${cats.length} categories, ${nItems} items to explore.`;
   $("#logos").innerHTML = `<div>${[0, 1].map(k => S.brands.map(b => `<img src="${b.logo}" alt="${k ? "" : b.name}" loading="lazy" decoding="async">`).join("")).join("")}</div>`;
