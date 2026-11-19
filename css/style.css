@@ -520,7 +520,7 @@ html[lang=ar] .bo-go .bo-ico{transform:scaleX(-1)}
 @media (prefers-reduced-motion:reduce){.bo-track,.bo-dot,.bo-dot i,.bo-th .bo-btn,.bo-th img{transition:none}}
 
 /* hero background video: faded into the navy, behind everything else */
-.hero-video{position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--dark)}
+.hero-video{position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--dark) url(../video/hero-poster.jpg) center/cover no-repeat}
 .hero-video video{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.6s var(--ease)}
 .hero-video video.on{opacity:1}
 .hero-video::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,6,56,.6) 0%,rgba(12,6,56,.18) 45%,rgba(12,6,56,0) 100%),linear-gradient(180deg,rgba(12,6,56,.3) 0%,transparent 20%,transparent 80%,rgba(12,6,56,.85) 100%)}
