@@ -111,12 +111,11 @@ if (page === "home") {
   $("#hmeta").textContent = A ? `${brandsN(S.brands.length)} شريكة في ${nWord(cats.length, "فئة واحدة", "فئتين", "فئات", "فئة")}، و${items(nItems)} لاستكشافها.` : `${S.brands.length} partner brands across ${cats.length} categories, ${nItems} items to explore.`;
   $("#logos").innerHTML = `<div>${[0, 1].map(k => S.brands.map(b => `<img src="${b.logo}" alt="${k ? "" : b.name}" loading="lazy" decoding="async">`).join("")).join("")}</div>`;
   $("#sectors").innerHTML = `<small>${t("Built for")}</small>` + S.sectors.map(s => `<span class="tag">${sector(s)}</span>`).join("");
-  const chips = $("#chips"); let cur = "all";
-  chips.innerHTML = `<button class="chip on" data-c="all">${t("All brands")}</button>` + cats.map(c => `<button class="chip" data-c="${c}">${cat(c)}</button>`).join("");
-  const grid = $("#bgrid");
-  const draw = () => { const l = S.brands.filter(b => cur === "all" || b.category === cur); grid.innerHTML = l.map(brandCard).join(""); observe(); };
-  chips.onclick = e => { const c = e.target.closest(".chip"); if (!c || c.dataset.c === cur) return; cur = c.dataset.c; $$(".chip", chips).forEach(x => x.classList.toggle("on", x === c)); draw(); };
-  draw();
+  const sp = n => { const w = n.split(" "); return w.length > 1 ? [w[0], w.slice(1).join(" ")] : null; };
+  const FX = { "alpe-pragas": 98, alpeker: 44, alpl: 77, "alps-coffee": 0, "mamis-caffe": 0, oberhoeller: 98, pan: 98, rieper: 84, "vog-products": 0 }; /* where the subject sits in each wide brand photo */
+  const D = S.brands.map((b, k) => { const s2 = sp(b.name); return { fx: FX[b.slug] ?? 50, slug: b.slug, name: b.name, t1: s2 ? s2[0] : cat(b.category), t2: s2 ? s2[1] : b.name, eyebrow: `#${k + 1}  ${bTag(b)}`, photo: b.photo, accent: b.tint[1], count: b.items.length,
+    place: bPlace(b), facts: bFacts(b).join(A ? "، " : ", "), blurb: bBlurb(b), url: b.url, thumbs: [0, 1, 2, 3].filter(i => i < b.items.length).map(i => ({ i, img: b.items[i].img, name: nm(b.items[i]) })) }; });
+  BrandOrbit($("#orbit"), D, { label: t("Choose a brand"), range: t("View range"), visit: t("Visit site"), overview: t("Overview"), popular: t("Popular items"), items: t("Items"), item: t("Item"), prev: t("Previous brand"), next: t("Next brand") }, (s, i) => openItem(s, i));
   $("#track").innerHTML = S.brands.flatMap(b => [0, Math.min(5, b.items.length - 1)].filter((v, k, a) => a.indexOf(v) === k).map(i => [b, i])).map(([b, i], k) => pcard(b, i, dly(k % 6))).join("");
   const tr = $("#track"); let down = false, sx, sl;
   tr.addEventListener("pointerdown", e => { if (e.pointerType !== "mouse") return; down = true; sx = e.clientX; sl = tr.scrollLeft; tr.classList.add("drag"); });

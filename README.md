@@ -43,6 +43,12 @@ Brand and product-line names (Gran Riserva Royal, Aurum, Leni's ...) stay in the
 Sources: `tools/i18n/*.py` -> `python3 -I tools/build_arabic.py` -> `js/ar.js` (loaded only in Arabic). Item descriptions show the descriptive text only (see `tools/clean_items.js`):
 ingredient lists were cut off by the crawl, so full ingredients are on the brand's site. Run `node tools/clean_items.js` after `tools/build_items.py` when refreshing the data.
 
+## Brand picker (home page)
+
+`js/orbit.js` is the brand picker: a vanilla-JS port of the "dish orbit carousel" (round brand photo swings round an orbit, the two-weight title wipes, a coloured arc turns, the section pins and scroll steps through the brands).
+It needs GSAP and ScrollTrigger, vendored in `js/vendor/` (no CDN, no build step). The site stays plain HTML/CSS/JS, so the original React/Tailwind component was ported rather than installed.
+Photo focal points for the wide brand photos are in `FX` in `js/app.js`.
+
 ## Theme and motion
 
 Cognivra palette (read from the live site): deep navy `#0c0638`, near-black `#000006`, purple `#3b0c8a`, link blue `#3522e8`, heading navy `#03225c`, light grey `#f2f2f2`.
