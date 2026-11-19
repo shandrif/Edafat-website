@@ -523,6 +523,8 @@ html[lang=ar] .bo-go .bo-ico{transform:scaleX(-1)}
 .hero-video{position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--dark)}
 .hero-video video{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.6s var(--ease)}
 .hero-video video.on{opacity:1}
-.hero-video::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,6,56,.82) 0%,rgba(12,6,56,.4) 45%,rgba(12,6,56,.08) 100%),linear-gradient(180deg,rgba(12,6,56,.4) 0%,transparent 22%,transparent 74%,var(--dark) 100%)}
-html[dir=rtl] .hero-video::after{background:linear-gradient(270deg,rgba(12,6,56,.82) 0%,rgba(12,6,56,.4) 45%,rgba(12,6,56,.08) 100%),linear-gradient(180deg,rgba(12,6,56,.4) 0%,transparent 22%,transparent 74%,var(--dark) 100%)}
-@media (max-width:760px){.hero-video video.on{opacity:.9}.hero-video::after{background:linear-gradient(180deg,rgba(12,6,56,.6),rgba(12,6,56,.42) 55%,var(--dark))}}
+.hero-video::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,6,56,.6) 0%,rgba(12,6,56,.18) 45%,rgba(12,6,56,0) 100%),linear-gradient(180deg,rgba(12,6,56,.3) 0%,transparent 20%,transparent 80%,rgba(12,6,56,.85) 100%)}
+html[dir=rtl] .hero-video::after{background:linear-gradient(270deg,rgba(12,6,56,.6) 0%,rgba(12,6,56,.18) 45%,rgba(12,6,56,0) 100%),linear-gradient(180deg,rgba(12,6,56,.3) 0%,transparent 20%,transparent 80%,rgba(12,6,56,.85) 100%)}
+@media (max-width:760px){.hero-video video.on{opacity:1}.hero-video::after{background:linear-gradient(180deg,rgba(12,6,56,.45),rgba(12,6,56,.3) 55%,rgba(12,6,56,.85))}}
+
+.hero h1,.hero .lede,.hero .hmeta{text-shadow:0 2px 18px rgba(12,6,56,.55)}
