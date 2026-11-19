@@ -22,6 +22,12 @@
     bar: '<g transform="rotate(18 32 32)"><rect x="15" y="8" width="34" height="48" rx="4"/><path d="M15 24h34M15 40h34M32 8v48"/></g>',
     dragee: '<circle cx="21" cy="42" r="11"/><circle cx="43" cy="42" r="11"/><circle cx="32" cy="21" r="11"/><path d="M15 38a7 7 0 0 1 5-5M37 38a7 7 0 0 1 5-5M26 17a7 7 0 0 1 5-4"/>',
     gift: '<rect x="12" y="29" width="40" height="25" rx="2"/><rect x="9" y="20" width="46" height="9" rx="2"/><path d="M32 20v34"/><path d="M32 20c-9-11-17-6-13 0 3 3 13 0 13 0Zm0 0c9-11 17-6 13 0-3 3-13 0-13 0Z"/>',
+    globe: '<circle cx="32" cy="32" r="21"/><ellipse cx="32" cy="32" rx="9" ry="21"/><path d="M11 32h42M14 21h36M14 43h36"/>',
+    shield: '<path d="M32 8 51 15v15c0 13-8 21-19 26C21 51 13 43 13 30V15Z"/><path d="m23 31 6 6 12-13"/>',
+    truck: '<path d="M7 20h31v24H7Z"/><path d="M38 27h10l9 9v8H38Z"/><circle cx="19" cy="47" r="5"/><circle cx="46" cy="47" r="5"/><path d="M14 27h18"/>',
+    compass: '<circle cx="32" cy="32" r="22"/><path d="m41 23-5 13-13 5 5-13Z"/><circle cx="32" cy="32" r="1.5"/>',
+    puzzle: '<path d="M13 24h12a5 5 0 1 1 10 0h14v13a5 5 0 1 0 0 10v10H36a5 5 0 1 0-10 0H13V47a5 5 0 1 0 0-10Z"/>',
+    chart: '<path d="M12 10v42h42"/><rect x="19" y="34" width="8" height="12" rx="1.5"/><rect x="31" y="25" width="8" height="21" rx="1.5"/><rect x="43" y="15" width="8" height="31" rx="1.5"/>',
     flute: '<path d="M23 7h18l-2 27c-1 8-3 11-7 11s-6-3-7-11Z"/><path d="M32 45v10M22 57h20"/><circle cx="30" cy="18" r="1.6"/><circle cx="35" cy="27" r="1.6"/><circle cx="30" cy="33" r="1.6"/>',
   };
   // order matters: first match wins
