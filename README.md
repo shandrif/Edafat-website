@@ -1,5 +1,7 @@
 # Arpitim BuildTrade by Cognivra: Food & Beverages
 
+English and Arabic (right-to-left). The header has a language switch; `?lang=ar` links straight to Arabic.
+
 Static website (HTML, CSS, vanilla JS; no build step). The Food & Beverage sector is the whole site.
 
 Pages: `index.html` (hero, brands, what they sell, where we sell, occasions), `brand.html?b=<slug>` (one brand: facts, searchable range, item dialog),
@@ -33,6 +35,13 @@ for b in alpe-pragas mamis-caffe alps-coffee alpeker pan rieper vog-products obe
 node tools/crawl/download.js /path/to/crawl                 # every item photo
 python3 -I tools/build_items.py /path/to/crawl x            # img/items + js/data.js (items)
 ```
+
+## Arabic
+
+All Arabic text was translated by the site builder, not by the brands: interface, brand profiles, the "where we sell" and "occasions" sections, all 317 item names and 222 item descriptions.
+Brand and product-line names (Gran Riserva Royal, Aurum, Leni's ...) stay in their original script. Please have a native speaker review it.
+Sources: `tools/i18n/*.py` -> `python3 -I tools/build_arabic.py` -> `js/ar.js` (loaded only in Arabic). Item descriptions show the descriptive text only (see `tools/clean_items.js`):
+ingredient lists were cut off by the crawl, so full ingredients are on the brand's site. Run `node tools/clean_items.js` after `tools/build_items.py` when refreshing the data.
 
 ## Theme and motion
 

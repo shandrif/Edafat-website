@@ -34,7 +34,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Sour Cherry",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve Sour cherry - From dark red, finely aromatic sour cherries. The sour cherry, also called (Prunus cerasus), is a plant species of the rose family. Cherries also have a high content of vitamin A. Ingredients - Sour cherries*/** (75%), sugar*, lemon juice*, gelling agent: pectin (from apple). *organic **May contain cores or pieces thereof Sizes: 30g.",
+     "d": "Organic fruit preserve Sour cherry - From dark red, finely aromatic sour cherries. The sour cherry, also called (Prunus cerasus), is a plant species of the rose family. Cherries also have a high content of vitamin A.",
      "img": "img/items/alpe-pragas-000.jpg",
      "size": [
       720,
@@ -45,7 +45,7 @@ window.SITE = {
     {
      "n": "Honey Acacia",
      "g": "Fruit preserves",
-     "d": "Our acacia honey delights with its light golden colour, delicate, mild sweetness and exceptionally subtle aroma. Harvested from the nectar of acacia blossoms and carefully processed with the utmost care, it retains its pure, natural character in every jar. Ingredients - Italian Honey (100%) Sizes: 30g.",
+     "d": "Our acacia honey delights with its light golden colour, delicate, mild sweetness and exceptionally subtle aroma. Harvested from the nectar of acacia blossoms and carefully processed with the utmost care, it retains its pure, natural character in every jar.",
      "img": "img/items/alpe-pragas-001.jpg",
      "size": [
       720,
@@ -56,7 +56,7 @@ window.SITE = {
     {
      "n": "Honey Sunflower",
      "g": "Fruit preserves",
-     "d": "Our sunflower honey delights with its bright golden-yellow colour, its pleasantly balanced sweetness and its delicate floral aroma. Harvested from the nectar of sun-drenched sunflower fields and processed with the utmost care, it preserves its natural character and authentic flavour. Ingredients - Italian Honey (100%) Sizes: 30g.",
+     "d": "Our sunflower honey delights with its bright golden-yellow colour, its pleasantly balanced sweetness and its delicate floral aroma. Harvested from the nectar of sun-drenched sunflower fields and processed with the utmost care, it preserves its natural character and authentic flavour.",
      "img": "img/items/alpe-pragas-002.jpg",
      "size": [
       720,
@@ -67,7 +67,7 @@ window.SITE = {
     {
      "n": "Hazelnut Spread",
      "g": "Fruit preserves",
-     "d": "Our hazelnut cream is made from carefully selected hazelnuts. Thanks to the gentle processing, it develops its rich nutty aroma and its exceptionally smooth, creamy texture. Ingredients - Toasted hazelnut (51,5%), cane sugar, skimmed milk powder, bitter cocoa powder, emulsifier: soy lecithin, salt, natural vanilla extract. May contain other nuts (pistachio, almond) and milk. Sizes: 30g.",
+     "d": "Our hazelnut cream is made from carefully selected hazelnuts. Thanks to the gentle processing, it develops its rich nutty aroma and its exceptionally smooth, creamy texture.",
      "img": "img/items/alpe-pragas-003.jpg",
      "size": [
       720,
@@ -78,7 +78,7 @@ window.SITE = {
     {
      "n": "Hazelnut Spread and Cocoa",
      "g": "Fruit preserves",
-     "d": "Carefully selected hazelnuts and fine cocoa come together to create a harmonious taste experience. Thanks to the gentle processing, the rich nutty aroma and delicate cocoa notes unfold while the exceptionally creamy texture is preserved. Ingredients ,-Toasted hazelnut (51,9%), cane sugar, bitter cocoa powder, emulsifier: soy lecithin, salt, natural vanilla extract. May contain Sizes: 30g.",
+     "d": "Carefully selected hazelnuts and fine cocoa come together to create a harmonious taste experience. Thanks to the gentle processing, the rich nutty aroma and delicate cocoa notes unfold while the exceptionally creamy texture is preserved.",
      "img": "img/items/alpe-pragas-004.jpg",
      "size": [
       720,
@@ -89,7 +89,7 @@ window.SITE = {
     {
      "n": "Bilberry Puree",
      "g": "Fruit purée",
-     "d": "Our fruit purées, made from fine fruits picked at the perfect stage of ripeness, were created to meet the needs of laboratories, pastry shops, and fine dining kitchens, and represent a prestigious choice for developing creative and genuine recipes. A versatile, top-quality product, essential for garnishing ice cream, yogurt, and panna cotta, or for creating refined sorbets, lig Sizes: 750ml.",
+     "d": "Our fruit purées, made from fine fruits picked at the perfect stage of ripeness, were created to meet the needs of laboratories, pastry shops, and fine dining kitchens, and represent a prestigious choice for developing creative and genuine recipes.",
      "img": "img/items/alpe-pragas-005.jpg",
      "size": [
       576,
@@ -100,7 +100,7 @@ window.SITE = {
     {
      "n": "Val Venosta Apricot Puree",
      "g": "Fruit purée",
-     "d": "Our fruit purées, made from fine fruits picked at the perfect stage of ripeness, were created to meet the needs of laboratories, pastry shops, and fine dining kitchens, and represent a prestigious choice for developing creative and genuine recipes. A versatile, top-quality product, essential for garnishing ice cream, yogurt, and panna cotta, or for creating refined sorbets, lig Sizes: 750ml.",
+     "d": "Our fruit purées, made from fine fruits picked at the perfect stage of ripeness, were created to meet the needs of laboratories, pastry shops, and fine dining kitchens, and represent a prestigious choice for developing creative and genuine recipes.",
      "img": "img/items/alpe-pragas-006.jpg",
      "size": [
       576,
@@ -111,7 +111,7 @@ window.SITE = {
     {
      "n": "Fruit preserve with Punch",
      "g": "Fruit preserves",
-     "d": "Fruit specialty made from apples, clementines, sugar, punch and cinnamon. Delicious for breakfast on bread, for cheese or to refine desserts. Ingredients - Apple (40%), clementine (30%), sugar, punch (9%) (water, apple juice concentrate, sugar, alcohol, extraction from herbage/fruits/spicery, distillate), cinnamon, vanilla bean, pectin (from apple). Contains alcohol 1,4% vol. Sizes: 110g.",
+     "d": "Fruit specialty made from apples, clementines, sugar, punch and cinnamon. Delicious for breakfast on bread, for cheese or to refine desserts.",
      "img": "img/items/alpe-pragas-007.jpg",
      "size": [
       720,
@@ -122,7 +122,7 @@ window.SITE = {
     {
      "n": "Rose petals syrup",
      "g": "Fruit syrups",
-     "d": "Fruit syrup rose petals - From July to August, among the rows of fruit in our fields, the precious Damask roses bloom with their delicate and intensely fragrant petals. From these blossoms we create our rose syrup: refined, elegant, and wonderfully aromatic. Recommended as a non-alcoholic drink, an aperitif, or a special ingredient for cocktails. Ingredients: rose petals extrac Sizes: 500ml.",
+     "d": "Fruit syrup rose petals - From July to August, among the rows of fruit in our fields, the precious Damask roses bloom with their delicate and intensely fragrant petals. From these blossoms we create our rose syrup: refined, elegant, and wonderfully aromatic.",
      "img": "img/items/alpe-pragas-008.jpg",
      "size": [
       720,
@@ -133,7 +133,7 @@ window.SITE = {
     {
      "n": "Organic Mixed berries Smoothie",
      "g": "Organic smoothies",
-     "d": "Organic mixed berries smoothie. A vitamin bomb for athletes and yogis. Ingredients - Mixed berries* (95%) (raspberry juice*, bilberries*/**, strawberries*), agave syrup* - (*organic, **wild harvesting) Sizes: 200ml.",
+     "d": "Organic mixed berries smoothie. A vitamin bomb for athletes and yogis.",
      "img": "img/items/alpe-pragas-009.jpg",
      "size": [
       720,
@@ -144,7 +144,7 @@ window.SITE = {
     {
      "n": "Organic Apple & Ginger Smoothie",
      "g": "Organic smoothies",
-     "d": "Organic Apple & Ginger Smoothie - made from fully ripe, handpicked apples and apple juice and a little ginger. A vitamin bomb for athletes and yogis. Ingredients - apples* (65%),apple juice*(32%), ginger*(3%) - (*organic) Sizes: 200ml.",
+     "d": "Organic Apple & Ginger Smoothie - made from fully ripe, handpicked apples and apple juice and a little ginger. A vitamin bomb for athletes and yogis.",
      "img": "img/items/alpe-pragas-010.jpg",
      "size": [
       720,
@@ -155,7 +155,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Plum",
      "g": "Fruit preserves",
-     "d": "Fruit preserve plum - made with sweet plums. Plum (Prunus domestica) belongs to the rose family and is a stone fruit. Originally from Asia Minor, the cultivated plum was cultivated in Greece 2500 years ago and came to Italy in the 2nd century BC. Plums also provide high amounts of potassium and vitamin B. Ingredients - Plum (75%), sugar, lemon juice, gelling agent: pectin (from Sizes: 335g.",
+     "d": "Fruit preserve plum - made with sweet plums. Plum (Prunus domestica) belongs to the rose family and is a stone fruit. Originally from Asia Minor, the cultivated plum was cultivated in Greece 2500 years ago and came to Italy in the 2nd century BC. Plums also provide high amounts of potassium and vitamin B.",
      "img": "img/items/alpe-pragas-011.jpg",
      "size": [
       720,
@@ -166,7 +166,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Sour cherry",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Sour cherry - Made from dark red, finely aromatic sour cherries. The sour cherry, also called (Prunus cerasus), is a plant species of the rose family. It differs from the sweet cherry (Prunus avium) in its glandless, harder leaves and small ones at the base of the inflorescence. Cherries also have a high content of vitamin A. Ingredients - Sour cherry (75%), suga Sizes: 600g, 1800g, 110g.",
+     "d": "Fruit preserve Sour cherry - Made from dark red, finely aromatic sour cherries. The sour cherry, also called (Prunus cerasus), is a plant species of the rose family. It differs from the sweet cherry (Prunus avium) in its glandless, harder leaves and small ones at the base of the inflorescence. Cherries also have a high content of vitamin A.",
      "img": "img/items/alpe-pragas-012.jpg",
      "size": [
       720,
@@ -177,7 +177,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Raspberry, Strawberry & Elderflower",
      "g": "Fruit preserves",
-     "d": "Raspberry, strawberry & elderflower fruit preserve - Aromatic, fragrant raspberries paired with unmistakable strawberries and fresh elderflowers from the Dolomites. A special flavour experience, wonderfully fruity and fresh. The latest fruit preserve from Alpe Pragas, delicious as a spread on bread, in yoghurt or simply to spoon up. Ingredients - raspberries (32%), strawberries Sizes: 335g.",
+     "d": "Raspberry, strawberry & elderflower fruit preserve - Aromatic, fragrant raspberries paired with unmistakable strawberries and fresh elderflowers from the Dolomites. A special flavour experience, wonderfully fruity and fresh. The latest fruit preserve from Alpe Pragas, delicious as a spread on bread, in yoghurt or simply to spoon up.",
      "img": "img/items/alpe-pragas-013.jpg",
      "size": [
       720,
@@ -188,7 +188,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Peach & Raspberry",
      "g": "Fruit preserves",
-     "d": "Fruit specialty made from fully ripe, handpicked organic peaches and raspberries, a little sugar and a dash of lemon juice. The fruit preserves are preserved by careful pasteurization and are free of preservatives and artificial colors. Ingredients - Peaches* (37,5%), raspberries* (37,5%), sugar*, lemon juice*, gelling agent: pectin (from apple). *organic Sizes: 30g.",
+     "d": "Fruit specialty made from fully ripe, handpicked organic peaches and raspberries, a little sugar and a dash of lemon juice. The fruit preserves are preserved by careful pasteurization and are free of preservatives and artificial colors.",
      "img": "img/items/alpe-pragas-014.jpg",
      "size": [
       720,
@@ -199,7 +199,7 @@ window.SITE = {
     {
      "n": "Mountain Mint Syrup",
      "g": "Fruit syrups",
-     "d": "Mountain mint fruit syrup - On our own fields we grow peppermint which is carefully picked by hand in July and August. From this we press a refreshing syrup which can be enjoyed with warm water as well as a refreshing drink or cocktail. Ingredients: Mountain mint extract (50%) (water, sugar, mountain mint), sugar, lemon juice. Sizes: 500ml.",
+     "d": "Mountain mint fruit syrup - On our own fields we grow peppermint which is carefully picked by hand in July and August. From this we press a refreshing syrup which can be enjoyed with warm water as well as a refreshing drink or cocktail.",
      "img": "img/items/alpe-pragas-015.jpg",
      "size": [
       720,
@@ -210,7 +210,7 @@ window.SITE = {
     {
      "n": "Fruit in syrup Apricot",
      "g": "Fruits in syrup",
-     "d": "Apricots fruits in syrup - From honey-sweet, delicious apricots from the Vinschgau region. To enjoy in muesli for breakfast or as dessert with ice cream. Ingredients - Apricots, Sugar, Water, Lemon juice Sizes: 340g.",
+     "d": "Apricots fruits in syrup - From honey-sweet, delicious apricots from the Vinschgau region. To enjoy in muesli for breakfast or as dessert with ice cream.",
      "img": "img/items/alpe-pragas-016.jpg",
      "size": [
       720,
@@ -221,7 +221,7 @@ window.SITE = {
     {
      "n": "Lemon Jam",
      "g": "Fruit preserves",
-     "d": "Lemon jam - made with top quality lemons from Italy. Lemon ( Citrus limon ) is a fruit tree belonging to the Rutaceae family. The common name lemon can refer to the plant as much as to the fruit. Delightfully fragrant, aromatic and fresh and with a full-bodied consistency: a balance of flavor between sweet, sour and bitter at the same time. Rich in Vitamin C. Special for breakf Sizes: 110g.",
+     "d": "Lemon jam - made with top quality lemons from Italy. Lemon ( Citrus limon ) is a fruit tree belonging to the Rutaceae family. The common name lemon can refer to the plant as much as to the fruit. Delightfully fragrant, aromatic and fresh and with a full-bodied consistency: a balance of flavor between sweet, sour and bitter at the same time. Rich in Vitamin C.",
      "img": "img/items/alpe-pragas-017.jpg",
      "size": [
       720,
@@ -232,7 +232,7 @@ window.SITE = {
     {
      "n": "Chutney Grill - Barbeque",
      "g": "Chutneys",
-     "d": "Grill - Barbeque Chutney - Hot combination of different kinds of peppers and exotic ginger. The Mostarda produced by Alpe Pragas is ideally suited as a spicy side dish to grilled, spicy cheese as well as mature Pecorino and Parmesan cheese. Ingredients - Red and green pepper (56%), sugar, onion (6%), lemon juice, ginger, garlic (1%), chili (0.1%), spices, gelling agent: pectin Sizes: 160g.",
+     "d": "Grill - Barbeque Chutney - Hot combination of different kinds of peppers and exotic ginger. The Mostarda produced by Alpe Pragas is ideally suited as a spicy side dish to grilled, spicy cheese as well as mature Pecorino and Parmesan cheese.",
      "img": "img/items/alpe-pragas-018.jpg",
      "size": [
       720,
@@ -243,7 +243,7 @@ window.SITE = {
     {
      "n": "Chutney Sweet Red Pepper and Chili",
      "g": "Chutneys",
-     "d": "Sweet Red Pepper and Chili Chutney - A creation for lovers of the red pepper. It goes wonderfully with spicy hard cheese, parmesan and grilled meat. Ingredients - Sweet red pepper (60%), sugar, lemon juice, ginger, chili (0.1%), spices, gelling agent: pectin (from apple) - May contain traces of mustard Sizes: 160g.",
+     "d": "Sweet Red Pepper and Chili Chutney - A creation for lovers of the red pepper. It goes wonderfully with spicy hard cheese, parmesan and grilled meat.",
      "img": "img/items/alpe-pragas-019.jpg",
      "size": [
       720,
@@ -254,7 +254,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Orange",
      "g": "Fruit preserves",
-     "d": "Jam of Orange - From first-class, aromatic, italian oranges. Orange is an evergreen tree and belongs to the citrus fruit genus. In Italy, oranges are harvested from November to January. For our jams we use Sicilian oranges of the varieties Navel and Tarocco. Oranges are known to contain a lot of vitamin C, folic acid and phosphorus. Ingredients - Oranges (75%), sugar, lemon jui Sizes: 110g, 335g.",
+     "d": "Jam of Orange - From first-class, aromatic, italian oranges. Orange is an evergreen tree and belongs to the citrus fruit genus. In Italy, oranges are harvested from November to January. For our jams we use Sicilian oranges of the varieties Navel and Tarocco. Oranges are known to contain a lot of vitamin C, folic acid and phosphorus.",
      "img": "img/items/alpe-pragas-020.jpg",
      "size": [
       720,
@@ -265,7 +265,7 @@ window.SITE = {
     {
      "n": "Chutney Apple & Onion",
      "g": "Chutneys",
-     "d": "Apple and Onion Chutney - Spicy combination of apple & onion, rounded and refined with spices. Alpe Pragas recommends: Delicious to well matured mountain cheese, ripened sheep cheese and cooked meat. Ingredients - Sugar, apple (32%), onion (14%), wine vinegar, garlic, pepper, star anise, cinnamon, spices, gelling agent: pectin (from apple). May contain traces of mustard. Sizes: 70g, 160g.",
+     "d": "Apple and Onion Chutney - Spicy combination of apple & onion, rounded and refined with spices. Alpe Pragas recommends: Delicious to well matured mountain cheese, ripened sheep cheese and cooked meat.",
      "img": "img/items/alpe-pragas-021.jpg",
      "size": [
       720,
@@ -276,7 +276,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Lingonberry",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Lingonberry - Made from slightly acidic, tastefully intense wild lingonberries. The Lingonberry (Vaccinium vitis idaea) is a plant of the blueberry genus. Since the lingonberry is insensitive to frost (tolerated down to -22 °C), it occurs worldwide in the northern hemisphere - from the northern temperate zone to the Arctic. The fruits, which are rarely eaten raw Sizes: 1800g, 600g, 335g.",
+     "d": "Fruit preserve Lingonberry - Made from slightly acidic, tastefully intense wild lingonberries. The Lingonberry (Vaccinium vitis idaea) is a plant of the blueberry genus. Since the lingonberry is insensitive to frost (tolerated down to -22 °C), it occurs worldwide in the northern hemisphere - from the northern temperate zone to the Arctic.",
      "img": "img/items/alpe-pragas-022.jpg",
      "size": [
       720,
@@ -287,7 +287,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Bilberry",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Bilberry - with sweet, midnight blue bilberries from wild harvesting. The bilberry (Vaccinium myrtillus) is a plant of the family (Ericaceae) with about 100-150 species. The most common variety used by Alpe Pragas is the wild bilberry \"Vaccinium myrtillus\". The fruits contain a lot of carotene, vitamin B6, vitamin C and magnesium. Due to the anthocyanins they con Sizes: 1800g, 600g, 335g, 110g.",
+     "d": "Fruit preserve Bilberry - with sweet, midnight blue bilberries from wild harvesting. The bilberry (Vaccinium myrtillus) is a plant of the family (Ericaceae) with about 100-150 species. The most common variety used by Alpe Pragas is the wild bilberry \"Vaccinium myrtillus\". The fruits contain a lot of carotene, vitamin B6, vitamin C and magnesium.",
      "img": "img/items/alpe-pragas-023.jpg",
      "size": [
       720,
@@ -298,7 +298,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Raspberry",
      "g": "Fruit preserves",
-     "d": "Raspera - fruit preserve made from fresh dark red raspberries. The \"Willamette\" variety used by ALPE PRAGAS belongs to the summer raspberries and is characterised by a particularly intense aroma. The fruits have a Vitman C content of 25 mg / 100 g. The raspberry - Rubus idaeus - is a plant found throughout the northern hemisphere and along the edges of the forest. A distinction Sizes: 1800g, 600g, 110g, 335g.",
+     "d": "Raspera - fruit preserve made from fresh dark red raspberries. The \"Willamette\" variety used by ALPE PRAGAS belongs to the summer raspberries and is characterised by a particularly intense aroma. The fruits have a Vitman C content of 25 mg / 100 g. The raspberry - Rubus idaeus - is a plant found throughout the northern hemisphere and along the edges of the forest.",
      "img": "img/items/alpe-pragas-024.jpg",
      "size": [
       720,
@@ -309,7 +309,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Strawberry",
      "g": "Fruit preserves",
-     "d": "Strawberry Fruit preserve - Made from sun-ripened, aromatic strawberries. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red fruits and was bred around 1950 by Reinhold von Sengbusch. Strawberries contain so much vitamin C that 150 g of it cover the daily requirement. They contain more vitamin C than oranges or lemo Sizes: 1800g, 335g, 600g, 110g.",
+     "d": "Strawberry Fruit preserve - Made from sun-ripened, aromatic strawberries. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red fruits and was bred around 1950 by Reinhold von Sengbusch. Strawberries contain so much vitamin C that 150 g of it cover the daily requirement.",
      "img": "img/items/alpe-pragas-025.jpg",
      "size": [
       720,
@@ -320,7 +320,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Apricot",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Apricot - Made from honey-sweet, delicious apricots. The apricot belongs to the genus Prunus. The apricot comes from northeast China, the Romans brought it about 70 BC via Anatolia to Europe. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain. There are also more northerly cultivation areas, such as in the South Tyrolean Vinschgau, Sizes: 1800g, 600g, 335g, 110g.",
+     "d": "Fruit preserve Apricot - Made from honey-sweet, delicious apricots. The apricot belongs to the genus Prunus. The apricot comes from northeast China, the Romans brought it about 70 BC via Anatolia to Europe. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain.",
      "img": "img/items/alpe-pragas-026.jpg",
      "size": [
       720,
@@ -331,7 +331,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Quince",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Quince - From aromatic, autumnal quince. The quince (Cydonia oblonga) is the only species of the genus Cydonia that belongs to the subfamily pome fruit plants of the rose family. Quinces probably originate from Transcaucasia and are one of the oldest fruit species to have been native to Southeast Europe for thousands of years. Today, quinces are cultivated mainly Sizes: 335g.",
+     "d": "Fruit preserve Quince - From aromatic, autumnal quince. The quince (Cydonia oblonga) is the only species of the genus Cydonia that belongs to the subfamily pome fruit plants of the rose family. Quinces probably originate from Transcaucasia and are one of the oldest fruit species to have been native to Southeast Europe for thousands of years.",
      "img": "img/items/alpe-pragas-027.jpg",
      "size": [
       720,
@@ -342,7 +342,7 @@ window.SITE = {
     {
      "n": "Organic fruit Nectar Peach",
      "g": "Organic fruit nectars",
-     "d": "peach fruit nectar - From deliciously aromatic and fully ripe, hand-picked peaches. A fruity snack for in between. Ingredients - peach purèe*, water (spring water from the Dolomites), agave syrup* - ( *organic) Sizes: 250 ml.",
+     "d": "peach fruit nectar - From deliciously aromatic and fully ripe, hand-picked peaches. A fruity snack for in between.",
      "img": "img/items/alpe-pragas-028.jpg",
      "size": [
       720,
@@ -353,7 +353,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Rose hip finely strained",
      "g": "Fruit preserves",
-     "d": "Fruit preserve rose hip - The rose hip is a collective fruit that contains many small nuts. The flesh of the fruit harvested in late autumn comes from the fleshy flower soil, is sweet-sour and rich in vitamins. The fruits are known for their high content of vitamin C, but they also contain vitamins A, B1, B2 and minerals. Ingredients - Rose hip puree* (75%), sugar, lemon juice, Sizes: 335g.",
+     "d": "Fruit preserve rose hip - The rose hip is a collective fruit that contains many small nuts. The flesh of the fruit harvested in late autumn comes from the fleshy flower soil, is sweet-sour and rich in vitamins. The fruits are known for their high content of vitamin C, but they also contain vitamins A, B1, B2 and minerals.",
      "img": "img/items/alpe-pragas-029.jpg",
      "size": [
       720,
@@ -364,7 +364,7 @@ window.SITE = {
     {
      "n": "Organic Pear - Raspberry Smoothie",
      "g": "Organic smoothies",
-     "d": "Bio Smoothie Pear and Raspberry - Lovely pear paired with fresh raspberries. Ingredients - Williams pear purèe* (76%), raspberry juice* (19%), agave syrup* - (*organic) Sizes: 200ml.",
+     "d": "Bio Smoothie Pear and Raspberry - Lovely pear paired with fresh raspberries.",
      "img": "img/items/alpe-pragas-030.jpg",
      "size": [
       720,
@@ -375,7 +375,7 @@ window.SITE = {
     {
      "n": "Organic Apricot Smoothie",
      "g": "Organic smoothies",
-     "d": "Organic Apricot Smoothie - Made from honey-sweet, delicious apricots. A vitamin bomb for athletes and yogis. Ingredients - Apricot purèe* (95%), agave syrup* - (*organic) Sizes: 200ml.",
+     "d": "Organic Apricot Smoothie - Made from honey-sweet, delicious apricots. A vitamin bomb for athletes and yogis.",
      "img": "img/items/alpe-pragas-031.jpg",
      "size": [
       720,
@@ -386,7 +386,7 @@ window.SITE = {
     {
      "n": "Organic Bilberry Smoothie",
      "g": "Organic smoothies",
-     "d": "Organic Bilberry Smoothie - made from fully ripe, wild blueberries. A vitamin bomb for athletes and yogis. Ingredients - Bilberries*/** and bilberry juice* (95%), agave syrup* - (*organic, **wild harvesting) Sizes: 200ml.",
+     "d": "Organic Bilberry Smoothie - made from fully ripe, wild blueberries. A vitamin bomb for athletes and yogis.",
      "img": "img/items/alpe-pragas-032.jpg",
      "size": [
       720,
@@ -397,7 +397,7 @@ window.SITE = {
     {
      "n": "Organic Lingonberry Smoothie",
      "g": "Organic smoothies",
-     "d": "Organic lingonberry smoothie, made from fully ripe, wild lingonberries. A vitamin bomb for athletes and yogis. Ingredients - Lingonberries*/** (75%), water, (spring water from the Dolomites), agave syrup* - (*organic, **wild harvesting) Sizes: 200ml.",
+     "d": "Organic lingonberry smoothie, made from fully ripe, wild lingonberries. A vitamin bomb for athletes and yogis.",
      "img": "img/items/alpe-pragas-033.jpg",
      "size": [
       720,
@@ -408,7 +408,7 @@ window.SITE = {
     {
      "n": "Organic Pear - Raspberry Nectar",
      "g": "Organic fruit nectars",
-     "d": "Pear & raspberry fruit nectar, from fully ripe, hand picked organic pears and raspberries. A fruity snack for in between. Ingredients - Pear puree \"Williams Christ\" (35%), water (spring water from the Dolomites), raspberry juice* (15%), agave syrup* - (*organic) Sizes: 250ml.",
+     "d": "Pear & raspberry fruit nectar, from fully ripe, hand picked organic pears and raspberries. A fruity snack for in between.",
      "img": "img/items/alpe-pragas-034.jpg",
      "size": [
       720,
@@ -419,7 +419,7 @@ window.SITE = {
     {
      "n": "Organic Apricot Nectar",
      "g": "Organic fruit nectars",
-     "d": "Apricot fruit nectar - from fully ripe, hand-picked apricots. A fruity snack for in between with a fruit content of at least 50%. Ingredients - Apricot puree*, water (spring water from the Dolomites), agave syrup* (*organic) Sizes: 250 ml.",
+     "d": "Apricot fruit nectar - from fully ripe, hand-picked apricots. A fruity snack for in between with a fruit content of at least 50%.",
      "img": "img/items/alpe-pragas-035.jpg",
      "size": [
       720,
@@ -430,7 +430,7 @@ window.SITE = {
     {
      "n": "Organic Bilberry Nectar",
      "g": "Organic fruit nectars",
-     "d": "Bilberry nectar, made from sweet, wild bilberries. A fruity snack for in between. Ingredients - Bilberries*/** and bilberry juice*, water (spring water from the Dolomites), agave syrup* - ( *organic, **wild harvesting) Sizes: 250ml.",
+     "d": "Bilberry nectar, made from sweet, wild bilberries. A fruity snack for in between.",
      "img": "img/items/alpe-pragas-036.jpg",
      "size": [
       720,
@@ -441,7 +441,7 @@ window.SITE = {
     {
      "n": "Cornel cherry Syrup",
      "g": "Fruit syrups",
-     "d": "Cornel cherry syrup - The cornel cherry, occurring as a shrub or tree, is not closely related to the cherries, but its fruits have an intense, cherry-like aroma. It is harvested from August to October. Deliciously refreshing, also in combination with a glass of white wine as an aperitif. Ingredients: Cornel Cherry juice (50%), sugar, lemon juice. Sizes: 500ml.",
+     "d": "Cornel cherry syrup - The cornel cherry, occurring as a shrub or tree, is not closely related to the cherries, but its fruits have an intense, cherry-like aroma. It is harvested from August to October. Deliciously refreshing, also in combination with a glass of white wine as an aperitif.",
      "img": "img/items/alpe-pragas-037.jpg",
      "size": [
       720,
@@ -452,7 +452,7 @@ window.SITE = {
     {
      "n": "Bilberry Syrup",
      "g": "Fruit syrups",
-     "d": "Bilberry syrup - Sweet bilberries from wild harvesting. The bilberry (Vaccinium myrtillus) is a plant genus of the heather family (Ericaceae) with about 100-150 species. The most common species used by Alpe Pragas is the wild bilberry \"Vaccinium myrtillus\", which is recommended as a refreshing drink, aperitif & cocktail. Ingredients: Bilberry juice (50%), sugar, lemon juice Sizes: 500ml.",
+     "d": "Bilberry syrup - Sweet bilberries from wild harvesting. The bilberry (Vaccinium myrtillus) is a plant genus of the heather family (Ericaceae) with about 100-150 species. The most common species used by Alpe Pragas is the wild bilberry \"Vaccinium myrtillus\", which is recommended as a refreshing drink, aperitif & cocktail.",
      "img": "img/items/alpe-pragas-038.jpg",
      "size": [
       720,
@@ -463,7 +463,7 @@ window.SITE = {
     {
      "n": "Raspberry Syrup",
      "g": "Fruit syrups",
-     "d": "Raspberry syrup. The raspberry (Rubus idaeus) is a plant species found all over the northern hemisphere at forest margins and clearings. A distinction is made between summer and autumn raspberries. The \"Willamette\" variety used by Alpe Pragas belongs to the group of summer raspberries and is characterised by its particularly intense aroma. Recommended as a soft drink, aperitif Sizes: 500ml.",
+     "d": "Raspberry syrup. The raspberry (Rubus idaeus) is a plant species found all over the northern hemisphere at forest margins and clearings. A distinction is made between summer and autumn raspberries. The \"Willamette\" variety used by Alpe Pragas belongs to the group of summer raspberries and is characterised by its particularly intense aroma.",
      "img": "img/items/alpe-pragas-039.jpg",
      "size": [
       720,
@@ -474,7 +474,7 @@ window.SITE = {
     {
      "n": "Elderflower syrup",
      "g": "Fruit syrups",
-     "d": "Fruit syrup elderflower - The elderflower (Sambucus nigra) is a genus from the family of muskweed plants. From May to July, white or slightly yellowish flowers bloom on the shrub. Their fresh and fruity scent is unmistakable and typical for elderberries. We make the elderberry syrup from the flower... Recommended as a soft drink, aperitif & cocktail. Ingredients: Elderflower ex Sizes: 500ml.",
+     "d": "Fruit syrup elderflower - The elderflower (Sambucus nigra) is a genus from the family of muskweed plants. From May to July, white or slightly yellowish flowers bloom on the shrub. Their fresh and fruity scent is unmistakable and typical for elderberries. We make the elderberry syrup from the flower... Recommended as a soft drink, aperitif & cocktail.",
      "img": "img/items/alpe-pragas-040.jpg",
      "size": [
       720,
@@ -485,7 +485,7 @@ window.SITE = {
     {
      "n": "Apricot Syrup",
      "g": "Fruit syrups",
-     "d": "Fruit syrup apricot - Made from honey sweet, delicious apricots. We obtain our apricots from the Vinschgau region. Recommended as a refreshing drink, aperitif & cocktail. Ingredients : Apricot purée (50%), sugar, lemon juice Sizes: 500ml.",
+     "d": "Fruit syrup apricot - Made from honey sweet, delicious apricots. We obtain our apricots from the Vinschgau region. Recommended as a refreshing drink, aperitif & cocktail.",
      "img": "img/items/alpe-pragas-041.jpg",
      "size": [
       720,
@@ -496,7 +496,7 @@ window.SITE = {
     {
      "n": "Chutney Fig & green Tomato",
      "g": "Chutneys",
-     "d": "Chutney Fig and green Tomato as a delicate accompaniment to cheese. Alpe Pragas recommends: the ideal combination for well-ripened cow and sheep cheese as well as for mountain cheese. Ingredients - Green tomatoes (50%), sugar, figs (13%), lemon juice, ginger, mustard grains, cloves, chilli, spices, gelling agent: pectin (from apple). Sizes: 70g.",
+     "d": "Chutney Fig and green Tomato as a delicate accompaniment to cheese. Alpe Pragas recommends: the ideal combination for well-ripened cow and sheep cheese as well as for mountain cheese.",
      "img": "img/items/alpe-pragas-042.jpg",
      "size": [
       720,
@@ -507,7 +507,7 @@ window.SITE = {
     {
      "n": "Bilberries in Syrup",
      "g": "Fruits in syrup",
-     "d": "Fruits in syrup bilberries. Made from sweet bilberries from wild harvesting. To enjoy in muesli for breakfast or as dessert with ice cream. Ingredients - Bilberries, sugar, water, lemon juice Sizes: 340g.",
+     "d": "Fruits in syrup bilberries. Made from sweet bilberries from wild harvesting. To enjoy in muesli for breakfast or as dessert with ice cream.",
      "img": "img/items/alpe-pragas-043.jpg",
      "size": [
       720,
@@ -518,7 +518,7 @@ window.SITE = {
     {
      "n": "Mixed Berries in Syrup",
      "g": "Fruits in syrup",
-     "d": "Fruits in syrup mixed berries - harmonious interplay of natural berry aromas, pure special blend of various forest fruits such as blueberries, raspberries, red and black currants. To enjoy in muesli for breakfast or as dessert with ice cream. Ingredients - Mixed berries (blueberries, raspberries, red currant), sugar, water, lemon juice Sizes: 340g.",
+     "d": "Fruits in syrup mixed berries - harmonious interplay of natural berry aromas, pure special blend of various forest fruits such as blueberries, raspberries, red and black currants. To enjoy in muesli for breakfast or as dessert with ice cream.",
      "img": "img/items/alpe-pragas-044.jpg",
      "size": [
       720,
@@ -529,7 +529,7 @@ window.SITE = {
     {
      "n": "Chutney Lingonberry, Ginger with Balsamic Vinegar of Modena",
      "g": "Chutneys",
-     "d": "Chutney Lingonberry, Ginger with Balsamic Vinegar of Modena: Fruit speciality made from fully ripe, hand-picked linonberries, a little sugar, ginger, a dash of orange juice and a pinch of cinnamon, all rounded off with Modena balsamic vinegar stored in barrels. The Chutney produced by Alpe Pragas is ideal with game and fresh or baked Camambert. Ingredients - Lingonberries (60%) Sizes: 160g.",
+     "d": "Chutney Lingonberry, Ginger with Balsamic Vinegar of Modena: Fruit speciality made from fully ripe, hand-picked linonberries, a little sugar, ginger, a dash of orange juice and a pinch of cinnamon, all rounded off with Modena balsamic vinegar stored in barrels. The Chutney produced by Alpe Pragas is ideal with game and fresh or baked Camambert.",
      "img": "img/items/alpe-pragas-045.jpg",
      "size": [
       720,
@@ -540,7 +540,7 @@ window.SITE = {
     {
      "n": "Chutney Mango & Ginger",
      "g": "Chutneys",
-     "d": "Mango & Ginger Chutney - Delicious fruity mango in combination with spicy ginger. Excellent with cream cheese, exotic rice dishes and poultry. Ingredients - Mango and mango purèe (66%), sugar, apple vinegar, ginger (1%), lemon juice, pink peppercorn, chili (0,9%), gelling agent: pectine (from apple) - May contain traces of mustard Sizes: 160g.",
+     "d": "Mango & Ginger Chutney - Delicious fruity mango in combination with spicy ginger. Excellent with cream cheese, exotic rice dishes and poultry.",
      "img": "img/items/alpe-pragas-046.jpg",
      "size": [
       720,
@@ -551,7 +551,7 @@ window.SITE = {
     {
      "n": "Chutney Bilberry & Horseradish",
      "g": "Chutneys",
-     "d": "Bilberry & Horseradish Chutney - Fruity bilberries meets spicy horseradish. Alpe Pragas recommends: Tastes excellent with smoked and cooked meat, bacon, cold dishes and smoked fish. Ingredients - Bilberries (56%), sugar, horseradish (16%), lemon juice, spices, gelling agent: pectin (from apple) - May contain traces of mustard Sizes: 160g.",
+     "d": "Bilberry & Horseradish Chutney - Fruity bilberries meets spicy horseradish. Alpe Pragas recommends: Tastes excellent with smoked and cooked meat, bacon, cold dishes and smoked fish.",
      "img": "img/items/alpe-pragas-047.jpg",
      "size": [
       720,
@@ -562,7 +562,7 @@ window.SITE = {
     {
      "n": "Chutney Apricot & Pumpkin",
      "g": "Chutneys",
-     "d": "Apricot & Pumpkin Chutney - Fruity creation of apricot and pumpkin, refined with star anise. Fits perfectly with medium matured whole milk cheese and mountain cheese. Ingredients - Apricots (32%), sugar, pumpkin (21%), apple vinegar, onion, star anise, chili, spices, gelling agent: pectin (from apple). Sizes: 160g.",
+     "d": "Apricot & Pumpkin Chutney - Fruity creation of apricot and pumpkin, refined with star anise. Fits perfectly with medium matured whole milk cheese and mountain cheese.",
      "img": "img/items/alpe-pragas-048.jpg",
      "size": [
       720,
@@ -573,7 +573,7 @@ window.SITE = {
     {
      "n": "Chutney Quince and Mustard",
      "g": "Chutneys",
-     "d": "Quince & Mustard Chutney - Mild creation of quince, mustard seeds and lemon. Excellent with fresh cow and goat cheese, brie and fresh sheep cheese. Ingredients - Quince purèe (62%), sugar, lemon juice, mustard grains (0.5%), chili, spices, gelling agent: pectin (from apple). Sizes: 160g.",
+     "d": "Quince & Mustard Chutney - Mild creation of quince, mustard seeds and lemon. Excellent with fresh cow and goat cheese, brie and fresh sheep cheese.",
      "img": "img/items/alpe-pragas-049.jpg",
      "size": [
       720,
@@ -584,7 +584,7 @@ window.SITE = {
     {
      "n": "Chutney Fig and spicy Mustard",
      "g": "Chutneys",
-     "d": "Fig and spicy mustard Chutney - delicately sweet figs in an intensively spicy mustard combination. The ideal combination for medium and highly ripened cow, goat and sheep cheese. Ingredients : Figs (55%), sugar, lemon juice, mustard grains (1%), chili, spices, gelling agent: pectin (from apple). Sizes: 160g.",
+     "d": "Fig and spicy mustard Chutney - delicately sweet figs in an intensively spicy mustard combination. The ideal combination for medium and highly ripened cow, goat and sheep cheese.",
      "img": "img/items/alpe-pragas-050.jpg",
      "size": [
       720,
@@ -595,7 +595,7 @@ window.SITE = {
     {
      "n": "Raspberry mustard with \"Balsamic Vinegar of Modena PGI\"",
      "g": "Chutneys",
-     "d": "Raspberry mustard with \"Balsamic Vinegar of Modena PGI\" - ripe raspberries, hand-picked, refined with aromatic Balsamic Vinegar of Modena. Ideal with fresh cheese and panna cotta. Ingredients - Raspberries (60%), sugar, \"Balsamic Vinegar of Modena PGI\" (8%), lime puree, chilli pepper (0.03%), spices, gelling agent: pectins (from apple). May contain traces of mustard Sizes: 160g.",
+     "d": "Raspberry mustard with \"Balsamic Vinegar of Modena PGI\" - ripe raspberries, hand-picked, refined with aromatic Balsamic Vinegar of Modena. Ideal with fresh cheese and panna cotta.",
      "img": "img/items/alpe-pragas-051.jpg",
      "size": [
       720,
@@ -606,7 +606,7 @@ window.SITE = {
     {
      "n": "Chutney Pear & Saffron",
      "g": "Chutneys",
-     "d": "Chutney Pear & Saffron - A fruity combination of sweet pear and finest saffron. Alpe Pragas recommends: delicious with fresh cheese, especially fresh pecorino. An ideal accompaniment to excellent cheese fondue. Ingredients - Pear \"Williams Christ\" (63%), sugar, orange juice, pink pepper, chilli, saffron (0.01%), spices, gelling agent: pectin (from apple). May contain traces of Sizes: 160g, 70g.",
+     "d": "Chutney Pear & Saffron - A fruity combination of sweet pear and finest saffron. Alpe Pragas recommends: delicious with fresh cheese, especially fresh pecorino. An ideal accompaniment to excellent cheese fondue.",
      "img": "img/items/alpe-pragas-052.jpg",
      "size": [
       720,
@@ -617,7 +617,7 @@ window.SITE = {
     {
      "n": "Chutney Fig & Spicy Mustard",
      "g": "Chutneys",
-     "d": "Fig and spicy mustard Chutney - delicately sweet figs in an intensively spicy mustard combination. The ideal combination for medium and highly ripened cow, goat and sheep cheese. Ingredients: Figs (55%), sugar, lemon juice, mustard grains (1%), chili, spices, gelling agent: pectin (from apple). Sizes: 70g.",
+     "d": "Fig and spicy mustard Chutney - delicately sweet figs in an intensively spicy mustard combination. The ideal combination for medium and highly ripened cow, goat and sheep cheese.",
      "img": "img/items/alpe-pragas-053.jpg",
      "size": [
       720,
@@ -628,7 +628,7 @@ window.SITE = {
     {
      "n": "Chutney Raspberry with Balsamic Vinegar of Modena",
      "g": "Chutneys",
-     "d": "Chutney Raspberry with Balsamic vinegar of Modena - fruity raspberries refined with barrel aged, aromatic balsamic vinegar from Modena. Ideal with cream cheese and panna cotta. Ingredients - Raspberries (60%), sugar, Balsamic vinegar of Modena (8%), lime purèe, chili (0.03%), spices, gelling agent: pectin (from apple). May contain traces of mustard Sizes: 70g.",
+     "d": "Chutney Raspberry with Balsamic vinegar of Modena - fruity raspberries refined with barrel aged, aromatic balsamic vinegar from Modena. Ideal with cream cheese and panna cotta.",
      "img": "img/items/alpe-pragas-054.jpg",
      "size": [
       720,
@@ -639,7 +639,7 @@ window.SITE = {
     {
      "n": "Chutney Fig & Green Tomato",
      "g": "Chutneys",
-     "d": "Chutney Fig and green Tomato as a delicate accompaniment to cheese. Alpe Pragas recommends: the ideal combination for well-ripened cow and sheep cheese and strong mountain cheese. Ingredients - Green tomatoes (50%), sugar, figs (13%), lemon juice, ginger, mustard grains, cloves, chilli, spices, gelling agent: pectin (from apple). Sizes: 160g.",
+     "d": "Chutney Fig and green Tomato as a delicate accompaniment to cheese. Alpe Pragas recommends: the ideal combination for well-ripened cow and sheep cheese and strong mountain cheese.",
      "img": "img/items/alpe-pragas-055.jpg",
      "size": [
       720,
@@ -650,7 +650,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Apple",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve apple. From aromatic, fresh apples from Vinschgau. Ingredients - Apples* (65%), agave syrup*, lemon juice*, gelling agent: pectin (from apple) (*organic) Sizes: 220g.",
+     "d": "Organic fruit preserve apple. From aromatic, fresh apples from Vinschgau.",
      "img": "img/items/alpe-pragas-056.jpg",
      "size": [
       720,
@@ -661,7 +661,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Orange",
      "g": "Fruit preserves",
-     "d": "Organic jam Orange - Made from first-class, aromatic oranges from Italy. Orange is an evergreen tree and belongs to the citrus fruit genus. In Italy, oranges are harvested from November to January. For our jams we use Sicilian oranges of the varieties Navel and Tarocco. Oranges are known to contain a lot of vitamin C, folic acid and phosphorus. Ingredients - Oranges* (65%), aga Sizes: 220g, 30g.",
+     "d": "Organic jam Orange - Made from first-class, aromatic oranges from Italy. Orange is an evergreen tree and belongs to the citrus fruit genus. In Italy, oranges are harvested from November to January. For our jams we use Sicilian oranges of the varieties Navel and Tarocco. Oranges are known to contain a lot of vitamin C, folic acid and phosphorus.",
      "img": "img/items/alpe-pragas-057.jpg",
      "size": [
       720,
@@ -672,7 +672,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Mixed berries Organic",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve mixed berries - For the mixed berries fruit preserve we have a special mixture of different fruits such as blueberries, raspberries, red and black currants. They all contain a lot of vitamin C and magnesium. Ingredients - Mixed berries (65%) (bilberries*/**, raspberries*, strawberries*), agave syrup*, lemon juice*, gelling agent: pectin (from apple) (*org Sizes: 220g.",
+     "d": "Organic fruit preserve mixed berries - For the mixed berries fruit preserve we have a special mixture of different fruits such as blueberries, raspberries, red and black currants. They all contain a lot of vitamin C and magnesium.",
      "img": "img/items/alpe-pragas-058.jpg",
      "size": [
       720,
@@ -683,7 +683,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Apricot Organic",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve apricot - From honey sweet, delicious apricots. The apricot (Prunus armeniaca - also called apricot) belongs to the subgenus Prunophora of the genus Prunus, which belongs to the rose family. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain. There are also more northern cultivation areas, such as in the South Tyrolean Vinsc Sizes: 220g.",
+     "d": "Organic fruit preserve apricot - From honey sweet, delicious apricots. The apricot (Prunus armeniaca - also called apricot) belongs to the subgenus Prunophora of the genus Prunus, which belongs to the rose family. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain.",
      "img": "img/items/alpe-pragas-059.jpg",
      "size": [
       720,
@@ -694,7 +694,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Bilberry",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve bilberry - Made from sweet, midnight blue bilberries from wild harvesting. The most common species used by Alpe Pragas is the wild bilberry \"Vaccinium myrtillus\". The forest bilberry thrives from the Alps to the Arctic Circle and beyond. Ingredients - Bilberries** (65%), agave syrup*, lemon juice*, gelling agent: pectin (from apple) (*organic, ** wild har Sizes: 220g.",
+     "d": "Organic fruit preserve bilberry - Made from sweet, midnight blue bilberries from wild harvesting. The most common species used by Alpe Pragas is the wild bilberry \"Vaccinium myrtillus\". The forest bilberry thrives from the Alps to the Arctic Circle and beyond.",
      "img": "img/items/alpe-pragas-060.jpg",
      "size": [
       720,
@@ -705,7 +705,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Raspberry",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve raspberry - The raspberry (Rubus idaeus) is a plant species found all over the northern hemisphere at forest margins and clearings. A distinction is made between summer and autumn raspberries. The variety \"Willamette\" used by Alpe Pragas belongs to the summer raspberries and is characterized by its particularly intense aroma. The fruits have a vitamin C c Sizes: 220g, 30g.",
+     "d": "Organic fruit preserve raspberry - The raspberry (Rubus idaeus) is a plant species found all over the northern hemisphere at forest margins and clearings. A distinction is made between summer and autumn raspberries. The variety \"Willamette\" used by Alpe Pragas belongs to the summer raspberries and is characterized by its particularly intense aroma.",
      "img": "img/items/alpe-pragas-061.jpg",
      "size": [
       720,
@@ -716,7 +716,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Strawberry Organic",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve Strawberry - From sun-ripened, aromatic strawberries. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red fruits. Strawberries contain so much vitamin C that 150 g of it cover the daily requirement. Ingredients - Strawberries* (65%), agave syrup*, lemon juice*, gelling agent: pectin (from apple Sizes: 220g.",
+     "d": "Organic fruit preserve Strawberry - From sun-ripened, aromatic strawberries. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red fruits. Strawberries contain so much vitamin C that 150 g of it cover the daily requirement.",
      "img": "img/items/alpe-pragas-062.jpg",
      "size": [
       720,
@@ -727,7 +727,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Mixed berries finely strained",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Mixed berries fiely strained. For the fruit preserve mixed berries we have a special mixture of different mixed berries such as raspberries, blackberries, strawberries and red currants. They all contain a lot of vitamin C and magnesium. Ingredients - Mixed berries* (75%) (raspberries, blackberries, strawberries, red currants), sugar, lemon juice, gelling agents: Sizes: 335g.",
+     "d": "Fruit preserve Mixed berries fiely strained. For the fruit preserve mixed berries we have a special mixture of different mixed berries such as raspberries, blackberries, strawberries and red currants. They all contain a lot of vitamin C and magnesium.",
      "img": "img/items/alpe-pragas-063.jpg",
      "size": [
       720,
@@ -738,7 +738,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Apricot finely strained",
      "g": "Fruit preserves",
-     "d": "Fruit preserve apricot finely strained - Made from honey-sweet, delicious apricots. The apricot belongs to the genus Prunus. The apricot comes from northeast China, the Romans brought from Anatolia to Europe. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain. There are also more northerly cultivation areas, such as in the South Tyrolean Vinschgau Sizes: 335g.",
+     "d": "Fruit preserve apricot finely strained - Made from honey-sweet, delicious apricots. The apricot belongs to the genus Prunus. The apricot comes from northeast China, the Romans brought from Anatolia to Europe. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain.",
      "img": "img/items/alpe-pragas-064.jpg",
      "size": [
       720,
@@ -749,7 +749,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Raspberry finely strained",
      "g": "Fruit preserves",
-     "d": "Raspera - fruit preserve raspberry finely strained made from fresh dark red raspberries. The \"Willamette\" variety used by ALPE PRAGAS belongs to the summer raspberries and is characterised by a particularly intense aroma. The fruits have a Vitman C content of 25 mg / 100 g. The raspberry - Rubus idaeus - is a plant found throughout the northern hemisphere and along the edges of Sizes: 335g.",
+     "d": "Raspera - fruit preserve raspberry finely strained made from fresh dark red raspberries. The \"Willamette\" variety used by ALPE PRAGAS belongs to the summer raspberries and is characterised by a particularly intense aroma. The fruits have a Vitman C content of 25 mg / 100 g.",
      "img": "img/items/alpe-pragas-065.jpg",
      "size": [
       720,
@@ -760,7 +760,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Peach",
      "g": "Fruit preserves",
-     "d": "Fruit preserve peach - Made from deliciously aromatic and full-bodied italian peaches. The peach belongs to the stone fruit family. The wonderfully aromatic scent of peach awakens pleasant memories of long, hot summer days. A perfect refreshment with few calories. Ingredients - Peaches (75%), sugar, lemon juice, gelling agent: pectin (from apple) Sizes: 335g.",
+     "d": "Fruit preserve peach - Made from deliciously aromatic and full-bodied italian peaches. The peach belongs to the stone fruit family. The wonderfully aromatic scent of peach awakens pleasant memories of long, hot summer days. A perfect refreshment with few calories.",
      "img": "img/items/alpe-pragas-066.jpg",
      "size": [
       720,
@@ -771,7 +771,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Fig",
      "g": "Fruit preserves",
-     "d": "Fruit preserve fig - From wonderfully sweet italian figs. The figs (Ficus) are the only genus of the Tribus Ficeae within the mulberry family. Probably the best known species is the real fig (Ficus carica), whose fruits are known as figs. Figs not only taste delicious, the sweet fruits contain also various vitamins and important minerals such as magnesium and potassium. Ingredi Sizes: 335g.",
+     "d": "Fruit preserve fig - From wonderfully sweet italian figs. The figs (Ficus) are the only genus of the Tribus Ficeae within the mulberry family. Probably the best known species is the real fig (Ficus carica), whose fruits are known as figs. Figs not only taste delicious, the sweet fruits contain also various vitamins and important minerals such as magnesium and potassium.",
      "img": "img/items/alpe-pragas-067.jpg",
      "size": [
       720,
@@ -782,7 +782,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Apple Strudel",
      "g": "Fruit preserves",
-     "d": "Fruit preserve apple strudel - From aromatic apples, refined with typical spices. A piece of South Tyrolean tradition, delicious for refining desserts or muesli. Ingredients - Apples (75%), sugar, sultanas (4%), lemon juice (1.5%), cinnamon, vanilla, gelling agent: pectin (from apple) Sizes: 335g.",
+     "d": "Fruit preserve apple strudel - From aromatic apples, refined with typical spices. A piece of South Tyrolean tradition, delicious for refining desserts or muesli.",
      "img": "img/items/alpe-pragas-068.jpg",
      "size": [
       720,
@@ -793,7 +793,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Strawberry & Lime",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Strawberry & Lime - Aromatic strawberries paired with refreshing lime. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red and very aromatic fruits. In combination with lime it is a wonderfully refreshing spread on breakfast bread. Ingredients - Strawberries (60%), sugar, lime puree (15%), gelling agen Sizes: 335g.",
+     "d": "Fruit preserve Strawberry & Lime - Aromatic strawberries paired with refreshing lime. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red and very aromatic fruits. In combination with lime it is a wonderfully refreshing spread on breakfast bread.",
      "img": "img/items/alpe-pragas-069.jpg",
      "size": [
       720,
@@ -804,7 +804,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Raspberry & Rhubarb",
      "g": "Fruit preserves",
-     "d": "Fruit preserve raspberry & rhubarb - aromatic raspberries paired with unmistakable rhubarb from the Dolomites. The \"Willamette\" variety used by Alpe Pragas belongs to the summer raspberries and is characterised by its particularly intense aroma. Rhubarb consists of a lot of water and is therefore very low in calories. It also contains a lot of vitamin C, calcium, iron, potassiu Sizes: 335g.",
+     "d": "Fruit preserve raspberry & rhubarb - aromatic raspberries paired with unmistakable rhubarb from the Dolomites. The \"Willamette\" variety used by Alpe Pragas belongs to the summer raspberries and is characterised by its particularly intense aroma. Rhubarb consists of a lot of water and is therefore very low in calories.",
      "img": "img/items/alpe-pragas-070.jpg",
      "size": [
       720,
@@ -815,7 +815,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Peach & Lemongras",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Peach & Lemongrass - Seductive peach paired with exotic lemongrass. Peaches are a stone fruit and are harvested in June and July. The wonderfully aromatic scent of peach awakes pleasant memories of long, hot summer days, paired with the refreshing lemongrass a wonderful combination. Ingredients - Peaches (70%), sugar, lemon juice, lemon grass (1%), gelling agent: Sizes: 335g.",
+     "d": "Fruit preserve Peach & Lemongrass - Seductive peach paired with exotic lemongrass. Peaches are a stone fruit and are harvested in June and July. The wonderfully aromatic scent of peach awakes pleasant memories of long, hot summer days, paired with the refreshing lemongrass a wonderful combination.",
      "img": "img/items/alpe-pragas-071.jpg",
      "size": [
       720,
@@ -826,7 +826,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Pear & Lime",
      "g": "Fruit preserves",
-     "d": "Fruit preserve pear & lime - Lovely pear paired with refreshingly sour lime. The Williams Christ pear ripens in September! Pears are rich in vitamins and fibre, easy to digest and low in fat. Ingredients - pears \"Williams Christ\" (65%), sugar, lime puree (10%), lemon juice, gelling agent: pectin (from apple) Sizes: 335g.",
+     "d": "Fruit preserve pear & lime - Lovely pear paired with refreshingly sour lime. The Williams Christ pear ripens in September! Pears are rich in vitamins and fibre, easy to digest and low in fat.",
      "img": "img/items/alpe-pragas-072.jpg",
      "size": [
       720,
@@ -837,7 +837,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Apricot, Ginger & Peppermint",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Apricot, Ginger & Peppermint - An exotic, fresh composition of honey-sweet apricots paired with slightly spicy ginger and peppermint from the Dolomites. On our own fields we cultivate the peppermint which is carefully picked by hand in the months of July and August. Ingredients - Apricots (75%), sugar, ginger (1,5%), lemon juice, peppermint (0,2%), gelling agent: Sizes: 335g.",
+     "d": "Fruit preserve Apricot, Ginger & Peppermint - An exotic, fresh composition of honey-sweet apricots paired with slightly spicy ginger and peppermint from the Dolomites. On our own fields we cultivate the peppermint which is carefully picked by hand in the months of July and August.",
      "img": "img/items/alpe-pragas-073.jpg",
      "size": [
       720,
@@ -848,7 +848,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Chestnut",
      "g": "Fruit preserves",
-     "d": "Fruit preserve chestnut - Made from noble shiny chestnuts. Originally from Asia Minor, the sweet chestnut spread over time throughout the entire area from the Caucasus to Portugal. For a long time chestnuts were a satiating staple food from which flour and bread were made. Ingredients - Chestnut purée (50%) (chestnuts (63%), water), sugar, lime purée, gelling agents: pectin (fr Sizes: 335g, 110g.",
+     "d": "Fruit preserve chestnut - Made from noble shiny chestnuts. Originally from Asia Minor, the sweet chestnut spread over time throughout the entire area from the Caucasus to Portugal. For a long time chestnuts were a satiating staple food from which flour and bread were made.",
      "img": "img/items/alpe-pragas-074.jpg",
      "size": [
       720,
@@ -859,7 +859,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Elderberry & Plum",
      "g": "Fruit preserves",
-     "d": "Fruit preserve elderberry & plum - Sweet plums paired with distinctive elderberries. In August and September the black \"berries\", rich in vitamin C and potassium and about six millimetres in size, begin to ripen. Elderberries contain a lot of vitamin C and B. Plums, on the other hand, contain plenty of fibre and high amounts of potassium. Ingredients - Elderberries (64%), sugar Sizes: 335g.",
+     "d": "Fruit preserve elderberry & plum - Sweet plums paired with distinctive elderberries. In August and September the black \"berries\", rich in vitamin C and potassium and about six millimetres in size, begin to ripen. Elderberries contain a lot of vitamin C and B. Plums, on the other hand, contain plenty of fibre and high amounts of potassium.",
      "img": "img/items/alpe-pragas-075.jpg",
      "size": [
       720,
@@ -870,7 +870,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Blackberry",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Blackberry - From night black, fully ripe blackberries. The blackberry (Rubus fruticosus) belongs to the extensive rose family. The blackberries are divided into two large groups, the real blackberries and the hazel leaf blackberries. The blackberry is native to the temperate zones of Europe, North Africa, the Near East and North America. Blackberries are a good Sizes: 335g.",
+     "d": "Fruit preserve Blackberry - From night black, fully ripe blackberries. The blackberry (Rubus fruticosus) belongs to the extensive rose family. The blackberries are divided into two large groups, the real blackberries and the hazel leaf blackberries. The blackberry is native to the temperate zones of Europe, North Africa, the Near East and North America.",
      "img": "img/items/alpe-pragas-076.jpg",
      "size": [
       720,
@@ -881,7 +881,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Apricot & Rose hip",
      "g": "Fruit preserves",
-     "d": "Fruit preserve apricot & rose hip - honey sweet apricots paired with vitamin-rich rose hips. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain. There are also more northern cultivation areas, such as the Vinschgau in South Tyrol, from where we source our apricots. The rose hip, on the other hand, is a fruit that contains many small nuts. The frui Sizes: 335g, 110g.",
+     "d": "Fruit preserve apricot & rose hip - honey sweet apricots paired with vitamin-rich rose hips. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain. There are also more northern cultivation areas, such as the Vinschgau in South Tyrol, from where we source our apricots. The rose hip, on the other hand, is a fruit that contains many small nuts.",
      "img": "img/items/alpe-pragas-077.jpg",
      "size": [
       720,
@@ -892,7 +892,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Sour Cherry",
      "g": "Fruit preserves",
-     "d": "Fruit preserve Sour cherry - Made from dark red, finely aromatic sour cherries. The sour cherry, also called (Prunus cerasus), is a plant species of the rose family. It differs from the sweet cherry (Prunus avium) in its glandless, harder leaves. Cherries also have a high content of vitamin A. Ingredients - Sour cherry (75%), sugar, lemon juice, gelling agent: pectin (from appl Sizes: 335g.",
+     "d": "Fruit preserve Sour cherry - Made from dark red, finely aromatic sour cherries. The sour cherry, also called (Prunus cerasus), is a plant species of the rose family. It differs from the sweet cherry (Prunus avium) in its glandless, harder leaves. Cherries also have a high content of vitamin A.",
      "img": "img/items/alpe-pragas-078.jpg",
      "size": [
       720,
@@ -903,7 +903,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Mixed berries",
      "g": "Fruit preserves",
-     "d": "Fruit preserve mixed berries. For the fruit preserve mixed berries we have a special mixture of different forest fruits such as blueberries, raspberries, red and black currants. They all contain a lot of vitamin C and magnesium. Ingredients - Mixed berries (75%) (blueberries*, raspberries, red and black currants), sugar, lemon juice, gelling agents: pectin (from apple) - (*from Sizes: 600g, 335g, 110g.",
+     "d": "Fruit preserve mixed berries. For the fruit preserve mixed berries we have a special mixture of different forest fruits such as blueberries, raspberries, red and black currants. They all contain a lot of vitamin C and magnesium.",
      "img": "img/items/alpe-pragas-079.jpg",
      "size": [
       720,
@@ -914,7 +914,7 @@ window.SITE = {
     {
      "n": "Fruit preserve green Gooseberry",
      "g": "Fruit preserves",
-     "d": "Fruit preserve green Gooseberry - From refreshingly fruity green gooseberries. The gooseberry (Ribes uva-crispa) is a bare winter shrub of the gooseberry family in northern and central Europe. The juicy berries have a diameter of about 10 - 20 mm. Gooseberries contain a lot of vitamin C. Ingredients - Green gooseberries (75%), sugar, lemon juice, gelling agent: pectin (from app Sizes: 335g.",
+     "d": "Fruit preserve green Gooseberry - From refreshingly fruity green gooseberries. The gooseberry (Ribes uva-crispa) is a bare winter shrub of the gooseberry family in northern and central Europe. The juicy berries have a diameter of about 10 - 20 mm. Gooseberries contain a lot of vitamin C.",
      "img": "img/items/alpe-pragas-080.jpg",
      "size": [
       720,
@@ -925,7 +925,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Green Gooseberry",
      "g": "Fruit preserves",
-     "d": "Fruit preserve green gooseberry - From refreshingly fruity green gooseberries. The gooseberry (Ribes uva-crispa) is a bare winter shrub of the gooseberry family in northern and central Europe. The juicy berries have a diameter of about 10 - 20 mm. Gooseberries contain a lot of vitamin C Ingredients - Green gooseberries (75%), sugar, lemon juice, gelling agent: pectin (from appl Sizes: 110g.",
+     "d": "Fruit preserve green gooseberry - From refreshingly fruity green gooseberries. The gooseberry (Ribes uva-crispa) is a bare winter shrub of the gooseberry family in northern and central Europe. The juicy berries have a diameter of about 10 - 20 mm.",
      "img": "img/items/alpe-pragas-081.jpg",
      "size": [
       720,
@@ -936,7 +936,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Black currant",
      "g": "Fruit preserves",
-     "d": "Fruit preserve black currant - From dark currants, intense in taste and with many vitamins. The currant (Ribes) belongs to the gooseberry family and is a European berry fruit. There is the red currant (Ribes rubrum) and the black currant (Ribes nigrum). The white currant is a cultivated form of the red currant. The black currant has the highest vitamin C content of all garden f Sizes: 335g.",
+     "d": "Fruit preserve black currant - From dark currants, intense in taste and with many vitamins. The currant (Ribes) belongs to the gooseberry family and is a European berry fruit. There is the red currant (Ribes rubrum) and the black currant (Ribes nigrum). The white currant is a cultivated form of the red currant.",
      "img": "img/items/alpe-pragas-082.jpg",
      "size": [
       720,
@@ -947,7 +947,7 @@ window.SITE = {
     {
      "n": "Fruit preserve Red currant",
      "g": "Fruit preserves",
-     "d": "Fruit preserve red currant - Made from delicious currants with a slightly sour note. The currant (Ribes) belongs to the gooseberry family and is a European berry fruit. There is the red currant (Ribes rubrum) and the black currant (Ribes nigrum). The white currant is a cultivated form of the red currant. Ingredients - Red currants (75%), sugar, lemon juice, gelling agent: pecti Sizes: 110g, 335g.",
+     "d": "Fruit preserve red currant - Made from delicious currants with a slightly sour note. The currant (Ribes) belongs to the gooseberry family and is a European berry fruit. There is the red currant (Ribes rubrum) and the black currant (Ribes nigrum). The white currant is a cultivated form of the red currant.",
      "img": "img/items/alpe-pragas-083.jpg",
      "size": [
       720,
@@ -958,7 +958,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Apricot",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve apricot - Made from honey-sweet, delicious apricots. The apricot belongs to the genus Prunus. The apricot comes from northeast China, the Romans brought it about 70 BC via Anatolia to Europe. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain. There are also more northerly cultivation areas, such as in the South Tyrolean Vin Sizes: 30g.",
+     "d": "Organic fruit preserve apricot - Made from honey-sweet, delicious apricots. The apricot belongs to the genus Prunus. The apricot comes from northeast China, the Romans brought it about 70 BC via Anatolia to Europe. Apricots are mainly cultivated in Mediterranean countries such as Italy and Spain.",
      "img": "img/items/alpe-pragas-084.jpg",
      "size": [
       720,
@@ -969,7 +969,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Billberry",
      "g": "Fruit preserves",
-     "d": "Organic fruit preserve Billberry - with sweet, midnight blue billberries from wild harvesting. The billberry (Vaccinium myrtillus) is a plant of the family (Ericaceae) with about 100-150 species. The most common variety used by Alpe Pragas is the wild billberry \"Vaccinium myrtillus\". The fruits contain a lot of carotene, vitamin B6, vitamin C and magnesium. Due to the anthocyan Sizes: 30g.",
+     "d": "Organic fruit preserve Billberry - with sweet, midnight blue billberries from wild harvesting. The billberry (Vaccinium myrtillus) is a plant of the family (Ericaceae) with about 100-150 species. The most common variety used by Alpe Pragas is the wild billberry \"Vaccinium myrtillus\". The fruits contain a lot of carotene, vitamin B6, vitamin C and magnesium.",
      "img": "img/items/alpe-pragas-085.jpg",
      "size": [
       720,
@@ -980,7 +980,7 @@ window.SITE = {
     {
      "n": "Organic fruit preserve Strawberry",
      "g": "Fruit preserves",
-     "d": "Organic Strawberry Fruit preserve - Made from sun-ripened, aromatic strawberries. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red fruits and was bred around 1950 by Reinhold von Sengbusch. Strawberries contain so much vitamin C that 150 g of it cover the daily requirement. They contain more vitamin C than oranges Sizes: 30g.",
+     "d": "Organic Strawberry Fruit preserve - Made from sun-ripened, aromatic strawberries. The Senga Sengana variety cultivated and used by Alpe Pragas is medium early ripening with medium sized, dark red fruits and was bred around 1950 by Reinhold von Sengbusch. Strawberries contain so much vitamin C that 150 g of it cover the daily requirement.",
      "img": "img/items/alpe-pragas-086.jpg",
      "size": [
       720,
@@ -1030,7 +1030,7 @@ window.SITE = {
     {
      "n": "Espresso Bar",
      "g": "Espresso beans",
-     "d": "Espresso Bar is a balanced coffee composition, combining the elegance of selected Arabica beans with the structure of high-quality Robusta. Carefully processed, it creates a harmonious profile with a subtle sweetness, full body, and dense crema. Aromas of roasted bread, cocoa, and delicate nutty notes ensure a well-rounded, long-lasting taste experience – ideal for Italian-styl",
+     "d": "Espresso Bar is a balanced coffee composition, combining the elegance of selected Arabica beans with the structure of high-quality Robusta. Carefully processed, it creates a harmonious profile with a subtle sweetness, full body, and dense crema.",
      "img": "img/items/mamis-caffe-000.jpg",
      "size": [
       540,
@@ -1041,7 +1041,7 @@ window.SITE = {
     {
      "n": "Deca Coffee",
      "g": "Espresso beans",
-     "d": "Deca – Decaffeinated & Full-bodied This decaffeinated blend of Arabica and Robusta beans offers full flavor with minimal caffeine. The aromas of cocoa, toasted bread, and a mild sweetness of a real espresso are fully preserved—for true coffee enjoyment any time of day. • Aroma: 3/5 • Cream: 3/5 • Sweetness: 3/5 • Caffeine content: ≤ 0.1% Preparation recommendation: Ideal for es",
+     "d": "Deca – Decaffeinated & Full-bodied This decaffeinated blend of Arabica and Robusta beans offers full flavor with minimal caffeine. The aromas of cocoa, toasted bread, and a mild sweetness of a real espresso are fully preserved—for true coffee enjoyment any time of day.",
      "img": "img/items/mamis-caffe-001.jpg",
      "size": [
       540,
@@ -1052,7 +1052,7 @@ window.SITE = {
     {
      "n": "Gran Aroma Lungo 150 ESE Pods (44mm)",
      "g": "ESE pods",
-     "d": "Espresso Crema ESE Pads – Aromatic & Velvety Our most balanced premium roast now as an ESE pad: 70% Arabica from Brazil & Honduras and 30% Robusta from India combine sweet, floral and spicy notes with a thick, velvety crema – for true barista enjoyment in no time. • Aroma: 5/5 • Cream: 5/5 • Sweetness: 3/5 • Caffeine content: 3/5 Preparation recommendation: Perfect for all ESE-",
+     "d": "Espresso Crema ESE Pads – Aromatic & Velvety Our most balanced premium roast now as an ESE pad: 70% Arabica from Brazil & Honduras and 30% Robusta from India combine sweet, floral and spicy notes with a thick, velvety crema – for true barista enjoyment in no time.",
      "img": "img/items/mamis-caffe-002.jpg",
      "size": [
       540,
@@ -1063,7 +1063,7 @@ window.SITE = {
     {
      "n": "Non-alcoholic Frappe Powder Banana",
      "g": "Frappè",
-     "d": "Frappé Banana – Gentle & Creamy A creamy drink with the natural sweetness of sun-ripened bananas: This frappé brings familiar taste in perfect balance – ideal for relaxing breaks or as a fruity shake for all ages. Flavor Mildly sweet with a typical banana aroma – round and pleasantly soft on the finish. Special features • Classically popular: The banana note makes this frappé a Sizes: 250 g.",
+     "d": "Frappé Banana – Gentle & Creamy A creamy drink with the natural sweetness of sun-ripened bananas: This frappé brings familiar taste in perfect balance – ideal for relaxing breaks or as a fruity shake for all ages. Flavor Mildly sweet with a typical banana aroma – round and pleasantly soft on the finish.",
      "img": "img/items/mamis-caffe-003.jpg",
      "size": [
       720,
@@ -1074,7 +1074,7 @@ window.SITE = {
     {
      "n": "Non-alcoholic Frappe Powder Passion Fruit",
      "g": "Frappè",
-     "d": "Frappé Passion Fruit – Exotic & Refreshing A touch of the tropics in your glass: This frappé combines the tangy freshness of passion fruit with a delicate creaminess – ideal for those who like their drinks fruity and invigorating. An exotic taste experience reminiscent of vacation. Flavor Fresh and slightly acidic – with tropical fruit notes and a pleasant melt. Special feature Sizes: 250 g.",
+     "d": "Frappé Passion Fruit – Exotic & Refreshing A touch of the tropics in your glass: This frappé combines the tangy freshness of passion fruit with a delicate creaminess – ideal for those who like their drinks fruity and invigorating. An exotic taste experience reminiscent of vacation. Flavor Fresh and slightly acidic – with tropical fruit notes and a pleasant melt.",
      "img": "img/items/mamis-caffe-004.jpg",
      "size": [
       720,
@@ -1085,7 +1085,7 @@ window.SITE = {
     {
      "n": "Non-alcoholic Frappe Powder Forest Fruits",
      "g": "Frappè",
-     "d": "Frappé Forest Fruits – Fruity & Invigorating A true fruit moment: This frappé brings the full variety of wild berries to the glass—a harmonious blend of raspberries, blackberries, and blueberries, refined with a creamy texture. For a refreshing treat with a natural berry flavor. Flavor Berry-fresh with a fine acidity – lively, fruity and velvety at the same time. Special featur Sizes: 250 g.",
+     "d": "Frappé Forest Fruits – Fruity & Invigorating A true fruit moment: This frappé brings the full variety of wild berries to the glass—a harmonious blend of raspberries, blackberries, and blueberries, refined with a creamy texture. For a refreshing treat with a natural berry flavor. Flavor Berry-fresh with a fine acidity – lively, fruity and velvety at the same time.",
      "img": "img/items/mamis-caffe-005.jpg",
      "size": [
       720,
@@ -1096,7 +1096,7 @@ window.SITE = {
     {
      "n": "Non-alcoholic Frappe Powder Vanilla",
      "g": "Frappè",
-     "d": "Vanilla Frappé – Smooth & Seductive Creamy indulgence with a touch of nostalgia: Our Vanilla Frappé combines the velvety texture of a classic milkshake with the delicate aroma of real vanilla – for those who like it mild, round, and simply irresistible. Flavor Delicately sweet with a subtle, spicy vanilla note – a balanced classic with a creamy melt. Special features • Versatil Sizes: 250 g.",
+     "d": "Vanilla Frappé – Smooth & Seductive Creamy indulgence with a touch of nostalgia: Our Vanilla Frappé combines the velvety texture of a classic milkshake with the delicate aroma of real vanilla – for those who like it mild, round, and simply irresistible. Flavor Delicately sweet with a subtle, spicy vanilla note – a balanced classic with a creamy melt.",
      "img": "img/items/mamis-caffe-006.jpg",
      "size": [
       720,
@@ -1107,7 +1107,7 @@ window.SITE = {
     {
      "n": "Non-alcoholic Frappe Powder Strawberry",
      "g": "Frappè",
-     "d": "Frappé Strawberry – Fruity & Creamy Strawberryy and creamy – like a summer classic. This frappé combines the flavor of ripe strawberries with a pleasantly light sweetness and a velvety consistency. Ideal for warm days or as a fruity treat between meals – neat, over ice, or creatively refined. Flavor Fruity and mild with a delicate strawberry note and a creamy finish – reminisce Sizes: 250 g.",
+     "d": "Frappé Strawberry – Fruity & Creamy Strawberryy and creamy – like a summer classic. This frappé combines the flavor of ripe strawberries with a pleasantly light sweetness and a velvety consistency. Ideal for warm days or as a fruity treat between meals – neat, over ice, or creatively refined.",
      "img": "img/items/mamis-caffe-007.jpg",
      "size": [
       720,
@@ -1118,7 +1118,7 @@ window.SITE = {
     {
      "n": "Non-alcoholic Frappe Powder Yogurt",
      "g": "Frappè",
-     "d": "Frappé Yogurt – Fresh & Creamy A classic reinterpreted: This yogurt-based frappé mix impresses with its fresh, mild flavor and wonderfully creamy consistency. Ideal as a light shake, as an ice cream base, or simply served neat over ice – the perfect companion for hot days. Flavor Slightly sour, pleasantly fresh and creamy at the same time – reminiscent of frozen yogurt, but wit Sizes: 250 g.",
+     "d": "Frappé Yogurt – Fresh & Creamy A classic reinterpreted: This yogurt-based frappé mix impresses with its fresh, mild flavor and wonderfully creamy consistency. Ideal as a light shake, as an ice cream base, or simply served neat over ice – the perfect companion for hot days.",
      "img": "img/items/mamis-caffe-008.jpg",
      "size": [
       720,
@@ -1129,7 +1129,7 @@ window.SITE = {
     {
      "n": "Drinking cocoa Amaretto",
      "g": "Drinking chocolate",
-     "d": "Drinking cocoa Amaretto – aromatic & noble A touch of Italian refinement: This special drinking chocolate combines fine cocoa with the typical aroma of amaretto – for an intense, slightly almondy moment of enjoyment reminiscent of Italian coffee bars. Flavor Finely bitter chocolate with a sweet and spicy almond note – balanced, elegant, and a little seductive. Main features • S Sizes: 250 g.",
+     "d": "Drinking cocoa Amaretto – aromatic & noble A touch of Italian refinement: This special drinking chocolate combines fine cocoa with the typical aroma of amaretto – for an intense, slightly almondy moment of enjoyment reminiscent of Italian coffee bars. Flavor Finely bitter chocolate with a sweet and spicy almond note – balanced, elegant, and a little seductive.",
      "img": "img/items/mamis-caffe-009.jpg",
      "size": [
       720,
@@ -1140,7 +1140,7 @@ window.SITE = {
     {
      "n": "Classic Drinking Cocoa",
      "g": "Drinking chocolate",
-     "d": "Classic Drinking Cocoa – The timeless cocoa pleasure This hot chocolate represents what chocolate has always been: warm, full-bodied, and comforting. With a balanced cocoa flavor and pleasant sweetness, it's the ideal companion for cold days, cozy breaks, or evenings spent on the sofa. Flavor Classic chocolatey, round in flavor, with balanced sweetness – a true all-rounder for Sizes: 250 g.",
+     "d": "Classic Drinking Cocoa – The timeless cocoa pleasure This hot chocolate represents what chocolate has always been: warm, full-bodied, and comforting. With a balanced cocoa flavor and pleasant sweetness, it's the ideal companion for cold days, cozy breaks, or evenings spent on the sofa.",
      "img": "img/items/mamis-caffe-010.jpg",
      "size": [
       720,
@@ -1151,7 +1151,7 @@ window.SITE = {
     {
      "n": "Strawberry Drinking Cocoa",
      "g": "Drinking chocolate",
-     "d": "Strawberry Drinking Cocoa – Fruity & Creamy An extraordinary cocoa moment for those who like to try new things: This drinking chocolate combines fine cocoa with a gentle strawberry note – for a surprisingly fruity taste experience reminiscent of chocolate-strawberry desserts. Flavor Creamy chocolate delight with a fruity strawberry flavor – harmonious, smooth, and pleasantly sw Sizes: 250g.",
+     "d": "Strawberry Drinking Cocoa – Fruity & Creamy An extraordinary cocoa moment for those who like to try new things: This drinking chocolate combines fine cocoa with a gentle strawberry note – for a surprisingly fruity taste experience reminiscent of chocolate-strawberry desserts.",
      "img": "img/items/mamis-caffe-011.jpg",
      "size": [
       720,
@@ -1162,7 +1162,7 @@ window.SITE = {
     {
      "n": "Drinking cocoa caramel",
      "g": "Drinking chocolate",
-     "d": "Drinking Cocoa Caramel – Smooth & Seductive This creamy drinking chocolate combines finely balanced cocoa with a hint of caramel. Its velvety melt and slightly caramelly sweetness make it the ideal drink for those who like it warm, round, and comforting. Flavor Soft, balanced, and slightly buttery—with a subtle hint of caramel that rounds off the cocoa flavor without overpoweri Sizes: 250g.",
+     "d": "Drinking Cocoa Caramel – Smooth & Seductive This creamy drinking chocolate combines finely balanced cocoa with a hint of caramel. Its velvety melt and slightly caramelly sweetness make it the ideal drink for those who like it warm, round, and comforting.",
      "img": "img/items/mamis-caffe-012.jpg",
      "size": [
       720,
@@ -1173,7 +1173,7 @@ window.SITE = {
     {
      "n": "Drinking Cocoa Orange & Cinnamon",
      "g": "Drinking chocolate",
-     "d": "Drinking Cocoa Orange & Cinnamon – Spicy & Fruity This special drinking chocolate combines intense cocoa flavor with subtle nuances of cinnamon and fresh orange. This sophisticated combination creates a warm, winter-inspired taste experience—ideal for quiet moments or as a festive treat. Flavor Harmoniously balanced with a subtle note of cinnamon and a hint of fruity orange – s Sizes: 250 g.",
+     "d": "Drinking Cocoa Orange & Cinnamon – Spicy & Fruity This special drinking chocolate combines intense cocoa flavor with subtle nuances of cinnamon and fresh orange. This sophisticated combination creates a warm, winter-inspired taste experience—ideal for quiet moments or as a festive treat.",
      "img": "img/items/mamis-caffe-013.jpg",
      "size": [
       720,
@@ -1184,7 +1184,7 @@ window.SITE = {
     {
      "n": "Drinking cocoa nut",
      "g": "Drinking chocolate",
-     "d": "Drinking Cocoa Nut – Round & Aromatic This drinking chocolate perfectly balances classic cocoa notes with a delicate nutty aroma. Its balanced taste and pleasant creaminess make it the ideal companion for relaxing breaks and chocolatey indulgences—and not just for nut lovers. Flavor Round and harmonious with a light hazelnut note – a soft, nutty cocoa delight with mild sweetnes Sizes: 250 g.",
+     "d": "Drinking Cocoa Nut – Round & Aromatic This drinking chocolate perfectly balances classic cocoa notes with a delicate nutty aroma. Its balanced taste and pleasant creaminess make it the ideal companion for relaxing breaks and chocolatey indulgences—and not just for nut lovers.",
      "img": "img/items/mamis-caffe-014.jpg",
      "size": [
       720,
@@ -1195,7 +1195,7 @@ window.SITE = {
     {
      "n": "Drinking cocoa white",
      "g": "Drinking chocolate",
-     "d": "White drinking cocoa – mild & delicate This creamy drinking chocolate, made with the finest white chocolate, captivates with its mild sweetness and delicate texture. A true insider tip for those who appreciate a velvety, balanced, and sophisticated taste – whether served hot or cold. Flavor Delicate and mild with a creamy melt – reminiscent of vanilla, cream and white chocolate Sizes: 250 g.",
+     "d": "White drinking cocoa – mild & delicate This creamy drinking chocolate, made with the finest white chocolate, captivates with its mild sweetness and delicate texture. A true insider tip for those who appreciate a velvety, balanced, and sophisticated taste – whether served hot or cold.",
      "img": "img/items/mamis-caffe-015.jpg",
      "size": [
       720,
@@ -1206,7 +1206,7 @@ window.SITE = {
     {
      "n": "Drinking cocoa Gianduia",
      "g": "Drinking chocolate",
-     "d": "Drinking Cocoa Gianduia – Creamy & Nutty A creamy classic from Piedmont, reinterpreted: This drinking chocolate combines finely balanced cocoa with the nutty notes of hazelnuts – inspired by the traditional gianduia flavor. Whether as a thick treat or a lighter cocoa treat for a quick snack – this is where comfort meets taste. Flavor Chocolatey and nutty with a smooth melt – th Sizes: 250 g.",
+     "d": "Drinking Cocoa Gianduia – Creamy & Nutty A creamy classic from Piedmont, reinterpreted: This drinking chocolate combines finely balanced cocoa with the nutty notes of hazelnuts – inspired by the traditional gianduia flavor. Whether as a thick treat or a lighter cocoa treat for a quick snack – this is where comfort meets taste.",
      "img": "img/items/mamis-caffe-016.jpg",
      "size": [
       720,
@@ -1217,7 +1217,7 @@ window.SITE = {
     {
      "n": "Bella Vita Lungo 150 ESE Pads (44mm)",
      "g": "ESE pods",
-     "d": "Bella Vita ESE Pads Lungo – Elegant & Balanced Our most balanced blend – now as a Lungo Pad for an extended espresso moment. 50% Arabica from Brazil's Cerrado and 50% Robusta from India combine to create a harmonious cup with a velvety body, fine crema, and notes of toasted bread, almond, and cocoa. Specially roasted and ground for longer extraction – with an elegant, mild tast",
+     "d": "Bella Vita ESE Pads Lungo – Elegant & Balanced Our most balanced blend – now as a Lungo Pad for an extended espresso moment. 50% Arabica from Brazil's Cerrado and 50% Robusta from India combine to create a harmonious cup with a velvety body, fine crema, and notes of toasted bread, almond, and cocoa.",
      "img": "img/items/mamis-caffe-017.jpg",
      "size": [
       540,
@@ -1228,7 +1228,7 @@ window.SITE = {
     {
      "n": "Deca Coffee 150 ESE Pads (44mm)",
      "g": "ESE pods",
-     "d": "Deca ESE Pads – Decaffeinated & Full-Born This decaffeinated blend of Arabica and Robusta beans offers full flavor with minimal caffeine. The aromas of cocoa, toasted bread, and a mild sweetness of a real espresso are fully preserved—now conveniently portioned as an ESE pod. • Flavor: 3/5 • Cream: 3/5 • Sweetness: 3/5 • Caffeine content: ≤ 0.1% Preparation recommendation: Compa",
+     "d": "Deca ESE Pads – Decaffeinated & Full-Born This decaffeinated blend of Arabica and Robusta beans offers full flavor with minimal caffeine. The aromas of cocoa, toasted bread, and a mild sweetness of a real espresso are fully preserved—now conveniently portioned as an ESE pod.",
      "img": "img/items/mamis-caffe-018.jpg",
      "size": [
       540,
@@ -1239,7 +1239,7 @@ window.SITE = {
     {
      "n": "Gran Riserva Royal 150 ESE Pads (44mm)",
      "g": "ESE pods",
-     "d": "Gran Riserva Royal ESE Pads – Noble & Full-Born Our finest blend now available as ESE pods: 82% Arabica from Brazil & Honduras and 18% Robusta from India – with an elegant crema, soft body and refined notes of amaretto, cocoa and spices. • Aroma: 5/5 • Cream: 4/5 • Sweetness: 4/5 • Caffeine content: 3/5 Preparation recommendation: Compatible with all ESE pad machines Pad size:",
+     "d": "Gran Riserva Royal ESE Pads – Noble & Full-Born Our finest blend now available as ESE pods: 82% Arabica from Brazil & Honduras and 18% Robusta from India – with an elegant crema, soft body and refined notes of amaretto, cocoa and spices.",
      "img": "img/items/mamis-caffe-019.jpg",
      "size": [
       540,
@@ -1250,7 +1250,7 @@ window.SITE = {
     {
      "n": "Gran Crema 150 ESE Pads (44mm)",
      "g": "ESE pods",
-     "d": "Gran Crema ESE Pads – Gentle & Aromatic The popular 100% Arabica blend now available as practical ESE pods: Beans from Brazil and Honduras provide floral and chocolate notes, a velvety mouthfeel, and a fine, consistent crema – perfectly dosed for the ultimate coffee experience. • Aroma: 5/5 • Cream: 2/5 • Sweetness: 4/5 • Caffeine content: 2/5 Preparation recommendation: Suitab",
+     "d": "Gran Crema ESE Pads – Gentle & Aromatic The popular 100% Arabica blend now available as practical ESE pods: Beans from Brazil and Honduras provide floral and chocolate notes, a velvety mouthfeel, and a fine, consistent crema – perfectly dosed for the ultimate coffee experience.",
      "img": "img/items/mamis-caffe-020.jpg",
      "size": [
       540,
@@ -1261,7 +1261,7 @@ window.SITE = {
     {
      "n": "Espresso Crema 150 ESE Pads (44mm)",
      "g": "ESE pods",
-     "d": "Espresso Crema ESE Pads – Aromatic & Velvety Our most balanced premium roast, now available as an ESE pod: 70% Arabica from Brazil and Honduras and 30% Robusta from India combine sweet, floral, and spicy notes with a thick, velvety crema—for true barista enjoyment in no time. • Flavor: 5/5 • Cream: 5/5 • Sweetness: 3/5 • Caffeine content: 3/5 Preparation recommendation: Perfect",
+     "d": "Espresso Crema ESE Pads – Aromatic & Velvety Our most balanced premium roast, now available as an ESE pod: 70% Arabica from Brazil and Honduras and 30% Robusta from India combine sweet, floral, and spicy notes with a thick, velvety crema—for true barista enjoyment in no time.",
      "img": "img/items/mamis-caffe-021.jpg",
      "size": [
       540,
@@ -1272,7 +1272,7 @@ window.SITE = {
     {
      "n": "Dolce Vita 150 ESE Pads (44mm)",
      "g": "ESE pods",
-     "d": "Dolce Vita ESE Pads – Elegant & Balanced Our most balanced blend now available as practical ESE pods: 50% Arabica from the Brazilian Cerrado and 50% Robusta from India create a harmonious cup with a velvety body, delicate crema and notes of toasted bread, almond and cocoa. • Aroma: 4/5 • Cream: 4/5 • Sweetness: 2/5 • Caffeine content: 3/5 Preparation recommendation: Perfect for",
+     "d": "Dolce Vita ESE Pads – Elegant & Balanced Our most balanced blend now available as practical ESE pods: 50% Arabica from the Brazilian Cerrado and 50% Robusta from India create a harmonious cup with a velvety body, delicate crema and notes of toasted bread, almond and cocoa.",
      "img": "img/items/mamis-caffe-022.jpg",
      "size": [
       540,
@@ -1283,7 +1283,7 @@ window.SITE = {
     {
      "n": "Amabile 150 ESE Pads (44mm)",
      "g": "ESE pods",
-     "d": "Amabile ESE Pads – Strong & Balanced Our strongest blend now available as practical ESE pods: 15% Arabica from the Brazilian Cerrado and 85% Robusta from India ensure intense aromas, a thick crema and a strong character – ideally portioned for quick preparation. • Aroma: 4/5 • Cream: 4/5 • Sweetness: 1/5 • Caffeine content: 4/5 Preparation recommendation: Perfect for all ESE-co",
+     "d": "Amabile ESE Pads – Strong & Balanced Our strongest blend now available as practical ESE pods: 15% Arabica from the Brazilian Cerrado and 85% Robusta from India ensure intense aromas, a thick crema and a strong character – ideally portioned for quick preparation.",
      "img": "img/items/mamis-caffe-023.jpg",
      "size": [
       540,
@@ -1294,7 +1294,7 @@ window.SITE = {
     {
      "n": "Amabile",
      "g": "Espresso beans",
-     "d": "Amabile – Strong & Balanced This strong blend of 15% Arabica from the Brazilian Cerrado and 85% Robusta from India provides an intense body , a dense crema , and a particularly distinctive aroma profile . The high Robusta content gives the coffee a pronounced intensity , a stable crema, and prominent notes of roasted bread, cocoa, and a hint of almond . Ideal for anyone looking",
+     "d": "Amabile – Strong & Balanced This strong blend of 15% Arabica from the Brazilian Cerrado and 85% Robusta from India provides an intense body , a dense crema , and a particularly distinctive aroma profile . The high Robusta content gives the coffee a pronounced intensity , a stable crema, and prominent notes of roasted bread, cocoa, and a hint of almond .",
      "img": "img/items/mamis-caffe-024.jpg",
      "size": [
       540,
@@ -1305,7 +1305,7 @@ window.SITE = {
     {
      "n": "Dolce Vita",
      "g": "Espresso beans",
-     "d": "Dolce Vita – Elegant & Balanced This balanced blend of 50% Arabica from the Brazilian Cerrado and 50% Robusta from India impresses with its full body , fine crema , and harmonious aromas of toasted bread, almond, and cocoa . Ideal for those seeking an Italian espresso in whole beans – balanced, strong, and versatile. • Aroma: 4/5 • Crema: 4/5 • Sweetness: 2/5 • Caffeine content",
+     "d": "Dolce Vita – Elegant & Balanced This balanced blend of 50% Arabica from the Brazilian Cerrado and 50% Robusta from India impresses with its full body , fine crema , and harmonious aromas of toasted bread, almond, and cocoa . Ideal for those seeking an Italian espresso in whole beans – balanced, strong, and versatile.",
      "img": "img/items/mamis-caffe-025.jpg",
      "size": [
       540,
@@ -1316,7 +1316,7 @@ window.SITE = {
     {
      "n": "Espresso Crema",
      "g": "Espresso beans",
-     "d": "Espresso Crema – Aromatic & Velvety This balanced premium blend of 70% Arabica from Brazil and Honduras and 30% Robusta from India impresses with its full body , a dense crema , and a particularly harmonious aroma profile . Fine notes of roasted bread, almond, chocolate, and floral nuances ensure a well-rounded and pleasantly intense taste experience. Ideal for anyone looking f",
+     "d": "Espresso Crema – Aromatic & Velvety This balanced premium blend of 70% Arabica from Brazil and Honduras and 30% Robusta from India impresses with its full body , a dense crema , and a particularly harmonious aroma profile . Fine notes of roasted bread, almond, chocolate, and floral nuances ensure a well-rounded and pleasantly intense taste experience.",
      "img": "img/items/mamis-caffe-026.jpg",
      "size": [
       540,
@@ -1327,7 +1327,7 @@ window.SITE = {
     {
      "n": "Gran Crema",
      "g": "Espresso beans",
-     "d": "Gran Crema – Smooth & Aromatic 100 % Arabica from Brazil and Honduras: Floral and chocolatey notes, a velvety body and a fine crema combine in this harmoniously balanced blend with low acidity . • Aroma: 5/5 • Cream: 2/5 • Sweetness : 4/5 • Caffeine content: 2/5 Preparation recommendation: Ideal for portafilters, fully automatic machines & moka pots Taste: Elegant, floral and c",
+     "d": "Gran Crema – Smooth & Aromatic 100 % Arabica from Brazil and Honduras: Floral and chocolatey notes, a velvety body and a fine crema combine in this harmoniously balanced blend with low acidity .",
      "img": "img/items/mamis-caffe-027.jpg",
      "size": [
       540,
@@ -1338,7 +1338,7 @@ window.SITE = {
     {
      "n": "Gran Riserva Royal",
      "g": "Espresso beans",
-     "d": "Gran Riserva Royal – Noble & Full-Born 82 % Arabica from Brazil and Honduras, 18 % Robusta from India: Harmoniously balanced with hints of amaretto, spices , and chocolate. Velvety in body , with an elegant crema and sweet depth. • Aroma: 5/5 • Cream: 4/5 • Sweetness : 4/5 • Caffeine content: 3/5 Preparation recommendation: Ideal for espresso & cappuccino Taste: Full-bodied and",
+     "d": "Gran Riserva Royal – Noble & Full-Born 82 % Arabica from Brazil and Honduras, 18 % Robusta from India: Harmoniously balanced with hints of amaretto, spices , and chocolate. Velvety in body , with an elegant crema and sweet depth.",
      "img": "img/items/mamis-caffe-028.jpg",
      "size": [
       540,
@@ -1906,7 +1906,7 @@ window.SITE = {
     {
      "n": "Käseknödel",
      "g": "Regional specialities",
-     "d": "Ein traditionelles Gericht der Südtirolen Küche. Ideale Portionsgröße, eignet sich als vegetarische Tellermitte. Hoher Käseanteil (21%), mit Schnittlauch und Knoblauch im Geschmack verfeinert, besonders flaumig. Karton: 6 Beutel á 14 x ca. 75g.",
+     "d": "Ein traditionelles Gericht der Südtirolen Küche. Ideale Portionsgröße, eignet sich als vegetarische Tellermitte. Hoher Käseanteil (21%), mit Schnittlauch und Knoblauch im Geschmack verfeinert, besonders flaumig.",
      "img": "img/items/pan-000.jpg",
      "size": [
       170,
@@ -1917,7 +1917,7 @@ window.SITE = {
     {
      "n": "Rohnenknödel/Rote Bete Knödel",
      "g": "Regional specialities",
-     "d": "Ein traditionelles Gericht der Südtiroler Küche. Ideale Portionsgröße, eignet sich als vegetarische Tellermitte. Die 41% Rote Bete verleiht dem Knödel ihre einzigartige rote Farbe und fruchtig/lieblichen Geschmack, besonders flaumig. Karton: 6 Beutel á 14 x ca. 75g.",
+     "d": "Ein traditionelles Gericht der Südtiroler Küche. Ideale Portionsgröße, eignet sich als vegetarische Tellermitte. Die 41% Rote Bete verleiht dem Knödel ihre einzigartige rote Farbe und fruchtig/lieblichen Geschmack, besonders flaumig.",
      "img": "img/items/pan-001.jpg",
      "size": [
       170,
@@ -1928,7 +1928,7 @@ window.SITE = {
     {
      "n": "Spinatknödel",
      "g": "Regional specialities",
-     "d": "Ein traditionelles Gericht der Südtiroler Küche. Ideale Portionsgröße, eignet sich als vegetarische Tellermitte. Hoher Spinatanteil (40%), angereichert mit Schnittkäse und Butter, mit Knoblauch, Pfeffer und Muskatnuss im Geschmack verfeinert, besonders flaumig. Karton: 6 Beutel á 14 x ca. 75g.",
+     "d": "Ein traditionelles Gericht der Südtiroler Küche. Ideale Portionsgröße, eignet sich als vegetarische Tellermitte. Hoher Spinatanteil (40%), angereichert mit Schnittkäse und Butter, mit Knoblauch, Pfeffer und Muskatnuss im Geschmack verfeinert, besonders flaumig.",
      "img": "img/items/pan-002.jpg",
      "size": [
       170,
@@ -1939,7 +1939,7 @@ window.SITE = {
     {
      "n": "Kaiserschmarrn Klassik ohne Rosinen",
      "g": "Regional specialities",
-     "d": "Produktvideo ansehen | Klassischer Kaiserschmarrn ohne Rosinen, rustikal gerissen für das perfekte Hüttenfeeling. Konzipiert als gelingsichere und warmhaltestabile Mehlspeise. Schmeckt wie selbstgemacht und ist besonders saftig. Karton: 2 Beutel á 2,5kg.",
+     "d": "Klassischer Kaiserschmarrn ohne Rosinen, rustikal gerissen für das perfekte Hüttenfeeling. Konzipiert als gelingsichere und warmhaltestabile Mehlspeise. Schmeckt wie selbstgemacht und ist besonders saftig.",
      "img": "img/items/pan-003.jpg",
      "size": [
       170,
@@ -1950,7 +1950,7 @@ window.SITE = {
     {
      "n": "Bio Kaiserschmarrn",
      "g": "Regional specialities",
-     "d": "Produktvideo ansehen | Bio Kaiserschmarrn ohne Rosinen mit Zutaten aus kontrolliert biologischem Anbau. Natürlicher Geschmack von besten Zutaten. Speziell für Kitas, Kindergärten und Schulverpflegung konzipiert. Karton: 5kg.",
+     "d": "Bio Kaiserschmarrn ohne Rosinen mit…",
      "img": "img/items/pan-004.jpg",
      "size": [
       170,
@@ -1961,7 +1961,7 @@ window.SITE = {
     {
      "n": "Kaiserschmarrn Klassik mit Rosinen",
      "g": "Regional specialities",
-     "d": "Produktvideo ansehen | Klassischer Kaiserschmarrn mit Rosinen, rustikal gerissen für das perfekte Hüttenfeeling. Konzipiert als gelingsichere und warmhaltestabile Mehlspeise. Schmeckt wie selbstgemacht und ist besonders saftig. Karton: 2 Beutel á 2,5kg.",
+     "d": "Klassischer Kaiserschmarrn mit Rosinen, rustikal gerissen für das perfekte Hüttenfeeling. Konzipiert als gelingsichere und warmhaltestabile Mehlspeise. Schmeckt wie selbstgemacht und ist besonders saftig.",
      "img": "img/items/pan-005.jpg",
      "size": [
       170,
@@ -1972,7 +1972,7 @@ window.SITE = {
     {
      "n": "Apfelküchl",
      "g": "Regional specialities",
-     "d": "Fertig gebackene Apfelküchl aus saftigen Apfelringen, ummantelt mit goldig-knusprigem Backteig. Ein Klassiker der alpinen Küche, mit frischen Äpfeln. Ideal als Nachspeise oder als Beilage zu Wildrezepten mit Preiselbeeren. Vielseitige Zubereitungsmöglichkeiten. Karton: 5 Beutel.",
+     "d": "Fertig gebackene Apfelküchl aus saftigen Apfelringen, ummantelt mit goldig-knusprigem Backteig. Ein Klassiker der alpinen Küche, mit frischen Äpfeln. Ideal als Nachspeise oder als Beilage zu Wildrezepten mit Preiselbeeren. Vielseitige Zubereitungsmöglichkeiten.",
      "img": "img/items/pan-006.jpg",
      "size": [
       170,
@@ -1983,7 +1983,7 @@ window.SITE = {
     {
      "n": "Soufflierter Kaiserschmarrn ohne Rosinen",
      "g": "Regional specialities",
-     "d": "Produktvideo ansehen | Soufflierter Kaiserschmarrn OHNE Rosinen, mit Eischnee flaumig aufgeschlagen und rustikal gezupft. Einzigartig in Optik und Geschmack. Optimale Telleroptik bei geringerem Wareneinsatz. Karton: 3 Beutel.",
+     "d": "Soufflierter Kaiserschmarrn OHNE Rosinen, mit Eischnee flaumig aufgeschlagen und rustikal gezupft. Einzigartig in Optik und Geschmack. Optimale Telleroptik bei geringerem Wareneinsatz.",
      "img": "img/items/pan-007.jpg",
      "size": [
       170,
@@ -1994,7 +1994,7 @@ window.SITE = {
     {
      "n": "Soufflierter Kaiserschmarrn",
      "g": "Regional specialities",
-     "d": "Produktvideo ansehen | Soufflierter Kaiserschmarrn mit Rosinen, mit Eischnee fluffig leicht und flaumig aufgeschlagen und rustikal gezupft. Natürlicher Geschmack von besten Zutaten. Einzigartig in Optik und Geschmack. Optimale Telleroptik bei geringerem Wareneinsatz. Karton: 3 Beutel.",
+     "d": "Soufflierter Kaiserschmarrn mit Rosinen, mit Eischnee fluffig leicht und flaumig aufgeschlagen und rustikal gezupft.",
      "img": "img/items/pan-008.jpg",
      "size": [
       170,
@@ -2005,7 +2005,7 @@ window.SITE = {
     {
      "n": "Speck-Kartoffel-Stange",
      "g": "Minis",
-     "d": "Mini Blätterteig-Stange mit reichhaltiger Fülle aus Speck und Kartoffeln, mit extra knusprigen Kurkuma-Bröseln dekoriert. Ein Snack, der sich auszeichnet durch seine schmackhaft rustikale Speck-Füllung und den besonders blättrigen Teig. Backfertig. Karton: 50 pezzi.",
+     "d": "Mini Blätterteig-Stange mit reichhaltiger Fülle aus Speck und Kartoffeln, mit extra knusprigen Kurkuma-Bröseln dekoriert. Ein Snack, der sich auszeichnet durch seine schmackhaft rustikale Speck-Füllung und den besonders blättrigen Teig. Backfertig.",
      "img": "img/items/pan-009.jpg",
      "size": [
       170,
@@ -2016,7 +2016,7 @@ window.SITE = {
     {
      "n": "Blätterteighäppchen mit Trüffel",
      "g": "Minis",
-     "d": "Blätterteighäppchen gefüllt mit feiner, schmackhafter Trüffelcreme. Mit knusprigem Chiasamen-Topping verfeinert. Goldig-glänzende Teigoberfläche, backfertig. Der ideale Appetizer für die Festtage. Saisonales Produkt. Karton: 1kg x 4 Beutel.",
+     "d": "Blätterteighäppchen gefüllt mit feiner, schmackhafter Trüffelcreme. Mit knusprigem Chiasamen-Topping verfeinert. Goldig-glänzende Teigoberfläche, backfertig. Der ideale Appetizer für die Festtage. Saisonales Produkt.",
      "img": "img/items/pan-010.jpg",
      "size": [
       170,
@@ -2027,7 +2027,7 @@ window.SITE = {
     {
      "n": "Pizzette Premium mit Tomate und Mozzarella",
      "g": "Minis",
-     "d": "Runde Blätterteig-Pizzette mit schmackhafter Tomatensauce und cremigem Mozzarella-Käse. Mit konzentrierter Butter verfeinert. Besonders knusprig. Backfertig. Karton: 1kg x 4 Beutel.",
+     "d": "Runde Blätterteig-Pizzette mit schmackhafter Tomatensauce und cremigem Mozzarella-Käse. Mit konzentrierter Butter verfeinert. Besonders knusprig. Backfertig.",
      "img": "img/items/pan-011.jpg",
      "size": [
       170,
@@ -2038,7 +2038,7 @@ window.SITE = {
     {
      "n": "MiniMix Premium",
      "g": "Minis",
-     "d": "Backfertige Blätterteighäppchen, mit konzentrierter Butter verfeinert. In 6 exquisiten Formen und Füllungen: Basilikum-Pesto, Paprika, schwarze Olive, Käse, Schinken, Würstel. Goldig-glänzende Teigoberfläche. Karton: 1kg x 4 Beutel.",
+     "d": "Backfertige Blätterteighäppchen, mit konzentrierter Butter verfeinert. In 6 exquisiten Formen und Füllungen: Basilikum-Pesto, Paprika, schwarze Olive, Käse, Schinken, Würstel. Goldig-glänzende Teigoberfläche.",
      "img": "img/items/pan-012.jpg",
      "size": [
       170,
@@ -2049,7 +2049,7 @@ window.SITE = {
     {
      "n": "Spinat-Käse-Stange",
      "g": "Minis",
-     "d": "Mini Blätterteig-Stangen, mit extra knusprigen Kurkuma-Bröseln dekoriert. Saftige und reichhaltige Spinatfülle, mit Hirtenkäse verfeinert. Ideal als vegetarischer Snack. Karton: 50 Stück.",
+     "d": "Mini Blätterteig-Stangen, mit extra knusprigen Kurkuma-Bröseln dekoriert. Saftige und reichhaltige Spinatfülle, mit Hirtenkäse verfeinert. Ideal als vegetarischer Snack.",
      "img": "img/items/pan-013.jpg",
      "size": [
       170,
@@ -2060,7 +2060,7 @@ window.SITE = {
     {
      "n": "Apfel-Strudel Mini aus Blätterteig",
      "g": "Minis",
-     "d": "Kleiner Apfelstrudel aus knusprigem Blätterteig, reichhaltig gefüllt mit frischen Apfelwürfeln und Sultaninen. Garniert mit feinem Kristallzucker. Innen saftig und außen knusprig. Backfertige Einzelportion als Snack zu ca. 80g. Karton: 50 Stück.",
+     "d": "Kleiner Apfelstrudel aus knusprigem Blätterteig, reichhaltig gefüllt mit frischen Apfelwürfeln und Sultaninen. Garniert mit feinem Kristallzucker. Innen saftig und außen knusprig. Backfertige Einzelportion als Snack zu ca. 80g.",
      "img": "img/items/pan-014.jpg",
      "size": [
       170,
@@ -2071,7 +2071,7 @@ window.SITE = {
     {
      "n": "MiniMix herzhaft",
      "g": "Minis",
-     "d": "Herzhafte mini Blätterteigsnacks, gefüllt mit Spinat/Ricotta, Tomaten/Mozzarella, Schinken/Käse. Schnelle Zubereitung. Ideal zum Aperitif für Caterings und Buffets. Karton: ca. 60 Stück.",
+     "d": "Herzhafte mini Blätterteigsnacks, gefüllt mit Spinat/Ricotta, Tomaten/Mozzarella, Schinken/Käse. Schnelle Zubereitung. Ideal zum Aperitif für Caterings und Buffets.",
      "img": "img/items/pan-015.jpg",
      "size": [
       170,
@@ -2082,7 +2082,7 @@ window.SITE = {
     {
      "n": "MiniMix süß",
      "g": "Minis",
-     "d": "Süße mini Blätterteigsnacks, gefüllt mit fruchtigem Apfelpüree, Kakaocreme oder Waldfrüchtepüree. Zubereitet in nur 10 Minuten. Ideal zum Frühstück und für Buffets. Karton: ca. 60 Stück.",
+     "d": "Süße mini Blätterteigsnacks, gefüllt mit fruchtigem Apfelpüree, Kakaocreme oder Waldfrüchtepüree. Zubereitet in nur 10 Minuten. Ideal zum Frühstück und für Buffets.",
      "img": "img/items/pan-016.jpg",
      "size": [
       170,
@@ -2093,7 +2093,7 @@ window.SITE = {
     {
      "n": "MiniMix Alpin.Mediterran",
      "g": "Minis",
-     "d": "Herzhafte Blätterteighäppchen aus raffinierten Rezepten mit extra saftiger Fülle, in 6 verschiedenen Formen. Mit den alpin-mediterranen Sorten: Würstel, Speck, Spinat, Paprika, Oliven und Rosmarin. Karton: 4 x ca. 45 Stück.",
+     "d": "Herzhafte Blätterteighäppchen aus raffinierten Rezepten mit extra saftiger Fülle, in 6 verschiedenen Formen. Mit den alpin-mediterranen Sorten: Würstel, Speck, Spinat, Paprika, Oliven und Rosmarin.",
      "img": "img/items/pan-017.jpg",
      "size": [
       170,
@@ -2104,7 +2104,7 @@ window.SITE = {
     {
      "n": "Pizzette Mozzarella",
      "g": "Minis",
-     "d": "Pizzette aus Blätterteig mit Tomatensauce, Mozzarella und Oregano. Schnelle Zubereitung im Ofen. Pizza, die auf der Zunge zergeht - ideal als Fingerfood. Karton: 4 x ca. 40 Stück.",
+     "d": "Pizzette aus Blätterteig mit Tomatensauce, Mozzarella und Oregano. Schnelle Zubereitung im Ofen. Pizza, die auf der Zunge zergeht - ideal als Fingerfood.",
      "img": "img/items/pan-018.jpg",
      "size": [
       170,
@@ -2115,7 +2115,7 @@ window.SITE = {
     {
      "n": "Veggie-Curry-Strudel",
      "g": "Strudel",
-     "d": "Kleiner vegane Gemüsestrudel mit nahrhaften Hülsenfrüchte, mit asiatischen Gewürze abgeschmeckt. Eingerollt in dünnem Ölteig und mit knusprigem Topping aus Kürbiskernen und Kurkumabröseln verfeinert. Eine Quelle an pflanzlichem Protein und Ballaststoffen. Gelingsichere, herzhafte-vegane Tellermitte oder als Snack To-Go. Karton: 36 Strudel á ca. 200g. Vegan.",
+     "d": "Kleiner vegane Gemüsestrudel mit nahrhaften Hülsenfrüchte, mit asiatischen Gewürze abgeschmeckt. Eingerollt in dünnem Ölteig und mit knusprigem Topping aus Kürbiskernen und Kurkumabröseln verfeinert. Eine Quelle an pflanzlichem Protein und Ballaststoffen. Gelingsichere, herzhafte-vegane Tellermitte oder als Snack To-Go. Vegan.",
      "img": "img/items/pan-019.jpg",
      "size": [
       170,
@@ -2126,7 +2126,7 @@ window.SITE = {
     {
      "n": "Topfen Land Strudel Schnitten",
      "g": "Strudel",
-     "d": "Traditionelle Topfen-/Quarkstrudel-Schnitten aus dünn gezogenem Ölteig, gefüllt mit fein säuerlichem Speisequark und Rosinen. Mit einer dezenten Vanillenote und Zitronensaft abgeschmeckt und in traditioneller Optik. Bereits fertig gebacken. Karton: 4 Trays mit je 10 Schnitten.",
+     "d": "Traditionelle Topfen-/Quarkstrudel-Schnitten aus dünn gezogenem Ölteig, gefüllt mit fein säuerlichem Speisequark und Rosinen. Mit einer dezenten Vanillenote und Zitronensaft abgeschmeckt und in traditioneller Optik. Bereits fertig gebacken.",
      "img": "img/items/pan-020.jpg",
      "size": [
       170,
@@ -2137,7 +2137,7 @@ window.SITE = {
     {
      "n": "Apfel Land Strudel Schnitten",
      "g": "Strudel",
-     "d": "Traditionelle Apfelstrudel-Schnitten aus dünn gezogenem Ölteig, mit fein geschnittenen Apfelstückchen gefüllt, abgeschmeckt mit Butter, Zimt und Rosinen, in traditioneller Optik. Bereits fertig gebacken als reichhaltige Portion. Karton: 4 Trays mit je 10 Schnitten.",
+     "d": "Traditionelle Apfelstrudel-Schnitten aus dünn gezogenem Ölteig, mit fein geschnittenen Apfelstückchen gefüllt, abgeschmeckt mit Butter, Zimt und Rosinen, in traditioneller Optik. Bereits fertig gebacken als reichhaltige Portion.",
      "img": "img/items/pan-021.jpg",
      "size": [
       170,
@@ -2148,7 +2148,7 @@ window.SITE = {
     {
      "n": "Quinoa-Grünkohl-Strudel",
      "g": "Strudel",
-     "d": "Kleiner Gemüsestrudel mit den Power-Zutaten Quinoa, Grünkohl und roter Paprika, würzig abgeschmeckt mit Sojasoße. Eingerollt in dünnem Ölteig. Mit knusprigem Kurkumabrösel-Topping verfeinert. Gelingsicher, vegan, fertig gebacken. Karton: 36 Strudel á ca. 200g. Vegan.",
+     "d": "Kleiner Gemüsestrudel mit den Power…",
      "img": "img/items/pan-022.jpg",
      "size": [
       170,
@@ -2159,7 +2159,7 @@ window.SITE = {
     {
      "n": "Apfelstrudel aus gezogenem Teig",
      "g": "Strudel",
-     "d": "Backfertiger Apfelstrudel gefüllt mit frisch geschälten Apfelscheiben mit besonders hohem Apfelanteil (67%). Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet. Zum selber Portionieren. VEGAN. Karton: 4 Strudel. Vegan.",
+     "d": "Backfertiger Apfelstrudel gefüllt mit frisch geschälten Apfelscheiben mit besonders hohem Apfelanteil (67%). Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet. Zum selber Portionieren. Vegan.",
      "img": "img/items/pan-023.jpg",
      "size": [
       170,
@@ -2170,7 +2170,7 @@ window.SITE = {
     {
      "n": "Apfelstrudel aus gezogenem Teig",
      "g": "Strudel",
-     "d": "Backfertiger Apfelstrudel gefüllt mit frisch geschälten Apfelscheiben, umhüllt von gezogenem Teig. Fruchtig frisch dank hohem Fruchtanteil. Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet. Zum selber Portionieren. Karton: 4 Strudel.",
+     "d": "Backfertiger Apfelstrudel gefüllt mit frisch geschälten Apfelscheiben, umhüllt von gezogenem Teig. Fruchtig frisch dank hohem Fruchtanteil. Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet. Zum selber Portionieren.",
      "img": "img/items/pan-024.jpg",
      "size": [
       170,
@@ -2181,7 +2181,7 @@ window.SITE = {
     {
      "n": "Apfelstrudel Schnitten",
      "g": "Strudel",
-     "d": "Fertig gebackener Apfelstrudel aus gezogenem Teig, bereits in einzeln entnehmbare Schnitten portioniert. Fruchtig frisch dank hohem Fruchtanteil. Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet. Karton: 36 Schnitten.",
+     "d": "Fertig gebackener Apfelstrudel aus gezogenem Teig, bereits in einzeln entnehmbare Schnitten portioniert. Fruchtig frisch dank hohem Fruchtanteil. Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet.",
      "img": "img/items/pan-025.jpg",
      "size": [
       170,
@@ -2192,7 +2192,7 @@ window.SITE = {
     {
      "n": "Apfelstrudel Schnitten",
      "g": "Strudel",
-     "d": "Fertig gebackener Apfelstrudel aus gezogenem Teig, bereits in einzeln entnehmbare Schnitten portioniert. Fruchtig frisch dank hohem Fruchtanteil. Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet. Karton: 48 Schnitten. Vegan.",
+     "d": "Fertig gebackener Apfelstrudel aus gezogenem Teig, bereits in einzeln entnehmbare Schnitten portioniert. Fruchtig frisch dank hohem Fruchtanteil. Mit Rosinen verfeinert und dezent mit Zimt und Zucker im Geschmack abgerundet. Vegan.",
      "img": "img/items/pan-026.jpg",
      "size": [
       170,
@@ -2203,7 +2203,7 @@ window.SITE = {
     {
      "n": "Waldfrüchtestrudel Schnitten",
      "g": "Strudel",
-     "d": "Eine beerige Alternative: fertig gebackener Waldfrüchtestrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit köstlichen Waldfrüchten, Sauerkirschen und Äpfeln, leicht gezuckert. Fruchtig frisch dank hohem Fruchtanteil. Karton: 36 Schnitten.",
+     "d": "Eine beerige Alternative: fertig gebackener Waldfrüchtestrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit köstlichen Waldfrüchten, Sauerkirschen und Äpfeln, leicht gezuckert. Fruchtig frisch dank hohem Fruchtanteil.",
      "img": "img/items/pan-027.jpg",
      "size": [
       170,
@@ -2214,7 +2214,7 @@ window.SITE = {
     {
      "n": "Quark-/Topfenstrudel",
      "g": "Strudel",
-     "d": "Backfertiger Quarkstrudel, gefüllt mit frischem Quark und erlesenen Rosinen. Mit edlen Aromen im Geschmack abgerundet. Zum selber Portionieren. Karton: 4 Strudel.",
+     "d": "Backfertiger Quarkstrudel, gefüllt mit frischem Quark und erlesenen Rosinen. Mit edlen Aromen im Geschmack abgerundet. Zum selber Portionieren.",
      "img": "img/items/pan-028.jpg",
      "size": [
       170,
@@ -2225,7 +2225,7 @@ window.SITE = {
     {
      "n": "Quark-/Topfenstrudel Schnitten",
      "g": "Strudel",
-     "d": "Fertig gebackener Quarkstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit frischem Quark und erlesenen Rosinen, mit edlen Aromen im Geschmack abgerundet. Karton: 20 Schnitten.",
+     "d": "Fertig gebackener Quarkstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit frischem Quark und erlesenen Rosinen, mit edlen Aromen im Geschmack abgerundet.",
      "img": "img/items/pan-029.jpg",
      "size": [
       170,
@@ -2236,7 +2236,7 @@ window.SITE = {
     {
      "n": "Quark-/Topfenstrudel mit Himbeeren",
      "g": "Strudel",
-     "d": "Backfertiger Quarkstrudel, gefüllt mit fruchtigen Himbeeren und frischem Quark. Mit edlen Aromen im Geschmack abgerundet. Zum selber Portionieren. Karton: 4 Strudel.",
+     "d": "Backfertiger Quarkstrudel, gefüllt mit fruchtigen Himbeeren und frischem Quark. Mit edlen Aromen im Geschmack abgerundet. Zum selber Portionieren.",
      "img": "img/items/pan-030.jpg",
      "size": [
       170,
@@ -2247,7 +2247,7 @@ window.SITE = {
     {
      "n": "Quark-/Topfenstrudel Schnitten mit Himbeeren",
      "g": "Strudel",
-     "d": "Fertig gebackener Quark-Himbeerstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit frischem Quark und fruchtigen Himbeeren, mit edlen Aromen im Geschmack abgerundet. Karton: 20 Schnitten.",
+     "d": "Fertig gebackener Quark-Himbeerstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit frischem Quark und fruchtigen Himbeeren, mit edlen Aromen im Geschmack abgerundet.",
      "img": "img/items/pan-031.jpg",
      "size": [
       170,
@@ -2258,7 +2258,7 @@ window.SITE = {
     {
      "n": "Gemüsestrudel mit Mozzarella",
      "g": "Strudel",
-     "d": "Herzhafter Strudel mit buntem Gemüseallerlei und Mozzarella gefüllt. Mit Muskatnuss fein abgeschmeckt und von dünnem Teig umhüllt. Backfertig, zum selber Portionieren. Karton: 4 Strudel.",
+     "d": "Herzhafter Strudel mit buntem Gemüseallerlei und Mozzarella gefüllt. Mit Muskatnuss fein abgeschmeckt und von dünnem Teig umhüllt. Backfertig, zum selber Portionieren.",
      "img": "img/items/pan-032.jpg",
      "size": [
       170,
@@ -2269,7 +2269,7 @@ window.SITE = {
     {
      "n": "Spinatstrudel Schnitten aus Blätterteig",
      "g": "Strudel",
-     "d": "Fertig gebackener Spinatstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Herzhaft gefüllt mit Blattspinat, Ricotta und Käse, mit Zwiebel, Knoblauch und Muskatnuss im Geschmack abgerundet. Aus feinem Blätterteig. Karton: 16 Schnitten.",
+     "d": "Fertig gebackener Spinatstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Herzhaft gefüllt mit Blattspinat, Ricotta und Käse, mit Zwiebel, Knoblauch und Muskatnuss im Geschmack abgerundet. Aus feinem Blätterteig.",
      "img": "img/items/pan-033.jpg",
      "size": [
       170,
@@ -2280,7 +2280,7 @@ window.SITE = {
     {
      "n": "Apfelstrudel Schnitten aus Blätterteig",
      "g": "Strudel",
-     "d": "Fertig gebackener Apfelstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit frisch geschälten Apfelwürfeln und mit Rosinen, Zimt und Zucker im Geschmack abgerundet. Karton: 20 Schnitten.",
+     "d": "Fertig gebackener Apfelstrudel, bereits in einzeln entnehmbare Schnitten portioniert. Gefüllt mit frisch geschälten Apfelwürfeln und mit Rosinen, Zimt und Zucker im Geschmack abgerundet.",
      "img": "img/items/pan-034.jpg",
      "size": [
       170,
@@ -2291,7 +2291,7 @@ window.SITE = {
     {
      "n": "Spinatstrudel aus Blätterteig",
      "g": "Strudel",
-     "d": "Herzhafter Strudel gefüllt mit Blattspinat, Ricotta und Käse, mit Zwiebel, Knoblauch und Muskatnuss im Geschmack abgerundet. Zum selber Portionieren. Karton: 4 Strudel.",
+     "d": "Herzhafter Strudel gefüllt mit Blattspinat, Ricotta und Käse, mit Zwiebel, Knoblauch und Muskatnuss im Geschmack abgerundet. Zum selber Portionieren.",
      "img": "img/items/pan-035.jpg",
      "size": [
       170,
@@ -2302,7 +2302,7 @@ window.SITE = {
     {
      "n": "Apfelstrudel aus Blätterteig",
      "g": "Strudel",
-     "d": "Backfertiger Apfelstrudel, gefüllt mit frisch geschälten Äpfelwürfeln. Mit Rosinen, Zimt und Zucker im Geschmack abgerundet und von zartem Blätterteig umhüllt. Karton: 24 Strudel.",
+     "d": "Backfertiger Apfelstrudel, gefüllt mit frisch geschälten Äpfelwürfeln. Mit Rosinen, Zimt und Zucker im Geschmack abgerundet und von zartem Blätterteig umhüllt.",
      "img": "img/items/pan-036.jpg",
      "size": [
       170,
@@ -2313,7 +2313,7 @@ window.SITE = {
     {
      "n": "Apfelstrudel aus Blätterteig",
      "g": "Strudel",
-     "d": "Backfertiger Apfelstrudel, gefüllt mit frisch geschälten Apfelwürfeln. Mit Rosinen, Zimt und Zucker im Geschmack abgerundet. Zum selber Portionieren. Karton: 6 Strudel.",
+     "d": "Backfertiger Apfelstrudel, gefüllt mit frisch geschälten Apfelwürfeln. Mit Rosinen, Zimt und Zucker im Geschmack abgerundet. Zum selber Portionieren.",
      "img": "img/items/pan-037.jpg",
      "size": [
       170,
@@ -2324,7 +2324,7 @@ window.SITE = {
     {
      "n": "Gemüsestrudel Schnitten mit Mozzarella",
      "g": "Strudel",
-     "d": "Fertig gebackener Gemüsestrudel, bereits in einzeln entnehmbare Schnitten portioniert. Herzhaft gefüllt mit buntem Gemüseallerlei und Mozzarella, mit Muskatnuss fein abgeschmeckt und von dünnem Teig umhüllt. Karton: 36 Schnitten.",
+     "d": "Fertig gebackener Gemüsestrudel, bereits in einzeln entnehmbare Schnitten portioniert. Herzhaft gefüllt mit buntem Gemüseallerlei und Mozzarella, mit Muskatnuss fein abgeschmeckt und von dünnem Teig umhüllt.",
      "img": "img/items/pan-038.jpg",
      "size": [
       170,
@@ -2335,7 +2335,7 @@ window.SITE = {
     {
      "n": "Gemüsestrudel Schnitten mit Mozzarella",
      "g": "Strudel",
-     "d": "Fertig gebackener Gemüsestrudel, bereits in einzeln entnehmbare Schnitten portioniert. Herzhaft gefüllt mit buntem Gemüseallerlei und Mozzarella, mit Muskatnuss fein abgeschmeckt und von dünnem Teig umhüllt. Karton: 20 Schnitten.",
+     "d": "Fertig gebackener Gemüsestrudel, bereits in einzeln entnehmbare Schnitten portioniert. Herzhaft gefüllt mit buntem Gemüseallerlei und Mozzarella, mit Muskatnuss fein abgeschmeckt und von dünnem Teig umhüllt.",
      "img": "img/items/pan-039.jpg",
      "size": [
       170,
@@ -2346,7 +2346,7 @@ window.SITE = {
     {
      "n": "Apfel Land Strudel",
      "g": "Strudel",
-     "d": "Traditioneller Apfelstrudel aus dünn gezogenem Ölteig, mit fein geschnittenen Apfelstückchen gefüllt, abgeschmeckt mit Butter, Zimt und Rosinen, in traditioneller Optik. Zum selber Portionieren. Karton: 4 Strudel.",
+     "d": "Traditioneller Apfelstrudel aus dünn gezogenem Ölteig, mit fein geschnittenen Apfelstückchen gefüllt, abgeschmeckt mit Butter, Zimt und Rosinen, in traditioneller Optik. Zum selber Portionieren.",
      "img": "img/items/pan-040.jpg",
      "size": [
       170,
@@ -2357,7 +2357,7 @@ window.SITE = {
     {
      "n": "Mini Tortini - Schokolademousse",
      "g": "Italian desserts",
-     "d": "Luftiges Schokolademoussetörtchen auf dünnem Biskuitboden, dekoriert mit Schokosauce und Schokoraspeln. Einfache Zubereitung und vielseitig kombinierbar! Karton: 15 Stück.",
+     "d": "Luftiges Schokolademoussetörtchen auf dünnem Biskuitboden, dekoriert mit Schokosauce und Schokoraspeln. Einfache Zubereitung und vielseitig kombinierbar!",
      "img": "img/items/pan-041.jpg",
      "size": [
       170,
@@ -2368,7 +2368,7 @@ window.SITE = {
     {
      "n": "Profiteroles",
      "g": "Italian desserts",
-     "d": "Brandteigkugeln mit Kakaocreme überzogen und mit Sahnecreme gefüllt. 24 Kugeln/Schale. Karton: 24 Portionen.",
+     "d": "Brandteigkugeln mit Kakaocreme überzogen und mit Sahnecreme gefüllt. 24 Kugeln/Schale.",
      "img": "img/items/pan-042.jpg",
      "size": [
       170,
@@ -2379,7 +2379,7 @@ window.SITE = {
     {
      "n": "Soufflé al cioccolato",
      "g": "Italian desserts",
-     "d": "Schokoladetörtchen mit flüssigem Schokoherz, vielseitig kombinierbar. Einzelportion in 20 Sekunden in der Mikrowelle zubereitet. Karton: 12 Stück.",
+     "d": "Schokoladetörtchen mit flüssigem Schokoherz, vielseitig kombinierbar. Einzelportion in 20 Sekunden in der Mikrowelle zubereitet.",
      "img": "img/items/pan-043.jpg",
      "size": [
       170,
@@ -2390,7 +2390,7 @@ window.SITE = {
     {
      "n": "Mini Tiramisù",
      "g": "Italian desserts",
-     "d": "Tiramisù in seiner kleinsten Form, als Einzelportion, sehr schnell aufgetaut. Löffelbiskuit in Kaffee getränkt, mit Mascarpone-Creme überzogen und Kakaopulver bestreut. Karton: 9 Stück.",
+     "d": "Tiramisù in seiner kleinsten Form, als Einzelportion, sehr schnell aufgetaut. Löffelbiskuit in Kaffee getränkt, mit Mascarpone-Creme überzogen und Kakaopulver bestreut.",
      "img": "img/items/pan-044.jpg",
      "size": [
       170,
@@ -2401,7 +2401,7 @@ window.SITE = {
     {
      "n": "Ziehteig",
      "g": "Basics",
-     "d": "Backfertiger tiefgefrorener Ziehteig, hauchdünne Blätter aufgerollt (ca. 12-14 Blätter). Vielseitig verwendbar für süße und herzhafte Rezepte. Karton: 6 FS zu 500g.",
+     "d": "Backfertiger tiefgefrorener Ziehteig, hauchdünne Blätter aufgerollt (ca. 12-14 Blätter). Vielseitig verwendbar für süße und herzhafte Rezepte.",
      "img": "img/items/pan-045.jpg",
      "size": [
       170,
@@ -2412,7 +2412,7 @@ window.SITE = {
     {
      "n": "Blätterteig",
      "g": "Basics",
-     "d": "Backfertiger tiefgefrorener Blätterteig, 12 bereits ausgewalzte Teigplatten, in wenigen Minuten aufgetaut und vielseitig verwendbar für süße und herzhafte Rezepte. Karton: 12 Platten.",
+     "d": "Backfertiger tiefgefrorener Blätterteig, 12 bereits ausgewalzte Teigplatten, in wenigen Minuten aufgetaut und vielseitig verwendbar für süße und herzhafte Rezepte.",
      "img": "img/items/pan-046.jpg",
      "size": [
       170,
@@ -2423,7 +2423,7 @@ window.SITE = {
     {
      "n": "Blätterteig Block",
      "g": "Basics",
-     "d": "Backfertiger tiefgefrorener Blätterteig. Kann nach Belieben ausgewalzt und in Form gebracht werden. Ideales Basisprodukt für eine Vielzahl an süßen und herzhaften Rezepten. Karton: 5 Blöcke.",
+     "d": "Backfertiger tiefgefrorener Blätterteig. Kann nach Belieben ausgewalzt und in Form gebracht werden. Ideales Basisprodukt für eine Vielzahl an süßen und herzhaften Rezepten.",
      "img": "img/items/pan-047.jpg",
      "size": [
       170,
@@ -2471,7 +2471,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 00 Yellow",
      "g": "Flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-000.jpg",
      "size": [
       720,
@@ -2482,7 +2482,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 00 Blue",
      "g": "Flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-001.jpg",
      "size": [
       720,
@@ -2493,7 +2493,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 0 Red",
      "g": "Flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-002.jpg",
      "size": [
       720,
@@ -2504,7 +2504,7 @@ window.SITE = {
     {
      "n": "Rye Flour",
      "g": "Flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-003.jpg",
      "size": [
       720,
@@ -2515,7 +2515,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 1",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-004.jpg",
      "size": [
       720,
@@ -2526,7 +2526,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 2",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-005.jpg",
      "size": [
       720,
@@ -2537,7 +2537,7 @@ window.SITE = {
     {
      "n": "Flour For Short Crust Pastry",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-006.jpg",
      "size": [
       720,
@@ -2548,7 +2548,7 @@ window.SITE = {
     {
      "n": "All Purpose Flour Type 00",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-007.jpg",
      "size": [
       720,
@@ -2559,7 +2559,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 00 – For Cakes",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-008.jpg",
      "size": [
       720,
@@ -2570,7 +2570,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 0 Coarse Granulation",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-009.jpg",
      "size": [
       720,
@@ -2581,7 +2581,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 0 Manitoba",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-010.jpg",
      "size": [
       720,
@@ -2592,7 +2592,7 @@ window.SITE = {
     {
      "n": "Flour For Christmas Pastries",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-011.jpg",
      "size": [
       720,
@@ -2603,7 +2603,7 @@ window.SITE = {
     {
      "n": "Wholegrain Soft Wheat Flour",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-012.jpg",
      "size": [
       720,
@@ -2614,7 +2614,7 @@ window.SITE = {
     {
      "n": "Organic Soft Wheat Flour Type 0",
      "g": "Organic flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-013.jpg",
      "size": [
       720,
@@ -2625,7 +2625,7 @@ window.SITE = {
     {
      "n": "Organic Khorasan Kamut® Brand Wheat",
      "g": "Organic flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-014.jpg",
      "size": [
       720,
@@ -2636,7 +2636,7 @@ window.SITE = {
     {
      "n": "Organic Spelt Flour",
      "g": "Organic flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-015.jpg",
      "size": [
       720,
@@ -2647,7 +2647,7 @@ window.SITE = {
     {
      "n": "Spelt Flour",
      "g": "Specialty flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-016.jpg",
      "size": [
       720,
@@ -2658,7 +2658,7 @@ window.SITE = {
     {
      "n": "Pizza Flour",
      "g": "Pizza flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-017.jpg",
      "size": [
       720,
@@ -2669,7 +2669,7 @@ window.SITE = {
     {
      "n": "Baking Mix For Pizza",
      "g": "Pizza flours",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-018.jpg",
      "size": [
       720,
@@ -2680,7 +2680,7 @@ window.SITE = {
     {
      "n": "Baking Mix For Wholemeal Bread",
      "g": "Bread mixes",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-019.jpg",
      "size": [
       720,
@@ -2691,7 +2691,7 @@ window.SITE = {
     {
      "n": "Baking Mix For Breatl®",
      "g": "Bread mixes",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-020.jpg",
      "size": [
       720,
@@ -2702,7 +2702,7 @@ window.SITE = {
     {
      "n": "Baking Mix For Spelt Bread",
      "g": "Bread mixes",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-021.jpg",
      "size": [
       720,
@@ -2713,7 +2713,7 @@ window.SITE = {
     {
      "n": "Buckwheat Flour Coarse Granulation",
      "g": "Specialty flours",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-022.jpg",
      "size": [
       720,
@@ -2724,7 +2724,7 @@ window.SITE = {
     {
      "n": "Buckwheat Flour Fine Granulation",
      "g": "Specialty flours",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-023.jpg",
      "size": [
       720,
@@ -2735,7 +2735,7 @@ window.SITE = {
     {
      "n": "Hulled Barley",
      "g": "Specialty flours",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-024.jpg",
      "size": [
       720,
@@ -2746,7 +2746,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Semolina Coarse Granulation",
      "g": "Semolina",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-025.jpg",
      "size": [
       720,
@@ -2757,7 +2757,7 @@ window.SITE = {
     {
      "n": "Durum Wheat Semolina Coarse Granulation",
      "g": "Semolina",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-026.jpg",
      "size": [
       720,
@@ -2768,7 +2768,7 @@ window.SITE = {
     {
      "n": "Durum Wheat Semolina Fine Granulation",
      "g": "Semolina",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-027.jpg",
      "size": [
       720,
@@ -2779,7 +2779,7 @@ window.SITE = {
     {
      "n": "White Corn Flour Extra Fine",
      "g": "Polenta",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-028.jpg",
      "size": [
       720,
@@ -2790,7 +2790,7 @@ window.SITE = {
     {
      "n": "Corn Flour \"polenta\" Medium Granulation",
      "g": "Polenta",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-029.jpg",
      "size": [
       720,
@@ -2801,7 +2801,7 @@ window.SITE = {
     {
      "n": "Corn Flour \"polenta\" Coarse Granulation",
      "g": "Polenta",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-030.jpg",
      "size": [
       720,
@@ -2812,7 +2812,7 @@ window.SITE = {
     {
      "n": "Instant Polenta",
      "g": "Polenta",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-031.jpg",
      "size": [
       720,
@@ -2823,7 +2823,7 @@ window.SITE = {
     {
      "n": "Mix For Semolina Dumplings",
      "g": "Semolina",
-     "d": "Pack: 80 g.",
+     "d": "",
      "img": "img/items/rieper-032.jpg",
      "size": [
       720,
@@ -2834,7 +2834,7 @@ window.SITE = {
     {
      "n": "Vitagran® Multigrain Flour",
      "g": "Vitagran",
-     "d": "Pack: 600 g.",
+     "d": "",
      "img": "img/items/rieper-033.jpg",
      "size": [
       720,
@@ -2845,7 +2845,7 @@ window.SITE = {
     {
      "n": "Vitagran® Protein Flour",
      "g": "Vitagran",
-     "d": "Pack: 600 g.",
+     "d": "",
      "img": "img/items/rieper-034.jpg",
      "size": [
       720,
@@ -2856,7 +2856,7 @@ window.SITE = {
     {
      "n": "Vitagran® Vitamin Flour",
      "g": "Vitagran",
-     "d": "Pack: 600 g.",
+     "d": "",
      "img": "img/items/rieper-035.jpg",
      "size": [
       720,
@@ -2867,7 +2867,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 00 Yellow",
      "g": "Flours",
-     "d": "Pack: 5000 g.",
+     "d": "",
      "img": "img/items/rieper-036.jpg",
      "size": [
       720,
@@ -2878,7 +2878,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 00 Blue",
      "g": "Flours",
-     "d": "Pack: 5000 g.",
+     "d": "",
      "img": "img/items/rieper-037.jpg",
      "size": [
       720,
@@ -2889,7 +2889,7 @@ window.SITE = {
     {
      "n": "Soft Wheat Flour Type 0 Red",
      "g": "Flours",
-     "d": "Pack: 5000 g.",
+     "d": "",
      "img": "img/items/rieper-038.jpg",
      "size": [
       720,
@@ -2900,7 +2900,7 @@ window.SITE = {
     {
      "n": "Rye Flour",
      "g": "Flours",
-     "d": "Pack: 5000 g.",
+     "d": "",
      "img": "img/items/rieper-039.jpg",
      "size": [
       720,
@@ -2911,7 +2911,7 @@ window.SITE = {
     {
      "n": "Zenorini Buckwheat Flour Fine Granulation",
      "g": "Molino Zenorini",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-040.jpg",
      "size": [
       720,
@@ -2922,7 +2922,7 @@ window.SITE = {
     {
      "n": "Zenorini Buckwheat Flour Coarse Granulation",
      "g": "Molino Zenorini",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-041.jpg",
      "size": [
       720,
@@ -2933,7 +2933,7 @@ window.SITE = {
     {
      "n": "Zenorini Corn Flour \"polenta\" Fine Granulation",
      "g": "Molino Zenorini",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-042.jpg",
      "size": [
       720,
@@ -2944,7 +2944,7 @@ window.SITE = {
     {
      "n": "Zenorini Corn Flour \"polenta\" Medium Granulation",
      "g": "Molino Zenorini",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-043.jpg",
      "size": [
       720,
@@ -2955,7 +2955,7 @@ window.SITE = {
     {
      "n": "Zenorini Corn Flour \"polenta\" Coarse Granulation",
      "g": "Molino Zenorini",
-     "d": "Pack: 1000 g.",
+     "d": "",
      "img": "img/items/rieper-044.jpg",
      "size": [
       720,
@@ -2966,7 +2966,7 @@ window.SITE = {
     {
      "n": "Zenorini Corn Flour \"polenta\" Sprint",
      "g": "Molino Zenorini",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-045.jpg",
      "size": [
       720,
@@ -2977,7 +2977,7 @@ window.SITE = {
     {
      "n": "Zenorini Whole Grain Corn Flour \"polenta\"",
      "g": "Molino Zenorini",
-     "d": "Pack: 500 g.",
+     "d": "",
      "img": "img/items/rieper-046.jpg",
      "size": [
       720,
@@ -3038,7 +3038,7 @@ window.SITE = {
      "u": "https://www.vog-products.it/en/product-portfolio/fruit-juice-concentrates"
     },
     {
-     "n": "Nfc Juices",
+     "n": "NFC Juices",
      "g": "Product portfolio",
      "d": "We process selected raw materials into outstanding quality nfc fruit juices. We offer a wide range of different qualities, including single-origin and special juices.",
      "img": "img/items/vog-products-001.jpg",
@@ -3084,7 +3084,7 @@ window.SITE = {
     {
      "n": "Steamed Fruits",
      "g": "Product portfolio",
-     "d": "Peeled, sliced, steamed and packed in tins or pouches: our steamed fruits are the ideal ingredient for baked goods and confectionery.",
+     "d": "Peeled, sliced, steamed and packed in tins or pouches: our steamed fruits are the ideal…",
      "img": "img/items/vog-products-005.jpg",
      "size": [
       720,
@@ -3093,7 +3093,7 @@ window.SITE = {
      "u": "https://www.vog-products.it/en/product-portfolio/steamed-fruits"
     },
     {
-     "n": "Iqf - Frozen Fruits",
+     "n": "IQF - Frozen Fruits",
      "g": "Product portfolio",
      "d": "The best fruits are processed into iqf frozen fruits using specially designed sorting, freezing and packaging technologies at the highest standards of quality.",
      "img": "img/items/vog-products-006.jpg",
@@ -3117,7 +3117,7 @@ window.SITE = {
     {
      "n": "Fresh Cut Fruits",
      "g": "Product portfolio",
-     "d": "Our fresh cut fruits are a welcome snack for end consumers and an ideal ingredient for industrial customers with levels of consistent quality throughout the year.",
+     "d": "Our fresh cut fruits are a welcome snack for end consumers and an ideal…",
      "img": "img/items/vog-products-008.jpg",
      "size": [
       720,
@@ -3126,7 +3126,7 @@ window.SITE = {
      "u": "https://www.vog-products.it/en/product-portfolio/fresh-cut-fruits"
     },
     {
-     "n": "Leni'S",
+     "n": "Leni's",
      "g": "Consumer brands",
      "d": "",
      "img": "img/items/vog-products-009.jpg",
@@ -3137,7 +3137,7 @@ window.SITE = {
      "u": "https://www.vog-products.it/en/semi-finished-products-food-industry/finished-products/lenis-mele-with-liebe"
     },
     {
-     "n": "Leni'S Selection",
+     "n": "Leni's Selection",
      "g": "Consumer brands",
      "d": "",
      "img": "img/items/vog-products-010.jpg",
@@ -3148,7 +3148,7 @@ window.SITE = {
      "u": "https://www.vog-products.it/en/semi-finished-products-food-industry/finished-products/lenis-selection"
     },
     {
-     "n": "Marlene - Tochter Der Alpen",
+     "n": "Marlene - Tochter der Alpen",
      "g": "Consumer brands",
      "d": "",
      "img": "img/items/vog-products-011.jpg",
@@ -3206,7 +3206,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate 40%",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa. Ingredients: 97% milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin).",
+     "d": "Whole milk chocolate, 40 % cocoa.",
      "img": "img/items/oberhoeller-000.jpg",
      "size": [
       453,
@@ -3217,7 +3217,7 @@ window.SITE = {
     {
      "n": "White chocolate with whole milk 35%",
      "g": "Chocolate",
-     "d": "White chocolate, 38 % cocoa. Ingredients: white chocolate with min 38% cocoa content (cocoa butter, sugar, whole milk powder, emulsifier sunflower lecithin, natural vanilla extract).",
+     "d": "White chocolate, 38 % cocoa.",
      "img": "img/items/oberhoeller-001.jpg",
      "size": [
       453,
@@ -3228,7 +3228,7 @@ window.SITE = {
     {
      "n": "Whole milk with coffee",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa. Ingredients: Milk chocolate with min. 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa bean, emulsifier sunflower lecithin, soy lecithin), invert sugar, cocoa butter, cream, butter, 2% coffee.",
+     "d": "Whole milk chocolate, 40 % cocoa.",
      "img": "img/items/oberhoeller-002.jpg",
      "size": [
       453,
@@ -3239,7 +3239,7 @@ window.SITE = {
     {
      "n": "Whole milk with caramel",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa. Ingredients: Milk chocolate with min. 40% cocoa content (sugar, cocoa butter, whole milk powder, cocoa beans, sunflower lecithin), caramel 40% (sugar, cream, water, butter, glucose syrup, salt).",
+     "d": "Whole milk chocolate, 40 % cocoa.",
      "img": "img/items/oberhoeller-003.jpg",
      "size": [
       453,
@@ -3250,7 +3250,7 @@ window.SITE = {
     {
      "n": "Whole milk with chestnut",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa. Ingredients: Milk chocolate with min. 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa bean, emulsifier sunflower lecithin, soy lecithin), 20% chestnut puree (does not come from South Tyrol), invert sugar, cocoa butter, cream, butter.",
+     "d": "Whole milk chocolate, 40 % cocoa.",
      "img": "img/items/oberhoeller-004.jpg",
      "size": [
       453,
@@ -3261,7 +3261,7 @@ window.SITE = {
     {
      "n": "Dark with honey and stone pine essence",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa. Ingredients: Dark chocolate with min. 62% cocoa (cocoa bean, sugar, cocoa butter, emulsifier sunflower lecithin), milk chocolate with min. 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa bean, emulsifier soy lecithin, honey 12% (South Tyrol), invert sugar, cocoa butter, cream, butter, Swiss stone pine oil (South Tyrol).",
+     "d": "Dark chocolate, 62 % cocoa.",
      "img": "img/items/oberhoeller-005.jpg",
      "size": [
       453,
@@ -3272,7 +3272,7 @@ window.SITE = {
     {
      "n": "Dark with bombardino",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa. Ingredients: Fine dark chocolate with min.62 % cocoa content (cocoa bean, sugar, cocoa butter, emulsifier sunflower lecithin), white chocolate min. 33 % cocoa content (cocoa butter, whole milk powder, sugar, soy lecithin, natural vanilla), invert sugar, cocoa butter, Bombardino 5 % (whole milk, sugar, alcohol, egg yolk, rum, natural flavor, dye E102,",
+     "d": "Dark chocolate, 62 % cocoa.",
      "img": "img/items/oberhoeller-006.jpg",
      "size": [
       453,
@@ -3283,7 +3283,7 @@ window.SITE = {
     {
      "n": "Dark with Whisky",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa. Ingredients: Dark chocolate with min. 62% cocoa (cocoa bean, sugar, cocoa butter, emulsifier sunflower lecithin, soy lecithin), invert sugar, milk chocolate min. 35% cocoa (sugar, cocoa butter, whole milk powder, cocoa bean, emulsifier soy lecithin, natural vanilla), cocoa butter, cream, butter, whiskey 23%.",
+     "d": "Dark chocolate, 62 % cocoa.",
      "img": "img/items/oberhoeller-007.jpg",
      "size": [
       453,
@@ -3294,7 +3294,7 @@ window.SITE = {
     {
      "n": "White with lemongrass",
      "g": "Chocolate",
-     "d": "White chocolate, 38 % cocoa. Ingredients: white chocolate with min. 38% cocoa (cocoa butter, whole milk powder, sugar, emulsifier, sunflower lecithin, soy lecithin, vanilla extract), invert sugar, cocoa butter, cream, butter, natural flavor (does not come from South Tyrol).",
+     "d": "White chocolate, 38 % cocoa.",
      "img": "img/items/oberhoeller-008.jpg",
      "size": [
       453,
@@ -3305,7 +3305,7 @@ window.SITE = {
     {
      "n": "Sambirano 66%",
      "g": "Chocolate",
-     "d": "Dark chocolate, 66 % cocoa. Ingredients: Cocoa mass, sugar, cocoa butter, emulsifier sunflower lecithin.",
+     "d": "Dark chocolate, 66 % cocoa.",
      "img": "img/items/oberhoeller-009.jpg",
      "size": [
       453,
@@ -3316,7 +3316,7 @@ window.SITE = {
     {
      "n": "Chuno 71%",
      "g": "Chocolate",
-     "d": "Dark chocolate, 71 % cocoa. Ingredients: Cocoa mass, sugar, cocoa butter, emulsifier sunflower lecithin.",
+     "d": "Dark chocolate, 71 % cocoa.",
      "img": "img/items/oberhoeller-010.jpg",
      "size": [
       453,
@@ -3327,7 +3327,7 @@ window.SITE = {
     {
      "n": "Kamili 75%",
      "g": "Chocolate",
-     "d": "Dark chocolate, 75 % cocoa. Ingredients: Cocoa mass, sugar, cocoa butter, emulsifier sunflower lecithin.",
+     "d": "Dark chocolate, 75 % cocoa.",
      "img": "img/items/oberhoeller-011.jpg",
      "size": [
       453,
@@ -3338,7 +3338,7 @@ window.SITE = {
     {
      "n": "Makira 73%",
      "g": "Chocolate",
-     "d": "Dark chocolate, 73 % cocoa. Ingredients: Cocoa mass, sugar, cocoa butter, emulsifier sunflower lecithin.",
+     "d": "Dark chocolate, 73 % cocoa.",
      "img": "img/items/oberhoeller-012.jpg",
      "size": [
       453,
@@ -3349,7 +3349,7 @@ window.SITE = {
     {
      "n": "Oro 80%",
      "g": "Chocolate",
-     "d": "Dark chocolate, 80 % cocoa. Ingredients: Cocoa mass, sugar, cocoa butter, emulsifier sunflower lecithin.",
+     "d": "Dark chocolate, 80 % cocoa.",
      "img": "img/items/oberhoeller-013.jpg",
      "size": [
       453,
@@ -3360,7 +3360,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with apple",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits. Ingredients: 97% milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), dried apples 3%.",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits.",
      "img": "img/items/oberhoeller-014.jpg",
      "size": [
       453,
@@ -3371,7 +3371,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with strawberry",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits. Ingredients: 97% milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), dried strawberries 3%.",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits.",
      "img": "img/items/oberhoeller-015.jpg",
      "size": [
       453,
@@ -3382,7 +3382,7 @@ window.SITE = {
     {
      "n": "Chocolate with caramel 40%",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa. Ingredients: 98% whole milk chocolate with 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, caramelized sugar, emulsifier: sunflower lecithin), 2% caramel crispies (white flour, clarified butter, vegetable fats, lactose, milk protein, salt, barley malt flour, raising agent E 500II) (Does not come from South Tyrol).",
+     "d": "Whole milk chocolate, 40 % cocoa.",
      "img": "img/items/oberhoeller-016.jpg",
      "size": [
       453,
@@ -3393,7 +3393,7 @@ window.SITE = {
     {
      "n": "Dark chocolate with pine nuts",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts. Ingredients: 96% fine dark chocolate with min 61% cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin), 3% cedar seeds (do not come from South Tyrol), Swiss stone pine oil.",
+     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-017.jpg",
      "size": [
       453,
@@ -3404,7 +3404,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with apricot",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits. Ingredients: 97% milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), dried apricots 3%.",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits.",
      "img": "img/items/oberhoeller-018.jpg",
      "size": [
       453,
@@ -3415,7 +3415,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with schüttelbrot",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa. Ingredients: 97% whole milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa bean, emulsifier sunflower lecithin), Schüttelbrot 3% (rye flour 95%, yeast, wheat flour, salt, fennel seeds, caraway seeds, barley malt extract, barley malt flour).",
+     "d": "Whole milk chocolate, 40 % cocoa.",
      "img": "img/items/oberhoeller-019.jpg",
      "size": [
       453,
@@ -3426,7 +3426,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with hazelnut",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts. Ingredients: 97% milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), roasted hazelnuts 3% (Italy).",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-020.jpg",
      "size": [
       453,
@@ -3437,7 +3437,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with walnut",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts. Ingredients: 97% whole milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), walnuts 3% (Italy).",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-021.jpg",
      "size": [
       453,
@@ -3448,7 +3448,7 @@ window.SITE = {
     {
      "n": "Dark chocolate with mountain pine",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa. Ingredients: Fine dark chocolate with min. 61% cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin), mountain pine oil.",
+     "d": "Dark chocolate, 62 % cocoa.",
      "img": "img/items/oberhoeller-022.jpg",
      "size": [
       453,
@@ -3459,7 +3459,7 @@ window.SITE = {
     {
      "n": "Dark chocolate 90%",
      "g": "Chocolate",
-     "d": "Dark chocolate, 90 % cocoa. Ingredients: Fine dark chocolate with min. 90% cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin).",
+     "d": "Dark chocolate, 90 % cocoa.",
      "img": "img/items/oberhoeller-023.jpg",
      "size": [
       453,
@@ -3470,7 +3470,7 @@ window.SITE = {
     {
      "n": "Dark chocolate with ginger",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa, Addition: Fruits. Ingredients: 97% fine dark chocolate with min. 61% cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin), 3% candied ginger (does not come from South Tyrol).",
+     "d": "Dark chocolate, 62 % cocoa, Addition: Fruits.",
      "img": "img/items/oberhoeller-024.jpg",
      "size": [
       453,
@@ -3481,7 +3481,7 @@ window.SITE = {
     {
      "n": "Dark chocolate with persimmon",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa, Addition: Fruits. Ingredients: 97% dark chocolate with min. 61% cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin), 3% dried persimmon.",
+     "d": "Dark chocolate, 62 % cocoa, Addition: Fruits.",
      "img": "img/items/oberhoeller-025.jpg",
      "size": [
       453,
@@ -3492,7 +3492,7 @@ window.SITE = {
     {
      "n": "Dark chocolate 70%",
      "g": "Chocolate",
-     "d": "Dark chocolate, 70 % cocoa. Ingredients: Fine dark chocolate with min. 70% cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin).",
+     "d": "Dark chocolate, 70 % cocoa.",
      "img": "img/items/oberhoeller-026.jpg",
      "size": [
       453,
@@ -3503,7 +3503,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with peach",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits. Ingredients: 97% milk chocolate with min 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), dried peach 3%.",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Fruits.",
      "img": "img/items/oberhoeller-027.jpg",
      "size": [
       453,
@@ -3514,7 +3514,7 @@ window.SITE = {
     {
      "n": "Whole milk with orange and lebkuchen",
      "g": "Chocolate",
-     "d": "Whole milk chocolate, 40 % cocoa. Ingredients: Milk chocolate with min. 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier: sunflower lecithin) white chocolate with min. 33% cocoa (sugar, cocoa butter, whole milk powder, emulsifier: soy lecithin, natural vanilla) invert sugar, cocoa butter, cream, butter, 0.5% natural orange flavor, 0.2% gingerbread spic",
+     "d": "Whole milk chocolate, 40 % cocoa.",
      "img": "img/items/oberhoeller-028.jpg",
      "size": [
       453,
@@ -3525,7 +3525,7 @@ window.SITE = {
     {
      "n": "Dark with orange and lebkuchen",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa. Ingredients: Dark chocolate with min. 62 % cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin), white chocolate with min. 33% cocoa (sugar, cocoa butter, whole milk powder, emulsifier: soy lecithin, natural vanilla) invert sugar, cocoa butter, cream, butter, 0.5% natural orange flavor, 0.2% gingerbread spices (cinnamon, anise, cor",
+     "d": "Dark chocolate, 62 % cocoa.",
      "img": "img/items/oberhoeller-029.jpg",
      "size": [
       453,
@@ -3536,7 +3536,7 @@ window.SITE = {
     {
      "n": "White chocolate with whole milk and flowers",
      "g": "Chocolate",
-     "d": "White chocolate, 38 % cocoa. Ingredients: 99% white chocolate with min 38% cocoa (cocoa butter, sugar, whole milk powder, emulsifier sunflower lecithin, natural vanilla extract), 1% dried flowers.",
+     "d": "White chocolate, 38 % cocoa.",
      "img": "img/items/oberhoeller-030.jpg",
      "size": [
       453,
@@ -3547,7 +3547,7 @@ window.SITE = {
     {
      "n": "Cappuccino",
      "g": "Chocolate",
-     "d": "White chocolate, 38 % cocoa. Ingredients: 38% cocoa butter, sugar, whole milk powder, coffee powder, vanilla, emulsifier sunflower lecithin.",
+     "d": "White chocolate, 38 % cocoa.",
      "img": "img/items/oberhoeller-031.jpg",
      "size": [
       453,
@@ -3558,7 +3558,7 @@ window.SITE = {
     {
      "n": "Dark chocolate with cocoa nips",
      "g": "Chocolate",
-     "d": "Dark chocolate, 62 % cocoa. Ingredients: 95% fine dark chocolate with min. 70% cocoa (cocoa bean, sugar, cocoa butter, emulsifier: sunflower lecithin), 5% cocoa nibs.",
+     "d": "Dark chocolate, 62 % cocoa.",
      "img": "img/items/oberhoeller-032.jpg",
      "size": [
       453,
@@ -3569,7 +3569,7 @@ window.SITE = {
     {
      "n": "Hazelnut and chocolate spread",
      "g": "Spreadable creams",
-     "d": "Ingredients: 50% roasted hazelnuts (not from South Tyrol), sugar, 5% cocoa (not from South Tyrol), sunflower oil, emulsifier sunflower lecithin.",
+     "d": "",
      "img": "img/items/oberhoeller-033.jpg",
      "size": [
       453,
@@ -3580,7 +3580,7 @@ window.SITE = {
     {
      "n": "Chocolate spread",
      "g": "Spreadable creams",
-     "d": "Ingredients: roasted hazelnuts, sugar, 15% cocoa (does not come from South Tyrol), sunflower oil, emulsifier: sunflower lecithin.",
+     "d": "",
      "img": "img/items/oberhoeller-034.jpg",
      "size": [
       453,
@@ -3591,7 +3591,7 @@ window.SITE = {
     {
      "n": "White spread",
      "g": "Spreadable creams",
-     "d": "Ingredients: roasted almonds (Italy), sugar, whole milk powder, sunflower oil, vanilla bean, emulsifier: sunflower lecithin.",
+     "d": "",
      "img": "img/items/oberhoeller-035.jpg",
      "size": [
       453,
@@ -3602,7 +3602,7 @@ window.SITE = {
     {
      "n": "Almond and tonka bean spread",
      "g": "Spreadable creams",
-     "d": "Ingredients: 50% roasted almonds (Italy), sugar, sunflower oil, whole milk powder, 0.5% tonka bean (does not come from South Tyrol), emulsifier: sunflower lecithin.",
+     "d": "",
      "img": "img/items/oberhoeller-036.jpg",
      "size": [
       453,
@@ -3613,7 +3613,7 @@ window.SITE = {
     {
      "n": "Pistachio spread",
      "g": "Spreadable creams",
-     "d": "Ingredients: 45% roasted pistachios (do not come from South Tyrol), sugar, whole milk powder, sunflower oil, emulsifier sunflower lecithin.",
+     "d": "",
      "img": "img/items/oberhoeller-037.jpg",
      "size": [
       453,
@@ -3624,7 +3624,7 @@ window.SITE = {
     {
      "n": "Peanut and chocolate spread",
      "g": "Spreadable creams",
-     "d": "Ingredients: 55% roasted peanuts (not from South Tyrol), sugar, 5% cocoa powder, (not from South Tyrol), sunflower oil, emulsifier: sunflower lecithin.",
+     "d": "",
      "img": "img/items/oberhoeller-038.jpg",
      "size": [
       453,
@@ -3635,7 +3635,7 @@ window.SITE = {
     {
      "n": "Cocoa beans with whole milk chocolate",
      "g": "Dragées",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts. Ingredients: 57% whole milk chocolate with min. 38% cocoa content (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), 43% roasted cocoa beans (do not come from South Tyrol).",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-039.jpg",
      "size": [
       453,
@@ -3646,7 +3646,7 @@ window.SITE = {
     {
      "n": "Hazelnut with whole milk chocolate",
      "g": "Dragées",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts. Ingredients: 59% whole milk chocolate with min. 38% cocoa content (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier: sunflower lecithin), 41% roasted hazelnuts (do not come from South Tyrol).",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-040.jpg",
      "size": [
       453,
@@ -3657,7 +3657,7 @@ window.SITE = {
     {
      "n": "Hazelnut with dark chocolate",
      "g": "Dragées",
-     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts. Ingredients: 59% fine dark chocolate with min. 62% cocoa content (cocoa beans, sugar, cocoa butter, emulsifier sunflower lecithin), 41% roasted hazelnuts (do not come from South Tyrol).",
+     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-041.jpg",
      "size": [
       453,
@@ -3668,7 +3668,7 @@ window.SITE = {
     {
      "n": "Pistachios with white chocolate",
      "g": "Dragées",
-     "d": "White chocolate, 38 % cocoa, Addition: Nüsse. Ingredients: 50% roasted pistachios (do not come from South Tyrol), 49% white chocolate with min. 38% cocoa content (sugar, cocoa butter, whole milk powder, emulsifier: sunflower lecithin), salt.",
+     "d": "White chocolate, 38 % cocoa, Addition: Nüsse.",
      "img": "img/items/oberhoeller-042.jpg",
      "size": [
       453,
@@ -3679,7 +3679,7 @@ window.SITE = {
     {
      "n": "Dark chocolate with hazelnut",
      "g": "Chocolate breaks",
-     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts. Ingredients: 67% fine dark chocolate with min. 62% cocoa (cocoa beans, sugar, cocoa butter, emulsifier sunflower lecithin), 33% roasted hazelnuts (do not come from South Tyrol).",
+     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-043.jpg",
      "size": [
       453,
@@ -3690,7 +3690,7 @@ window.SITE = {
     {
      "n": "Whole milk chocolate with hazelnut",
      "g": "Chocolate breaks",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts. Ingredients: 67% whole milk chocolate with min. 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), 33% roasted hazelnuts (do not come from South Tyrol).",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-044.jpg",
      "size": [
       453,
@@ -3701,7 +3701,7 @@ window.SITE = {
     {
      "n": "White chocolate with pistachios",
      "g": "Chocolate breaks",
-     "d": "White chocolate, 38 % cocoa, Addition: Nuts. Ingredients: 67% white chocolate with min. 38% cocoa content (cocoa butter, sugar whole milk powder, emulsifier sunflower lecithin, natural vanilla extract), 33% roasted pistachios (do not come from South Tyrol).",
+     "d": "White chocolate, 38 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-045.jpg",
      "size": [
       453,
@@ -3712,7 +3712,7 @@ window.SITE = {
     {
      "n": "Hazelnut gianduja milk",
      "g": "Nougat cubes",
-     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts. Ingredients: 65% milk chocolate with at least 40% cocoa (sugar, cocoa butter, whole milk powder, cocoa beans, emulsifier sunflower lecithin), roasted hazelnuts 35% (do not come from South Tyrol).",
+     "d": "Whole milk chocolate, 40 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-046.jpg",
      "size": [
       453,
@@ -3723,7 +3723,7 @@ window.SITE = {
     {
      "n": "Hazelnut gianduja dark",
      "g": "Nougat cubes",
-     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts. Ingredients: 63% dark chocolate with a minimum cocoa content of 62% (cocoa beans, sugar, cocoa butter, emulsifier sunflower lecithin), 37% roasted hazelnuts (not from South Tyrol).",
+     "d": "Dark chocolate, 62 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-047.jpg",
      "size": [
       453,
@@ -3734,7 +3734,7 @@ window.SITE = {
     {
      "n": "Pistachio gianduja white",
      "g": "Nougat cubes",
-     "d": "White chocolate, 38 % cocoa, Addition: Nuts. Ingredients: 65% white chocolate with min. 38% cocoa (sugar, cocoa butter, whole milk powder, emulsifier: sunflower lecithin, natural vanilla extract), 35% roasted pistachios (do not come from South Tyrol), salt.",
+     "d": "White chocolate, 38 % cocoa, Addition: Nuts.",
      "img": "img/items/oberhoeller-048.jpg",
      "size": [
       453,
@@ -3745,7 +3745,7 @@ window.SITE = {
     {
      "n": "Hot chocolate",
      "g": "Seasonal products",
-     "d": "Ingredients: Sugar, cocoa powder 30% (does not come from South Tyrol), potato starch.",
+     "d": "",
      "img": "img/items/oberhoeller-049.jpg",
      "size": [
       453,
@@ -3756,7 +3756,7 @@ window.SITE = {
     {
      "n": "mixed pralines 16",
      "g": "Seasonal products",
-     "d": "Ingredients: white chocolate (min. 33 % cocoa) (cocoa butter, whole milk powder, sugar, emulsifier soy lecithin, sunflower lecithin vanilla extract), whole milk chocolate with min. 40 % cocoa (sugar, cocoa butter, whole milk powder, cocoa bean, emulsifier soy lecithin, sunflower lecithin, natural vanilla bean), fine dark chocolate with min. 62% cocoa (cocoa bean, sugar, cocoa b",
+     "d": "",
      "img": "img/items/oberhoeller-050.jpg",
      "size": [
       453,
