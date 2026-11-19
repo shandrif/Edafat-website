@@ -518,3 +518,11 @@ html[lang=ar] .bo-go .bo-ico{transform:scaleX(-1)}
  .bo-strip{display:none}
 }
 @media (prefers-reduced-motion:reduce){.bo-track,.bo-dot,.bo-dot i,.bo-th .bo-btn,.bo-th img{transition:none}}
+
+/* hero background video: faded into the navy, behind everything else */
+.hero-video{position:absolute;inset:0;z-index:-1;pointer-events:none;background:var(--dark)}
+.hero-video video{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.6s var(--ease)}
+.hero-video video.on{opacity:.8}
+.hero-video::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,6,56,.9) 0%,rgba(12,6,56,.55) 45%,rgba(12,6,56,.22) 100%),linear-gradient(180deg,rgba(12,6,56,.5) 0%,transparent 25%,transparent 70%,var(--dark) 100%)}
+html[dir=rtl] .hero-video::after{background:linear-gradient(270deg,rgba(12,6,56,.9) 0%,rgba(12,6,56,.55) 45%,rgba(12,6,56,.22) 100%),linear-gradient(180deg,rgba(12,6,56,.5) 0%,transparent 25%,transparent 70%,var(--dark) 100%)}
+@media (max-width:760px){.hero-video video.on{opacity:.7}.hero-video::after{background:linear-gradient(180deg,rgba(12,6,56,.7),rgba(12,6,56,.55) 55%,var(--dark))}}
