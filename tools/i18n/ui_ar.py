@@ -45,7 +45,7 @@ UI = {
 "Explore the brands": "استكشف العلامات", "Browse every item": "تصفّح كل المنتجات", "Built for": "مصمَّم لـ", "The brands": "العلامات التجارية",
 "Open a brand for its full range, or go straight to its own website.": "افتح علامة لترى مجموعتها كاملة، أو انتقل مباشرة إلى موقعها.",
 "Overview": "نظرة عامة", "Popular items": "منتجات مختارة", "Previous brand": "العلامة السابقة", "Next brand": "العلامة التالية", "Choose a brand": "اختر علامة", "Brand": "العلامة", "Items": "منتجات", "Item": "منتج",
-"All brands": "كل العلامات", "View range": "عرض المجموعة", "Visit site": "زيارة الموقع", "What they sell": "ما تبيعه العلامات", "See every item": "عرض كل المنتجات",
+"All brands": "كل العلامات", "View range": "عرض المجموعة", "Visit site": "زيارة الموقع", "What we sell": "ما نبيعه", "See every item": "عرض كل المنتجات",
 "Interested in a brand? Talk to us.": "مهتم بعلامة؟ تواصل معنا.", "Get in touch": "تواصل معنا",
 "Food & Beverage: ": "", "Home": "الرئيسية",
 "See the range": "شاهد المجموعة", "The range": "المجموعة", "The flagship": "المنتج الرئيسي", "Search this range": "ابحث في هذه المجموعة", "Search items": "ابحث في المنتجات",

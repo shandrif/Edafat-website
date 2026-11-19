@@ -145,7 +145,7 @@ h1,h2,h3,h4{font-family:var(--head);font-weight:400;line-height:1.12;letter-spac
 
 /* strip */
 .strip{overflow:hidden}
-.track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--g);padding:0 var(--g) 16px;scrollbar-width:none;cursor:grab;overscroll-behavior-x:contain}
+.track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--g);padding:0 var(--g) 16px;scrollbar-width:none;cursor:grab;overscroll-behavior-x:contain;overflow-y:hidden;-webkit-overflow-scrolling:touch}
 .track::-webkit-scrollbar{display:none}.track.drag{cursor:grabbing;scroll-snap-type:none}
 .track .it{flex:0 0 clamp(190px,18vw,250px);scroll-snap-align:start}
 

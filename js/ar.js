@@ -27,7 +27,7 @@ window.AR = {
 "All brands": "كل العلامات",
 "View range": "عرض المجموعة",
 "Visit site": "زيارة الموقع",
-"What they sell": "ما تبيعه العلامات",
+"What we sell": "ما نبيعه",
 "See every item": "عرض كل المنتجات",
 "Interested in a brand? Talk to us.": "مهتم بعلامة؟ تواصل معنا.",
 "Get in touch": "تواصل معنا",
